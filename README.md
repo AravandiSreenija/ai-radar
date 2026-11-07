@@ -6,7 +6,7 @@ static website and a daily email, every link pointing to the original source.
 
 ## How it works
 
-1. **Collect** - ~35 sources: lab and tech blogs (OpenAI, Google, DeepMind, Hugging Face,
+1. **Collect** - ~35 sources plus optional web-search discovery: lab and tech blogs (OpenAI, Google, DeepMind, Hugging Face,
    NVIDIA, Microsoft, AWS, Anthropic news page, Cursor changelog, press), arXiv cs.AI/cs.CL,
    Reddit (r/LocalLLaMA, r/MachineLearning), GitHub releases (Claude Code, Codex, ollama,
    llama.cpp, vllm, LangChain, MCP...) and the Hacker News API. Per-source caps keep one
@@ -32,6 +32,16 @@ static website and a daily email, every link pointing to the original source.
 - Category filters, search, a highlighted top story
 - 30-day archive (the workflow commits `archive/<date>.json`) with a day picker
 - Source health in the footer
+
+## Web search discovery (optional)
+
+Besides the fixed feeds, each run asks Claude to run a handful of web searches (new models, developer tools,
+agent/MCP/RAG news, open-source LLMs, safety and regulation). It mirrors the "query plan -> web search agent"
+pattern of larger internal tools. The search results' own URLs and titles join the same candidate pool, so links
+are never written by the model. It uses Claude's web search tool (at most 10 searches a run), which must be
+enabled for your organisation in the Anthropic Console. If it is off or fails, the run carries on with the feeds
+and the page footer lists "Web search" under failed sources. Turn it off with the repo variable
+`RADAR_WEB_SEARCH` = `0`. Searches are billed per search on top of token costs.
 
 ## Ask Radar (optional chat on every story)
 

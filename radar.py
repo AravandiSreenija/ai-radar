@@ -590,6 +590,122 @@ def send_email(items, date_str):
     print(f"Email sent to {to}.")
 
 
+# ------------------------------------------------------------ web search discovery
+# Like AI Pulse's "query plan -> web search agent" step: Claude runs a few searches and the
+# *search results themselves* (url + title) are added to the candidate pool. Links never come
+# from the model's own wording. The whole step is optional and can never break a run.
+SEARCH_QUERIES = [
+    "new AI model releases announced in the last 24 hours",
+    "new AI developer tools, coding agents and IDE releases in the last 24 hours",
+    "AI agent frameworks, MCP and RAG news in the last 24 hours",
+    "open-source LLM releases (Llama, Qwen, DeepSeek, Mistral) in the last 24 hours",
+    "AI regulation, safety and security news in the last 24 hours",
+]
+SEARCH_MAX_USES = 2          # searches per query -> at most 10 searches per run
+MAX_RESULT_AGE_HOURS = 48    # page_age is often day-granular, so allow a little slack
+
+
+def _age_hours(page_age):
+    """Turn a search result's page_age ('3 hours ago', '1 day ago', 'November 6, 2026') into hours.
+    Returns None when it can't be understood."""
+    if not page_age:
+        return None
+    t = str(page_age).strip()
+    low = t.lower()
+    m = re.match(r"(\d+)\s*(minute|hour|day|week|month|year)s?\s+ago", low)
+    if m:
+        unit = {"minute": 1 / 60, "hour": 1, "day": 24, "week": 168, "month": 720, "year": 8760}[m.group(2)]
+        return int(m.group(1)) * unit
+    if low in ("today", "just now"):
+        return 0.0
+    if low == "yesterday":
+        return 24.0
+    for fmt in ("%B %d, %Y", "%b %d, %Y", "%Y-%m-%d", "%d %B %Y"):
+        try:
+            dt = datetime.strptime(t, fmt).replace(tzinfo=timezone.utc)
+            return (datetime.now(timezone.utc) - dt).total_seconds() / 3600
+        except ValueError:
+            continue
+    return None
+
+
+def _results_from(response, now):
+    """Candidate items from one API response: every web_search_result block, nothing else."""
+    cited = {}
+    for b in response.content:
+        if getattr(b, "type", None) == "text":
+            for c in getattr(b, "citations", None) or []:
+                u, txt = getattr(c, "url", None), getattr(c, "cited_text", None)
+                if u and txt and u not in cited:
+                    cited[u] = txt
+    out = []
+    for b in response.content:
+        if getattr(b, "type", None) != "web_search_tool_result":
+            continue
+        results = getattr(b, "content", None)
+        if not isinstance(results, list):      # an error object, not a list of results
+            continue
+        for r in results:
+            url = _safe_url(getattr(r, "url", None))
+            title = _clean(getattr(r, "title", "") or "", 200)
+            if not url or not title:
+                continue
+            age = _age_hours(getattr(r, "page_age", None))
+            if age is not None and age > MAX_RESULT_AGE_HOURS:
+                continue
+            host = urlparse(url).netloc.lower()
+            host = host[4:] if host.startswith("www.") else host
+            out.append({"source": "Web: " + host, "title": title, "url": url,
+                        "published": now - timedelta(hours=age or 0),
+                        "snippet": _clean(cited.get(url, ""), 400)})
+    return out
+
+
+def _search_one(client, query):
+    now = datetime.now(timezone.utc)
+    first = {"role": "user", "content": (
+        f"Search the web for: {query}. Find up to 6 distinct, recent articles, preferring primary "
+        "sources (official blogs, release notes, papers). Only include items from the last 24 hours. "
+        "Reply with just a short list of titles.")}
+    messages, results = [first], []
+    for _ in range(3):                         # allow a couple of pause_turn continuations
+        resp = client.messages.create(
+            model=MODEL, max_tokens=3000, messages=messages,
+            tools=[{"type": "web_search_20260209", "name": "web_search", "max_uses": SEARCH_MAX_USES}],
+            extra_body={"output_config": {"effort": "low"}},
+        )
+        results += _results_from(resp, now)
+        if resp.stop_reason != "pause_turn":
+            break
+        messages = [first, {"role": "assistant", "content": resp.content}]
+    return results
+
+
+def web_search_candidates(client=None):
+    """Returns (items, status). status: 'ok', 'disabled', 'skipped' or 'error:<Name>'. Never raises."""
+    if os.environ.get("RADAR_WEB_SEARCH", "1").strip().lower() in ("0", "false", "no", "off"):
+        return [], "disabled"
+    if client is None and not os.environ.get("ANTHROPIC_API_KEY"):
+        return [], "skipped"
+    try:
+        if client is None:
+            import anthropic
+            client = anthropic.Anthropic()
+        from concurrent.futures import ThreadPoolExecutor
+        items, errors = [], []
+        with ThreadPoolExecutor(max_workers=len(SEARCH_QUERIES)) as pool:
+            for fut in [pool.submit(_search_one, client, q) for q in SEARCH_QUERIES]:
+                try:
+                    items += fut.result()
+                except Exception as exc:       # e.g. web search not enabled for the organisation
+                    errors.append(type(exc).__name__)
+        if not items and errors:
+            return [], "error:" + sorted(set(errors))[0]
+        return dedupe(items), "ok"
+    except Exception as exc:
+        return [], "error:" + type(exc).__name__
+
+
 # ----------------------------------------------------------------------- main
 def main():
     items, failed = collect(HOURS)
@@ -598,6 +714,13 @@ def main():
         items, failed = collect(HOURS * 3)
         window = HOURS * 3
     print(f"{len(items)} unique items in last {window}h; failed sources: {failed or 'none'}")
+    web_items, web_status = web_search_candidates()
+    searched = web_status == "ok" or web_status.startswith("error")
+    if web_status.startswith("error"):
+        failed.append("Web search: " + web_status[6:])
+    if web_items:
+        items = dedupe(items + web_items)
+    print(f"web search: {web_status}; +{len(web_items)} candidates; total {len(items)} items")
     if not items:
         sys.exit("No items collected - check network/sources.")
 
@@ -614,9 +737,11 @@ def main():
         top = rank_fallback(items, TOP_N)
         note = f"Fallback ranking (no AI curation). Window: last {window}h."
 
+    if web_status == "ok":
+        note += f" Web search added {len(web_items)} candidates."
     now = datetime.now(timezone.utc)
     date_str = now.strftime("%A, %d %B %Y")
-    sources_ok = len(SOURCES) + len(PAGE_SOURCES) - len(failed)
+    sources_ok = len(SOURCES) + len(PAGE_SOURCES) + (1 if searched else 0) - len(failed)
     ARCHIVE.mkdir(exist_ok=True)
     SITE.mkdir(exist_ok=True)
     shown_urls = {t["url"] for t in top}

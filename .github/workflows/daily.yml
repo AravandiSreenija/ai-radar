@@ -30,6 +30,7 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           RADAR_CHAT_URL: ${{ vars.RADAR_CHAT_URL }}   # optional: URL of the Ask Radar Worker
+          RADAR_WEB_SEARCH: ${{ vars.RADAR_WEB_SEARCH }}   # optional: set to 0 to turn the web-search step off
         run: python radar.py
       - name: Save today's archive
         run: |
