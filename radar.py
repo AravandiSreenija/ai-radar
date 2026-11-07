@@ -390,10 +390,7 @@ let di = 0, cat = 'All', q = '', moreN = 15;
 const $ = id => document.getElementById(id);
 function el(tag, cls, text){const e=document.createElement(tag); if(cls)e.className=cls; if(text!==undefined)e.textContent=text; return e;}
 const cleanSrc = s => s.replace(/\\s*\\(\\d+ pts\\)/, '');
-const when = iso => { if(di!==0) return fmt(iso); const h=(Date.now()-new Date(iso))/36e5;
-  return h<1 ? Math.max(1,Math.round(h*60))+' min ago' : h<48 ? Math.round(h)+'h ago' : fmt(iso); };
 const safe = u => /^https?:\\/\\//.test(u) ? u : '#';
-function fmt(iso){return new Date(iso).toLocaleString('en-GB',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',timeZone:'UTC'})+' UTC';}
 function render(){
   const day = DAYS[di];
   const base = day.items.slice().sort((a,b) => b.score - a.score).slice(0, 10);
@@ -414,7 +411,7 @@ function render(){
     const c = el('article', 'card' + (i===top ? ' top' : ''));
     c.appendChild(el('div','kicker', (i===top ? 'Top story \u00b7 ' : '') + i.category));
     const h = el('h2'); const a = el('a','',i.title); a.href=safe(i.url); a.target='_blank'; a.rel='noopener noreferrer'; h.appendChild(a); c.appendChild(h);
-    c.appendChild(el('div','by', cleanSrc(i.source) + ' \u00b7 ' + when(i.published)));
+    c.appendChild(el('div','by', cleanSrc(i.source)));
     if(i.summary) c.appendChild(el('p','',i.summary));
     const why = i.why_it_matters;
     if(why){ const w = el('p','why'); w.appendChild(el('b','','Why it matters: ')); w.appendChild(document.createTextNode(why)); c.appendChild(w); }
@@ -428,7 +425,7 @@ function render(){
     sec.appendChild(el('p','hint','Headlines from the same sources - not AI-curated, no summaries.'));
     more.slice(0, moreN).forEach(m => {
       const r = el('div','row'); const a = el('a','',m.title); a.href=safe(m.url); a.target='_blank'; a.rel='noopener noreferrer';
-      r.appendChild(a); r.appendChild(el('span','',cleanSrc(m.source))); r.appendChild(el('span','',when(m.published))); sec.appendChild(r);
+      r.appendChild(a); r.appendChild(el('span','',cleanSrc(m.source))); sec.appendChild(r);
     });
     if(more.length > moreN){ const b = el('button','loadmore','Show more stories \u2193'); b.onclick = () => {moreN += 15; render();}; sec.appendChild(b); }
     list.appendChild(sec);
