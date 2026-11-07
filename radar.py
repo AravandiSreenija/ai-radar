@@ -476,6 +476,17 @@ function render(){
   f.appendChild(el('div','','Story picks, scores and "why it matters" lines are AI-generated. The text under each headline is the start of the article itself.'));
 }
 function addMsg(cls, text){ const m = el('div','msg ' + cls, text); $('dm').appendChild(m); $('dm').scrollTop = $('dm').scrollHeight; return m; }
+function fill(node, text){
+  // Show **bold** as real bold; everything is inserted as text nodes, never as HTML.
+  node.replaceChildren();
+  const parts = text.split('**');
+  if(parts.length % 2 === 0){ node.textContent = parts.join(''); return; }   // unbalanced markers: drop them
+  parts.forEach((part, idx) => {
+    if(!part) return;
+    if(idx % 2 === 1){ const b = document.createElement('b'); b.textContent = part; node.appendChild(b); }
+    else node.appendChild(document.createTextNode(part));
+  });
+}
 async function runAsk(question){
   if(!chat || chat.busy) return;
   chat.busy = true; $('dsend').disabled = true;
@@ -487,7 +498,7 @@ async function runAsk(question){
     if(!r.ok) throw new Error('HTTP ' + r.status);
     const d = await r.json();
     if(chat !== mine) return;
-    wait.textContent = d.answer;
+    fill(wait, d.answer);
     if(question) mine.history.push({role:'user', content:question});
     mine.history.push({role:'assistant', content:d.answer});
     if(d.source === 'excerpt') addMsg('note', 'Based on the feed excerpt only - the full article could not be read.');
