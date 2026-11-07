@@ -358,12 +358,11 @@ PAGE = """<!doctype html>
  .chips button{font:inherit;font-size:13px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 12px;cursor:pointer}
  .chips button.on{background:var(--accent);border-color:var(--accent);color:#fff}
  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:14px}
- .card.top{border:2px solid var(--accent)}
- .meta{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--mute);align-items:center}
- .chip{background:#e8ecff;color:var(--accent);border-radius:999px;padding:2px 10px;font-weight:600}
- .badge{background:#fff3d6;color:#8a5a00;border-radius:999px;padding:2px 10px;font-weight:600}
- .star{background:var(--accent);color:#fff;border-radius:999px;padding:2px 10px;font-weight:600}
- h2{font-size:18px;margin:10px 0 6px} h2 a{color:inherit;text-decoration:none} h2 a:hover{text-decoration:underline}
+ .card.top{padding:22px 24px;border-left:4px solid var(--accent)}
+ .kicker{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+ .by{font-size:12px;color:var(--mute);margin:2px 0 8px}
+ .card.top h2{font-size:25px;line-height:1.25}
+ h2{font-size:18px;line-height:1.3;margin:6px 0 4px} h2 a{color:inherit;text-decoration:none} h2 a:hover{text-decoration:underline}
  p{margin:6px 0;line-height:1.5} .why{color:#3a3f4f;font-size:14px}
  .read{font-size:14px;color:var(--accent);text-decoration:none;font-weight:600}
  .more h3{margin:26px 0 2px;font-size:16px} .more .hint{font-size:12px;color:var(--mute);margin:0 0 10px}
@@ -390,6 +389,9 @@ const DAYS = JSON.parse(document.getElementById('data').textContent);
 let di = 0, cat = 'All', q = '', moreN = 15;
 const $ = id => document.getElementById(id);
 function el(tag, cls, text){const e=document.createElement(tag); if(cls)e.className=cls; if(text!==undefined)e.textContent=text; return e;}
+const cleanSrc = s => s.replace(/\\s*\\(\\d+ pts\\)/, '');
+const when = iso => { if(di!==0) return fmt(iso); const h=(Date.now()-new Date(iso))/36e5;
+  return h<1 ? Math.max(1,Math.round(h*60))+' min ago' : h<48 ? Math.round(h)+'h ago' : fmt(iso); };
 const safe = u => /^https?:\\/\\//.test(u) ? u : '#';
 function fmt(iso){return new Date(iso).toLocaleString('en-GB',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',timeZone:'UTC'})+' UTC';}
 function render(){
@@ -410,18 +412,13 @@ function render(){
   if(!shown.length){ list.appendChild(el('div','empty','No stories match.')); }
   shown.forEach(i => {
     const c = el('article', 'card' + (i===top ? ' top' : ''));
-    const m = el('div','meta');
-    if(i===top) m.appendChild(el('span','star','Top story'));
-    m.appendChild(el('span','chip',i.category));
-    m.appendChild(el('span','badge','Relevance ' + i.score + '/5'));
-    m.appendChild(el('span','',i.source));
-    m.appendChild(el('span','',fmt(i.published)));
-    c.appendChild(m);
+    c.appendChild(el('div','kicker', (i===top ? 'Top story \u00b7 ' : '') + i.category));
     const h = el('h2'); const a = el('a','',i.title); a.href=safe(i.url); a.target='_blank'; a.rel='noopener noreferrer'; h.appendChild(a); c.appendChild(h);
+    c.appendChild(el('div','by', cleanSrc(i.source) + ' \u00b7 ' + when(i.published)));
     if(i.summary) c.appendChild(el('p','',i.summary));
     const why = i.why_it_matters;
     if(why){ const w = el('p','why'); w.appendChild(el('b','','Why it matters: ')); w.appendChild(document.createTextNode(why)); c.appendChild(w); }
-    const r = el('a','read','Read source \\u2192'); r.href=safe(i.url); r.target='_blank'; r.rel='noopener noreferrer'; c.appendChild(r);
+    const r = el('a','read','Read more \u2192'); r.href=safe(i.url); r.target='_blank'; r.rel='noopener noreferrer'; c.appendChild(r);
     list.appendChild(c);
   });
   const more = cat==='All' ? (day.more||[]).filter(m => !needle || (m.title+' '+m.source).toLowerCase().includes(needle)) : [];
@@ -431,7 +428,7 @@ function render(){
     sec.appendChild(el('p','hint','Headlines from the same sources - not AI-curated, no summaries.'));
     more.slice(0, moreN).forEach(m => {
       const r = el('div','row'); const a = el('a','',m.title); a.href=safe(m.url); a.target='_blank'; a.rel='noopener noreferrer';
-      r.appendChild(a); r.appendChild(el('span','',m.source)); r.appendChild(el('span','',fmt(m.published))); sec.appendChild(r);
+      r.appendChild(a); r.appendChild(el('span','',cleanSrc(m.source))); r.appendChild(el('span','',when(m.published))); sec.appendChild(r);
     });
     if(more.length > moreN){ const b = el('button','loadmore','Show more stories \u2193'); b.onclick = () => {moreN += 15; render();}; sec.appendChild(b); }
     list.appendChild(sec);

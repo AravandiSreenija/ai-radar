@@ -28,8 +28,8 @@ static website and a daily email, every link pointing to the original source.
 
 ## Features
 - A **More stories** list (up to 60 extra headlines, with Load more) below the curated top 10; clearly labelled as not AI-curated
-- Top-10 stories of the last 24h, each with a relevance score and "why it matters"
-- Category filters, search, relevance badges, pinned top story
+- Top-10 stories of the last 24h, newspaper-style cards with the article's opening lines and a short "why it matters"
+- Category filters, search, a highlighted top story
 - 30-day archive (the workflow commits `archive/<date>.json`) with a day picker
 - Source health in the footer
 
