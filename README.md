@@ -6,9 +6,11 @@ static website and a daily email, every link pointing to the original source.
 
 ## How it works
 
-1. **Collect** - RSS/Atom feeds (OpenAI, Google AI, DeepMind, Hugging Face, NVIDIA,
-   TechCrunch, The Verge), GitHub releases (ollama, llama.cpp, transformers, langchain,
-   vllm) and the Hacker News API.
+1. **Collect** - ~35 sources: lab and tech blogs (OpenAI, Google, DeepMind, Hugging Face,
+   NVIDIA, Microsoft, AWS, Anthropic news page, Cursor changelog, press), arXiv cs.AI/cs.CL,
+   Reddit (r/LocalLLaMA, r/MachineLearning), GitHub releases (Claude Code, Codex, ollama,
+   llama.cpp, vllm, LangChain, MCP...) and the Hacker News API. Per-source caps keep one
+   noisy feed from crowding out the rest.
 2. **Filter and dedupe** - only items from the last 24h (widened once on quiet days),
    duplicates removed by URL and normalised title.
 3. **Curate** - Claude receives numbered candidates and returns ids, a category, a short
@@ -23,6 +25,7 @@ static website and a daily email, every link pointing to the original source.
 - Pages carry a note that summaries are AI-generated.
 
 ## Features
+- A **More stories** list (up to 60 extra headlines, with Load more) below the curated top 10; clearly labelled as not AI-curated
 - Top-10 stories of the last 24h, each with a relevance score and "why it matters"
 - Category filters, search, relevance badges, pinned top story
 - 30-day archive (the workflow commits `archive/<date>.json`) with a day picker

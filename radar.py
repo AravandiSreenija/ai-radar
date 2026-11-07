@@ -59,6 +59,17 @@ SOURCES = [
     ("OpenAI Codex releases", "feed", "https://github.com/openai/codex/releases.atom"),
     ("Gemini CLI releases", "feed", "https://github.com/google-gemini/gemini-cli/releases.atom"),
     ("MCP spec", "feed", "https://github.com/modelcontextprotocol/modelcontextprotocol/releases.atom"),
+    ("GitHub: langgraph", "feed", "https://github.com/langchain-ai/langgraph/releases.atom"),
+    ("GitHub: MCP Python SDK", "feed", "https://github.com/modelcontextprotocol/python-sdk/releases.atom"),
+    ("Microsoft AI", "feed", "https://blogs.microsoft.com/ai/feed/"),
+    ("AWS Machine Learning", "feed", "https://aws.amazon.com/blogs/machine-learning/feed/"),
+    ("VentureBeat AI", "feed", "https://venturebeat.com/category/ai/feed/"),
+    ("MIT Technology Review AI", "feed", "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
+    ("Simon Willison", "feed", "https://simonwillison.net/atom/everything/"),
+    ("arXiv cs.AI", "feed", "https://rss.arxiv.org/rss/cs.AI"),
+    ("arXiv cs.CL", "feed", "https://rss.arxiv.org/rss/cs.CL"),
+    ("Reddit r/LocalLLaMA", "feed", "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"),
+    ("Reddit r/MachineLearning", "feed", "https://www.reddit.com/r/MachineLearning/top/.rss?t=day"),
     ("Hacker News", "hn", "https://hn.algolia.com/api/v1/search_by_date"),
 ]
 HN_QUERIES = ["LLM", "Claude", "OpenAI", "Gemini", "AI agent", "Anthropic",
@@ -220,6 +231,20 @@ def dedupe(items):
     return out
 
 
+def balanced(items, per_source, limit):
+    """Newest-first, at most per_source per source, so one noisy feed (arXiv) can't crowd out the rest."""
+    out, count = [], {}
+    for it in sorted(items, key=lambda i: i["published"], reverse=True):
+        key = it["source"].split(" (")[0]
+        if count.get(key, 0) >= per_source:
+            continue
+        count[key] = count.get(key, 0) + 1
+        out.append(it)
+        if len(out) == limit:
+            break
+    return out
+
+
 # ------------------------------------------------------------------- ranking
 def _score(v):
     """Clamp whatever the model returned to an int 1-5 (default 3)."""
@@ -232,7 +257,7 @@ def _score(v):
 def rank_with_claude(items, top_n):
     import anthropic
 
-    pool = items[:80]
+    pool = balanced(items, 6, 90)
     listing = "\n".join(
         f"[{i}] ({it['source']}) {it['title']} - {it['snippet'][:200]}"
         for i, it in enumerate(pool)
@@ -297,6 +322,7 @@ def esc(s):
 
 ARCHIVE = ROOT / "archive"
 KEEP_DAYS = 30
+MORE_LIMIT = 60
 
 PAGE = """<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -323,6 +349,11 @@ PAGE = """<!doctype html>
  h2{font-size:18px;margin:10px 0 6px} h2 a{color:inherit;text-decoration:none} h2 a:hover{text-decoration:underline}
  p{margin:6px 0;line-height:1.5} .why{color:#3a3f4f;font-size:14px}
  .read{font-size:14px;color:var(--accent);text-decoration:none;font-weight:600}
+ .more h3{margin:26px 0 2px;font-size:16px} .more .hint{font-size:12px;color:var(--mute);margin:0 0 10px}
+ .row{display:flex;gap:10px;align-items:baseline;padding:9px 2px;border-bottom:1px solid var(--line);font-size:14px}
+ .row a{color:var(--ink);text-decoration:none;flex:1} .row a:hover{text-decoration:underline}
+ .row span{font-size:12px;color:var(--mute);white-space:nowrap}
+ .loadmore{display:block;margin:14px auto;font:inherit;padding:8px 18px;border:1px solid var(--line);background:#fff;border-radius:8px;cursor:pointer}
  .empty{color:var(--mute);text-align:center;padding:30px}
  footer{text-align:center;font-size:12px;color:#8a90a0;padding:20px;max-width:780px;margin:0 auto}
 </style></head><body>
@@ -338,7 +369,7 @@ PAGE = """<!doctype html>
 <script id="data" type="application/json">__DATA__</script>
 <script>
 const DAYS = JSON.parse(document.getElementById('data').textContent);
-let di = 0, cat = 'All', q = '';
+let di = 0, cat = 'All', q = '', moreN = 15;
 const $ = id => document.getElementById(id);
 function el(tag, cls, text){const e=document.createElement(tag); if(cls)e.className=cls; if(text!==undefined)e.textContent=text; return e;}
 const safe = u => /^https?:\\/\\//.test(u) ? u : '#';
@@ -350,7 +381,7 @@ function render(){
   const cats = ['All', ...new Set(base.map(i => i.category))];
   if(!cats.includes(cat)) cat = 'All';
   const chips = $('chips'); chips.replaceChildren();
-  cats.forEach(c => { const b = el('button', c===cat?'on':'', c); b.onclick = () => {cat=c; render();}; chips.appendChild(b); });
+  cats.forEach(c => { const b = el('button', c===cat?'on':'', c); b.onclick = () => {cat=c; moreN=15; render();}; chips.appendChild(b); });
   const top = base[0];
   const needle = q.trim().toLowerCase();
   const shown = base
@@ -375,23 +406,37 @@ function render(){
     const r = el('a','read','Read source \\u2192'); r.href=safe(i.url); r.target='_blank'; r.rel='noopener noreferrer'; c.appendChild(r);
     list.appendChild(c);
   });
+  const more = cat==='All' ? (day.more||[]).filter(m => !needle || (m.title+' '+m.source).toLowerCase().includes(needle)) : [];
+  if(more.length){
+    const sec = el('section','more');
+    sec.appendChild(el('h3','','More stories (' + more.length + ')'));
+    sec.appendChild(el('p','hint','Headlines from the same sources - not AI-curated, no summaries.'));
+    more.slice(0, moreN).forEach(m => {
+      const r = el('div','row'); const a = el('a','',m.title); a.href=safe(m.url); a.target='_blank'; a.rel='noopener noreferrer';
+      r.appendChild(a); r.appendChild(el('span','',m.source)); r.appendChild(el('span','',fmt(m.published))); sec.appendChild(r);
+    });
+    if(more.length > moreN){ const b = el('button','loadmore','Load more (' + (more.length-moreN) + ' left)'); b.onclick = () => {moreN += 15; render();}; sec.appendChild(b); }
+    list.appendChild(sec);
+  }
   const f = $('foot'); f.replaceChildren();
   f.appendChild(el('div','',day.note));
   f.appendChild(el('div','','Sources: ' + day.sources_ok + ' OK' + (day.sources_failed.length ? ', failed: ' + day.sources_failed.join(', ') : ', none failed')));
   f.appendChild(el('div','','Summaries are AI-generated from the linked sources - always check the source.'));
 }
 DAYS.forEach((d,i) => { const o = el('option','',d.label); o.value = i; $('day').appendChild(o); });
-$('day').onchange = e => { di = +e.target.value; cat='All'; render(); };
-$('q').oninput = e => { q = e.target.value; render(); };
+$('day').onchange = e => { di = +e.target.value; cat='All'; moreN=15; render(); };
+$('q').oninput = e => { q = e.target.value; moreN=15; render(); };
 render();
 </script></body></html>"""
 
 
-def day_record(top, date_iso, label, note, sources_ok, failed):
+def day_record(top, date_iso, label, note, sources_ok, failed, more=()):
     return {
         "date": date_iso, "label": label, "note": note,
         "sources_ok": sources_ok, "sources_failed": failed,
         "items": [dict(i, published=i["published"].isoformat()) for i in top],
+        "more": [{"title": m["title"], "url": m["url"], "source": m["source"],
+                  "published": m["published"].isoformat()} for m in more],
     }
 
 
@@ -462,8 +507,10 @@ def main():
     sources_ok = len(SOURCES) + len(PAGE_SOURCES) - len(failed)
     ARCHIVE.mkdir(exist_ok=True)
     SITE.mkdir(exist_ok=True)
+    shown_urls = {t["url"] for t in top}
+    more = balanced([i for i in items if i["url"] not in shown_urls], 8, MORE_LIMIT)
     record = day_record(top, now.strftime("%Y-%m-%d"), date_str, note, sources_ok,
-                        [f.split(":")[0] for f in failed])
+                        [f.split(":")[0] for f in failed], more)
     (ARCHIVE / f"{record['date']}.json").write_text(json.dumps(record, indent=2), encoding="utf-8")
     days = load_archive()
     (SITE / "index.html").write_text(render_site(days), encoding="utf-8")
