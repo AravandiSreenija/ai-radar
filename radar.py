@@ -59,6 +59,7 @@ SOURCES = [
     ("OpenAI Codex releases", "feed", "https://github.com/openai/codex/releases.atom"),
     ("Gemini CLI releases", "feed", "https://github.com/google-gemini/gemini-cli/releases.atom"),
     ("MCP spec", "feed", "https://github.com/modelcontextprotocol/modelcontextprotocol/releases.atom"),
+    ("Qwen blog", "feed", "https://qwenlm.github.io/blog/index.xml"),
     ("GitHub: langgraph", "feed", "https://github.com/langchain-ai/langgraph/releases.atom"),
     ("GitHub: MCP Python SDK", "feed", "https://github.com/modelcontextprotocol/python-sdk/releases.atom"),
     ("Microsoft AI", "feed", "https://blogs.microsoft.com/ai/feed/"),
@@ -198,6 +199,9 @@ PAGE_SOURCES = [
     # name, index page, regex that matches article links on that page
     ("Anthropic News", "https://www.anthropic.com/news", r'(?:https://www\.anthropic\.com)?/news/[a-z0-9][a-z0-9\-]+'),
     ("Cursor Changelog", "https://cursor.com/changelog", r'(?:https://cursor\.com)?/changelog/[a-z0-9][a-z0-9\-\.]+'),
+    ("Mistral News", "https://mistral.ai/news", r'(?:https://mistral\.ai)?/news/[a-z0-9][a-z0-9\-\.]+'),
+    ("xAI News", "https://x.ai/news", r'(?:https://x\.ai)?/news/[a-z0-9][a-z0-9\-\.]+'),
+    ("Meta AI Blog", "https://ai.meta.com/blog/", r'(?:https://ai\.meta\.com)?/blog/[a-z0-9][a-z0-9\-]+/?'),
 ]
 
 
@@ -366,7 +370,8 @@ PAGE = """<!doctype html>
  .row{display:flex;gap:10px;align-items:baseline;padding:9px 2px;border-bottom:1px solid var(--line);font-size:14px}
  .row a{color:var(--ink);text-decoration:none;flex:1} .row a:hover{text-decoration:underline}
  .row span{font-size:12px;color:var(--mute);white-space:nowrap}
- .loadmore{display:block;margin:14px auto;font:inherit;padding:8px 18px;border:1px solid var(--line);background:#fff;border-radius:8px;cursor:pointer}
+ .loadmore{display:block;width:100%;margin:18px 0 6px;font:inherit;font-weight:600;padding:12px;border:1.5px solid var(--accent);color:var(--accent);background:transparent;border-radius:10px;cursor:pointer;transition:.15s}
+ .loadmore:hover{background:var(--accent);color:#fff}
  .empty{color:var(--mute);text-align:center;padding:30px}
  footer{text-align:center;font-size:12px;color:#8a90a0;padding:20px;max-width:780px;margin:0 auto}
 </style></head><body>
@@ -422,13 +427,13 @@ function render(){
   const more = cat==='All' ? (day.more||[]).filter(m => !needle || (m.title+' '+m.source).toLowerCase().includes(needle)) : [];
   if(more.length){
     const sec = el('section','more');
-    sec.appendChild(el('h3','','More stories (' + more.length + ')'));
+    sec.appendChild(el('h3','','More stories'));
     sec.appendChild(el('p','hint','Headlines from the same sources - not AI-curated, no summaries.'));
     more.slice(0, moreN).forEach(m => {
       const r = el('div','row'); const a = el('a','',m.title); a.href=safe(m.url); a.target='_blank'; a.rel='noopener noreferrer';
       r.appendChild(a); r.appendChild(el('span','',m.source)); r.appendChild(el('span','',fmt(m.published))); sec.appendChild(r);
     });
-    if(more.length > moreN){ const b = el('button','loadmore','Load more (' + (more.length-moreN) + ' left)'); b.onclick = () => {moreN += 15; render();}; sec.appendChild(b); }
+    if(more.length > moreN){ const b = el('button','loadmore','Show more stories \u2193'); b.onclick = () => {moreN += 15; render();}; sec.appendChild(b); }
     list.appendChild(sec);
   }
   const f = $('foot'); f.replaceChildren();
