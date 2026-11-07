@@ -13,7 +13,6 @@ static website and a daily email, every link pointing to the original source.
    duplicates removed by URL and normalised title.
 3. **Curate** - Claude receives numbered candidates and returns ids, a category, a short
    summary and a "why it matters" line for a reader profile you set.
-   - **Personas:** the same Claude call also scores each story 1-5 for a developer, a product manager and an executive and writes a persona-specific "why it matters". The page lets you switch views.
 4. **Publish** - `site/index.html` (GitHub Pages) and an HTML email.
 5. **Schedule** - a GitHub Actions cron runs it every morning.
 
@@ -24,7 +23,7 @@ static website and a daily email, every link pointing to the original source.
 - Pages carry a note that summaries are AI-generated.
 
 ## Features
-- Top-10 view plus **Developer / Product / Leadership** persona views
+- Top-10 stories of the last 24h, each with a relevance score and "why it matters"
 - Category filters, search, relevance badges, pinned top story
 - 30-day archive (the workflow commits `archive/<date>.json`) with a day picker
 - Source health in the footer

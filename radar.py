@@ -30,13 +30,7 @@ except ImportError:  # pragma: no cover
 ROOT = Path(__file__).parent
 SITE = ROOT / "site"
 HOURS = int(os.environ.get("RADAR_HOURS", "24"))
-TOP_N = int(os.environ.get("RADAR_TOP_N", "10"))      # items shown in "All" view and the email
-POOL = int(os.environ.get("RADAR_POOL", "15"))        # items curated so persona views have choice
-PERSONAS = {
-    "developer": "Software engineer building with AI: models/APIs, coding agents, frameworks, open-source releases.",
-    "product": "Product manager: what users and competitors can now do, new capabilities, pricing, launches.",
-    "leadership": "Executive: strategy, cost and risk, regulation, major industry shifts. Ignore minor tooling news.",
-}
+TOP_N = int(os.environ.get("RADAR_TOP_N", "10"))
 MODEL = os.environ.get("RADAR_MODEL", "claude-sonnet-5-5")
 PROFILE = os.environ.get(
     "RADAR_PROFILE",
@@ -243,7 +237,6 @@ def rank_with_claude(items, top_n):
         f"[{i}] ({it['source']}) {it['title']} - {it['snippet'][:200]}"
         for i, it in enumerate(pool)
     )
-    persona_text = "\n".join(f"- {k}: {v}" for k, v in PERSONAS.items())
     prompt = f"""You curate a daily AI news digest for this reader:
 {PROFILE}
 
@@ -252,22 +245,16 @@ important and distinct ones (new models, tools, agent/RAG techniques, major
 industry or safety news). Skip duplicates of the same story, marketing fluff and
 minor patch releases. Use ONLY the information given. Never invent facts.
 
-Also score every chosen item (1-5) for each of these personas, and write one
-short persona-specific "why it matters" sentence for each:
-{persona_text}
-
-Return ONLY a JSON array of up to {top_n} objects, best general-relevance first:
+Return ONLY a JSON array of up to {top_n} objects, best first:
 {{"id": <number from brackets>, "category": "Models|Tools|Techniques|Industry|Security|Research",
- "summary": "1-2 plain sentences, factual", "why_it_matters": "1 sentence for the general reader",
- "score": <1-5 general relevance>,
- "scores": {{"developer": <1-5>, "product": <1-5>, "leadership": <1-5>}},
- "why": {{"developer": "...", "product": "...", "leadership": "..."}}}}
+ "summary": "1-2 plain sentences, factual", "why_it_matters": "1 sentence for this reader",
+ "score": <1-5 relevance to the reader>}}
 
 Candidates:
 {listing}"""
     client = anthropic.Anthropic()
     msg = client.messages.create(
-        model=MODEL, max_tokens=8000,
+        model=MODEL, max_tokens=4000,
         messages=[{"role": "user", "content": prompt}],
     )
     text = "".join(b.text for b in msg.content if b.type == "text")
@@ -280,14 +267,10 @@ Candidates:
             continue
         used.add(i)
         it = dict(pool[i])  # URL/title/source come from the feed, not the model
-        raw_scores = p.get("scores") if isinstance(p.get("scores"), dict) else {}
-        raw_why = p.get("why") if isinstance(p.get("why"), dict) else {}
         it.update(category=str(p.get("category", "Industry"))[:20],
                   summary=str(p.get("summary", ""))[:400],
                   why_it_matters=str(p.get("why_it_matters", ""))[:300],
-                  score=_score(p.get("score")),
-                  scores={k: _score(raw_scores.get(k)) for k in PERSONAS},
-                  why={k: str(raw_why.get(k, ""))[:300] for k in PERSONAS})
+                  score=_score(p.get("score")))
         out.append(it)
     return out[:top_n]
 
@@ -301,8 +284,7 @@ def rank_fallback(items, top_n):
             continue
         per_source[s] = per_source.get(s, 0) + 1
         out.append(dict(it, category="News", summary=it["snippet"][:240] or it["title"],
-                        why_it_matters="", score=3,
-                        scores={k: 3 for k in PERSONAS}, why={}))
+                        why_it_matters="", score=3))
         if len(out) == top_n:
             break
     return out
@@ -332,7 +314,6 @@ PAGE = """<!doctype html>
  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
  .chips button{font:inherit;font-size:13px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 12px;cursor:pointer}
  .chips button.on{background:var(--accent);border-color:var(--accent);color:#fff}
- .personas button{font-weight:600}
  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:14px}
  .card.top{border:2px solid var(--accent)}
  .meta{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--mute);align-items:center}
@@ -349,7 +330,6 @@ PAGE = """<!doctype html>
 <main>
  <div class="bar"><select id="day" aria-label="Day"></select>
   <input id="q" type="search" placeholder="Search stories, sources..." aria-label="Search"></div>
- <div class="chips personas" id="personas" aria-label="Persona"></div>
  <div class="chips" id="chips"></div>
  <div id="list"></div>
 </main>
@@ -358,24 +338,15 @@ PAGE = """<!doctype html>
 <script id="data" type="application/json">__DATA__</script>
 <script>
 const DAYS = JSON.parse(document.getElementById('data').textContent);
-const PERS = [['general','All stories'],['developer','Developer'],['product','Product'],['leadership','Leadership']];
-let di = 0, cat = 'All', q = '', persona = localStorage.getItem('radarPersona') || 'general';
-if(!PERS.some(p => p[0]===persona)) persona = 'general';
-const pScore = i => persona==='general' ? i.score : ((i.scores && i.scores[persona]) || i.score);
-const pWhy = i => (persona!=='general' && i.why && i.why[persona]) || i.why_it_matters;
+let di = 0, cat = 'All', q = '';
 const $ = id => document.getElementById(id);
 function el(tag, cls, text){const e=document.createElement(tag); if(cls)e.className=cls; if(text!==undefined)e.textContent=text; return e;}
 const safe = u => /^https?:\\/\\//.test(u) ? u : '#';
 function fmt(iso){return new Date(iso).toLocaleString('en-GB',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',timeZone:'UTC'})+' UTC';}
 function render(){
   const day = DAYS[di];
-  const pr = $('personas'); pr.replaceChildren();
-  PERS.forEach(([k,label]) => { const b = el('button', k===persona?'on':'', label);
-    b.onclick = () => {persona=k; localStorage.setItem('radarPersona',k); cat='All'; render();}; pr.appendChild(b); });
-  // persona view: only stories scoring 3+ for that persona; general view: top 10 by general score
-  const base = day.items.filter(i => persona==='general' || pScore(i) >= 3)
-    .sort((a,b) => pScore(b) - pScore(a)).slice(0, 10);
-  $('sub').textContent = day.label + ' - ' + base.length + ' stories' + (persona==='general' ? '' : ' for ' + PERS.find(p => p[0]===persona)[1]);
+  const base = day.items.slice().sort((a,b) => b.score - a.score).slice(0, 10);
+  $('sub').textContent = day.label + ' - ' + base.length + ' stories';
   const cats = ['All', ...new Set(base.map(i => i.category))];
   if(!cats.includes(cat)) cat = 'All';
   const chips = $('chips'); chips.replaceChildren();
@@ -393,13 +364,13 @@ function render(){
     const m = el('div','meta');
     if(i===top) m.appendChild(el('span','star','Top story'));
     m.appendChild(el('span','chip',i.category));
-    m.appendChild(el('span','badge','Relevance ' + pScore(i) + '/5'));
+    m.appendChild(el('span','badge','Relevance ' + i.score + '/5'));
     m.appendChild(el('span','',i.source));
     m.appendChild(el('span','',fmt(i.published)));
     c.appendChild(m);
     const h = el('h2'); const a = el('a','',i.title); a.href=safe(i.url); a.target='_blank'; a.rel='noopener noreferrer'; h.appendChild(a); c.appendChild(h);
     c.appendChild(el('p','',i.summary));
-    const why = pWhy(i);
+    const why = i.why_it_matters;
     if(why){ const w = el('p','why'); w.appendChild(el('b','','Why it matters: ')); w.appendChild(document.createTextNode(why)); c.appendChild(w); }
     const r = el('a','read','Read source \\u2192'); r.href=safe(i.url); r.target='_blank'; r.rel='noopener noreferrer'; c.appendChild(r);
     list.appendChild(c);
@@ -479,11 +450,11 @@ def main():
         sys.exit("No items collected - check network/sources.")
 
     if os.environ.get("ANTHROPIC_API_KEY"):
-        top = rank_with_claude(items, POOL)
+        top = rank_with_claude(items, TOP_N)
         note = f"Curated by {MODEL}. Window: last {window}h."
     else:
         print("ANTHROPIC_API_KEY not set - using simple fallback ranking.")
-        top = rank_fallback(items, POOL)
+        top = rank_fallback(items, TOP_N)
         note = f"Fallback ranking (no AI curation). Window: last {window}h."
 
     now = datetime.now(timezone.utc)
@@ -499,7 +470,7 @@ def main():
     (SITE / "news.json").write_text(json.dumps(days, indent=2), encoding="utf-8")
     print(f"Wrote site/index.html: {len(days)} day(s), today has {len(top)} items.")
     if "--no-email" not in sys.argv:
-        send_email(top[:TOP_N], date_str)
+        send_email(top, date_str)
 
 
 if __name__ == "__main__":
