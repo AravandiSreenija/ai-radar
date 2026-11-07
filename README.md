@@ -33,6 +33,29 @@ static website and a daily email, every link pointing to the original source.
 - 30-day archive (the workflow commits `archive/<date>.json`) with a day picker
 - Source health in the footer
 
+## Ask Radar (optional chat on every story)
+
+Each story gets an **Ask Radar** button. It opens a side panel that reads the article and gives a brief
+summary, then lets you ask follow-up questions about that story. Because the Anthropic key must stay
+secret, the chat runs through a tiny backend in `worker/worker.js` (a Cloudflare Worker). Without it the
+site works normally and the buttons are simply hidden.
+
+Safeguards in the Worker: only this site's origin may call it; the story URL must appear in the site's own
+published `news.json` (it is not an open proxy); article text is treated as untrusted data; request, article,
+history and output sizes are capped; errors are generic; and there is a best-effort per-IP rate limit.
+It cannot read what's behind paywalls or on JavaScript-only pages - then it says it used the feed excerpt.
+
+Setup (about 10 minutes, free tier):
+1. Cloudflare dashboard -> Workers & Pages -> Create -> Worker. Name it `ai-radar-chat`, Deploy, then Edit code
+   and paste in `worker/worker.js`. Deploy again.
+2. Worker -> Settings -> Variables and Secrets: add secret `ANTHROPIC_API_KEY`; text variables
+   `ALLOWED_ORIGIN` (e.g. `https://aravandisreenija.github.io`, origin only) and `NEWS_URL`
+   (e.g. `https://aravandisreenija.github.io/ai-radar/news.json`). Optional: `MODEL` (default `claude-haiku-5-5`).
+3. Copy the Worker URL (`https://ai-radar-chat.<you>.workers.dev`).
+4. GitHub repo -> Settings -> Secrets and variables -> Actions -> **Variables** tab -> New variable
+   `RADAR_CHAT_URL` = the Worker URL.
+5. Run the **Daily AI Radar** workflow. Set a small monthly spend limit on your Anthropic account as a backstop.
+
 ## Run locally
 
 ```bash
@@ -52,5 +75,5 @@ Tune with `RADAR_PROFILE`, `RADAR_HOURS`, `RADAR_TOP_N`, `RADAR_MODEL`.
 4. Actions tab -> *Daily AI Radar* -> **Run workflow**.
 
 ## Roadmap
-- "Ask the radar" chat grounded in the collected items, with citations
+- Ask across the whole archive ("what shipped this week?"), not just one story
 - Public subscribe form with unsubscribe

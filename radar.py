@@ -376,6 +376,27 @@ PAGE = """<!doctype html>
  .row span{font-size:12px;color:var(--mute);white-space:nowrap}
  .loadmore{display:block;width:100%;margin:18px 0 6px;font:inherit;font-weight:600;padding:12px;border:1.5px solid var(--accent);color:var(--accent);background:transparent;border-radius:10px;cursor:pointer;transition:.15s}
  .loadmore:hover{background:var(--accent);color:#fff}
+ .actions{display:flex;align-items:center;gap:12px;margin-top:6px}
+ .askbtn{font:inherit;font-size:14px;font-weight:600;color:#fff;background:var(--accent);border:0;border-radius:8px;padding:6px 14px;cursor:pointer}
+ .askbtn:hover{opacity:.88}
+ .askbtn.small{font-size:12px;padding:3px 10px}
+ .drawer{position:fixed;top:0;right:0;bottom:0;width:min(440px,100%);background:#fff;box-shadow:-8px 0 30px rgba(0,0,0,.18);display:flex;flex-direction:column;z-index:20}
+ .drawer[hidden]{display:none}
+ .dh{display:flex;justify-content:space-between;gap:12px;padding:16px 18px;border-bottom:1px solid var(--line)}
+ .dk{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+ .dtitle{font-weight:700;line-height:1.3;margin-top:4px}
+ .dclose{font-size:28px;line-height:1;border:0;background:none;cursor:pointer;color:var(--mute);align-self:flex-start}
+ .dm{flex:1;overflow:auto;padding:16px 18px;display:flex;flex-direction:column;gap:12px}
+ .msg{white-space:pre-wrap;line-height:1.5;font-size:14px;padding:10px 12px;border-radius:10px;max-width:92%}
+ .msg.bot{background:#f0f2fa;align-self:flex-start}
+ .msg.me{background:var(--accent);color:#fff;align-self:flex-end}
+ .msg.note{font-size:12px;color:var(--mute);background:none;padding:0}
+ .df{border-top:1px solid var(--line);padding:12px 18px}
+ .dread{font-size:13px;color:var(--accent);font-weight:600;text-decoration:none}
+ #dform{display:flex;gap:8px;margin-top:10px}
+ #dq{flex:1;min-width:0;font:inherit;padding:9px 10px;border:1px solid var(--line);border-radius:8px}
+ #dsend{font:inherit;font-weight:600;color:#fff;background:var(--accent);border:0;border-radius:8px;padding:0 16px;cursor:pointer}
+ #dsend:disabled{opacity:.5;cursor:default}
  .empty{color:var(--mute);text-align:center;padding:30px}
  footer{text-align:center;font-size:12px;color:#8a90a0;padding:20px;max-width:920px;margin:0 auto}
 </style></head><body>
@@ -386,10 +407,19 @@ PAGE = """<!doctype html>
 </main>
 <footer id="foot"></footer>
 <noscript><p class="empty">Please enable JavaScript to view AI Radar.</p></noscript>
+<aside id="drawer" class="drawer" hidden aria-label="Ask Radar">
+ <div class="dh"><div><div class="dk">Ask Radar</div><div id="dt" class="dtitle"></div></div>
+  <button id="dx" class="dclose" type="button" aria-label="Close">\u00d7</button></div>
+ <div id="dm" class="dm"></div>
+ <div class="df"><a id="dread" class="dread" target="_blank" rel="noopener noreferrer">Read full article \u2192</a>
+  <form id="dform"><input id="dq" placeholder="Ask a follow-up about this story..." autocomplete="off" maxlength="500"><button id="dsend" type="submit">Send</button></form></div>
+</aside>
+<script id="cfg" type="application/json">__CFG__</script>
 <script id="data" type="application/json">__DATA__</script>
 <script>
 const DAYS = JSON.parse(document.getElementById('data').textContent);
-let di = 0, cat = 'All', q = '', moreN = 15;
+const CFG = JSON.parse(document.getElementById('cfg').textContent);
+let di = 0, cat = 'All', q = '', moreN = 15, chat = null;
 const $ = id => document.getElementById(id);
 function el(tag, cls, text){const e=document.createElement(tag); if(cls)e.className=cls; if(text!==undefined)e.textContent=text; return e;}
 const cleanSrc = s => s.replace(/\\s*\\(\\d+ pts\\)/, '');
@@ -421,7 +451,9 @@ function render(){
     if(i.summary) c.appendChild(el('p','',i.summary));
     const why = i.why_it_matters;
     if(why){ const w = el('p','why'); w.appendChild(el('b','','Why it matters: ')); w.appendChild(document.createTextNode(why)); c.appendChild(w); }
-    const r = el('a','read','Read more \u2192'); r.href=safe(i.url); r.target='_blank'; r.rel='noopener noreferrer'; c.appendChild(r);
+    const r = el('a','read','Read more \u2192'); r.href=safe(i.url); r.target='_blank'; r.rel='noopener noreferrer'; const act = el('div','actions'); act.appendChild(r);
+    if(CFG.chat){ const b = el('button','askbtn','Ask Radar'); b.type='button'; b.onclick = () => openChat(i); act.appendChild(b); }
+    c.appendChild(act);
     list.appendChild(c);
   });
   const more = cat==='All' ? (day.more||[]).filter(m => !needle || (m.title+' '+m.source).toLowerCase().includes(needle)) : [];
@@ -431,7 +463,9 @@ function render(){
     sec.appendChild(el('p','hint','Headlines from the same sources - not AI-curated, no summaries.'));
     more.slice(0, moreN).forEach(m => {
       const r = el('div','row'); const a = el('a','',m.title); a.href=safe(m.url); a.target='_blank'; a.rel='noopener noreferrer';
-      r.appendChild(a); r.appendChild(el('span','',cleanSrc(m.source))); sec.appendChild(r);
+      r.appendChild(a); r.appendChild(el('span','',cleanSrc(m.source)));
+      if(CFG.chat){ const b = el('button','askbtn small','Ask'); b.type='button'; b.onclick = () => openChat(m); r.appendChild(b); }
+      sec.appendChild(r);
     });
     if(more.length > moreN){ const b = el('button','loadmore','Show more stories \u2193'); b.onclick = () => {moreN += 15; render();}; sec.appendChild(b); }
     list.appendChild(sec);
@@ -441,6 +475,37 @@ function render(){
   f.appendChild(el('div','','Sources: ' + day.sources_ok + ' OK' + (day.sources_failed.length ? ', failed: ' + day.sources_failed.join(', ') : ', none failed')));
   f.appendChild(el('div','','Story picks, scores and "why it matters" lines are AI-generated. The text under each headline is the start of the article itself.'));
 }
+function addMsg(cls, text){ const m = el('div','msg ' + cls, text); $('dm').appendChild(m); $('dm').scrollTop = $('dm').scrollHeight; return m; }
+async function runAsk(question){
+  if(!chat || chat.busy) return;
+  chat.busy = true; $('dsend').disabled = true;
+  const mine = chat;                       // ignore the reply if the panel moved to another story
+  const wait = addMsg('bot', question ? 'Thinking...' : 'Reading the story...');
+  try{
+    const r = await fetch(CFG.chat, {method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({url: mine.url, question: question, history: mine.history.slice(-6)})});
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    const d = await r.json();
+    if(chat !== mine) return;
+    wait.textContent = d.answer;
+    if(question) mine.history.push({role:'user', content:question});
+    mine.history.push({role:'assistant', content:d.answer});
+    if(d.source === 'excerpt') addMsg('note', 'Based on the feed excerpt only - the full article could not be read.');
+  }catch(e){
+    if(chat === mine) wait.textContent = 'Sorry - Radar chat is unavailable right now. Try again in a moment, or use Read full article.';
+  }
+  mine.busy = false;
+  if(chat === mine) $('dsend').disabled = false;
+}
+function openChat(story){
+  chat = {url: story.url, title: story.title, history: [], busy: false};
+  $('dt').textContent = story.title; $('dread').href = safe(story.url);
+  $('dm').replaceChildren(); $('dq').value = ''; $('dsend').disabled = false;
+  $('drawer').hidden = false; runAsk(''); $('dq').focus();
+}
+$('dx').onclick = () => { $('drawer').hidden = true; };
+document.addEventListener('keydown', e => { if(e.key === 'Escape') $('drawer').hidden = true; });
+$('dform').onsubmit = e => { e.preventDefault(); const t = $('dq').value.trim(); if(!t || !chat || chat.busy) return; $('dq').value = ''; addMsg('me', t); runAsk(t); };
 $('prev').onclick = () => { if(di < DAYS.length-1){ di++; cat='All'; moreN=15; render(); } };
 $('next').onclick = () => { if(di > 0){ di--; cat='All'; moreN=15; render(); } };
 render();
@@ -469,9 +534,11 @@ def load_archive():
     return days
 
 
-def render_site(days):
+def render_site(days, chat_url=""):
     data = json.dumps(days).replace("</", "<\\/")  # keep data from closing the script tag
-    return PAGE.replace("__DATA__", data)
+    ok = chat_url.startswith(("https://", "http://localhost", "http://127.0.0.1"))  # plain http only for local testing
+    cfg = json.dumps({"chat": chat_url if ok else ""}).replace("</", "<\\/")
+    return PAGE.replace("__CFG__", cfg).replace("__DATA__", data)
 
 
 def render_email(items, date_str):
@@ -535,7 +602,7 @@ def main():
                         [f.split(":")[0] for f in failed], more)
     (ARCHIVE / f"{record['date']}.json").write_text(json.dumps(record, indent=2), encoding="utf-8")
     days = load_archive()
-    (SITE / "index.html").write_text(render_site(days), encoding="utf-8")
+    (SITE / "index.html").write_text(render_site(days, os.environ.get("RADAR_CHAT_URL", "").strip()), encoding="utf-8")
     (SITE / "news.json").write_text(json.dumps(days, indent=2), encoding="utf-8")
     print(f"Wrote site/index.html: {len(days)} day(s), today has {len(top)} items.")
     if "--no-email" not in sys.argv:
