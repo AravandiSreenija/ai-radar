@@ -2,7 +2,7 @@
   "date": "2026-11-07",
   "label": "Saturday, 07 November 2026",
   "note": "Curated by claude-sonnet-5-5. Window: last 24h.",
-  "sources_ok": 29,
+  "sources_ok": 33,
   "sources_failed": [
     "Microsoft AI",
     "VentureBeat AI",
@@ -17,7 +17,7 @@
       "snippet": "model: add Kimi-K3.1-Pro text model ( #31779 ) model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no rope). The KDA (linear-attention) layers and the rest of the K3 skeleton - cross-layer residuals, latent MoE, situ, MLA output gate, full-rank KDA gate - are unchang",
       "category": "Models",
       "summary": "model: add Kimi-K3.1-Pro text model ( #31779 ) model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no...",
-      "why_it_matters": "llama.cpp adds support for the Kimi-K3.1-Pro text model (DSA replacing full-attention MLA layers), so you can run it locally.",
+      "why_it_matters": "llama.cpp adds support for the Kimi-K3.1-Pro text model, which uses DSA in place of full-attention MLA layers, so you can run it locally.",
       "score": 4
     },
     {
@@ -26,42 +26,20 @@
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/",
       "published": "2026-11-07T02:41:59+00:00",
       "snippet": "submitted by   /u/Izento [link]   [comments]",
-      "category": "Tools",
+      "category": "Research",
       "summary": "submitted by   /u/Izento [link]   [comments]",
-      "why_it_matters": "A benchmark of coding-agent harnesses (Claude Code, Codex, Kimi Code, Hermes and others) on Terminal Bench 2.1 and Deep SWE 1.1 helps you choose an agent.",
-      "score": 5
+      "why_it_matters": "A benchmark of agent harnesses (Claude Code, Codex, Kimi Code, Hermes and others) on Terminal Bench 2.1 and Deep SWE 1.1 helps you choose a coding agent.",
+      "score": 4
     },
     {
-      "source": "Hacker News (386 pts)",
+      "source": "Hacker News (405 pts)",
       "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
       "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
       "published": "2026-11-06T19:48:51+00:00",
       "snippet": "",
       "category": "Techniques",
       "summary": "",
-      "why_it_matters": "A cheaper model that can ask Opus for help reportedly matches Opus accuracy at 4x lower cost, which is a practical pattern for agent cost control.",
-      "score": 5
-    },
-    {
-      "source": "Hacker News (60 pts)",
-      "title": "Perplexity launches AI agents for work",
-      "url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
-      "published": "2026-11-06T17:59:41+00:00",
-      "snippet": "",
-      "category": "Tools",
-      "summary": "",
-      "why_it_matters": "Perplexity is launching AI agents for work, which adds a competitor in enterprise agent tools.",
-      "score": 4
-    },
-    {
-      "source": "Hacker News (83 pts)",
-      "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
-      "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
-      "published": "2026-11-06T22:50:43+00:00",
-      "snippet": "",
-      "category": "Security",
-      "summary": "",
-      "why_it_matters": "A report that ChatGPT silently passes data between connectors raises data-leak concerns for anyone building on or using connectors.",
+      "why_it_matters": "A cheaper model that can escalate to Opus for help reportedly matches Opus accuracy at 4x lower cost, a useful pattern for cost-aware agent design.",
       "score": 4
     },
     {
@@ -72,8 +50,41 @@
       "snippet": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
       "category": "Industry",
       "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
-      "why_it_matters": "OpenAI is reportedly raising another $11B at a $1.25T valuation, and Anthropic is nearing an IPO, so the competitive landscape is shifting.",
+      "why_it_matters": "OpenAI reportedly raised another $11B at a $1.25T valuation, which shows how much capital is still flowing to frontier labs.",
       "score": 4
+    },
+    {
+      "source": "Hacker News (60 pts)",
+      "title": "Perplexity launches AI agents for work",
+      "url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+      "published": "2026-11-06T17:59:41+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "Perplexity launched AI agents for work, adding to the competition in enterprise agent products.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (83 pts)",
+      "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+      "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+      "published": "2026-11-06T22:50:43+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "A report says ChatGPT silently passes data between connectors, which raises data-leakage concerns for anyone building on or using connector integrations.",
+      "score": 4
+    },
+    {
+      "source": "Hacker News (101 pts)",
+      "title": "Memorilla: Latent Semantic Memory for LLMs",
+      "url": "https://arxiv.org/abs/2610.21375",
+      "published": "2026-11-06T18:03:33+00:00",
+      "snippet": "",
+      "category": "Techniques",
+      "summary": "",
+      "why_it_matters": "Memorilla proposes latent semantic memory for LLMs, a new approach to agent memory that drew strong interest on Hacker News.",
+      "score": 3
     },
     {
       "source": "AWS Machine Learning",
@@ -83,8 +94,8 @@
       "snippet": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU.",
       "category": "Tools",
       "summary": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer...",
-      "why_it_matters": "SageMaker Inference now supports NVIDIA MIG GPU partitioning, which lets you raise GPU utilization on model endpoints.",
-      "score": 4
+      "why_it_matters": "SageMaker Inference now supports NVIDIA MIG GPU partitioning, so several model endpoints can share one GPU and raise utilization.",
+      "score": 3
     },
     {
       "source": "AWS Machine Learning",
@@ -94,33 +105,28 @@
       "snippet": "In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a second agent runs on Amazon EKS, and AgentCore Observability traces every allow and deny beside Okta's log in Amazon CloudWatch.",
       "category": "Security",
       "summary": "In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a second agent runs on...",
-      "why_it_matters": "Okta Cross App Access with Bedrock AgentCore Gateway shows a pattern for governing which agent may act for which user.",
+      "why_it_matters": "A guide to governing which agent can act for which user, using Okta Cross App Access with Bedrock AgentCore Gateway, addresses enterprise agent identity.",
       "score": 3
     },
     {
-      "source": "Hacker News (95 pts)",
-      "title": "Memorilla: Latent Semantic Memory for LLMs",
-      "url": "https://arxiv.org/abs/2610.21375",
-      "published": "2026-11-06T18:03:33+00:00",
-      "snippet": "",
-      "category": "Research",
-      "summary": "",
-      "why_it_matters": "Memorilla proposes latent semantic memory for LLMs and drew strong Hacker News interest, which is relevant to agent memory design.",
-      "score": 3
-    },
-    {
-      "source": "arXiv cs.AI",
-      "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
-      "url": "https://arxiv.org/abs/2611.06977",
-      "published": "2026-11-06T00:00:00-05:00",
-      "snippet": "arXiv:2611.06977v1 Announce Type: new Abstract: Reproducible LLM inference requires that a request produces the same output regardless of the other requests in the batch. Existing solutions pay for this in different ways: batch-invariant kernels constrain every operator, and isolating prefill with fixed-shape decode ({our CoRun-style baseline}) gives up shared prefill compute and pads decode. We p",
-      "category": "Research",
-      "summary": "arXiv:2611.06977v1 Announce Type: new Abstract: Reproducible LLM inference requires that a request produces the same output regardless of the other requests in the batch. Existing solutions pay for this in different ways: batch-invariant...",
-      "why_it_matters": "BlockLock aims for reproducible LLM inference that gives the same output regardless of batching, which helps with testing and debugging.",
+      "source": "TechCrunch AI",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "published": "2026-11-06T18:44:38+00:00",
+      "snippet": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+      "category": "Security",
+      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+      "why_it_matters": "Hundreds of exposed servers running the Artex AI hacking tool were found open to anyone online, a reminder of the risks of AI-assisted offensive tooling.",
       "score": 3
     }
   ],
   "more": [
+    {
+      "title": "Good Luck Getting a Cheap GPU. AMD Is a 'Data Center First Company,' CEO Says",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-07T04:05:32+00:00"
+    },
     {
       "title": "b12182",
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12182",
@@ -148,7 +154,7 @@
     {
       "title": "Outbound SIP calling is now available to all organizations",
       "url": "https://developers.openai.com/api/docs/guides/voice-sip",
-      "source": "Hacker News (59 pts)",
+      "source": "Hacker News (62 pts)",
       "published": "2026-11-06T23:03:55+00:00"
     },
     {
@@ -230,10 +236,10 @@
       "published": "2026-11-06T19:41:20+00:00"
     },
     {
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "source": "TechCrunch AI",
-      "published": "2026-11-06T18:44:38+00:00"
+      "title": "Tried the weight editing thing from the MIT post: Some cool applications, but nothing crazy",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpls17/tried_the_weight_editing_thing_from_the_mit_post/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-06T19:27:43+00:00"
     },
     {
       "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
@@ -316,7 +322,7 @@
     {
       "title": "Anthropic IPO buyers see valuation as low as $1.1T",
       "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-      "source": "Hacker News (258 pts)",
+      "source": "Hacker News (265 pts)",
       "published": "2026-11-06T16:54:36+00:00"
     },
     {
@@ -370,7 +376,7 @@
     {
       "title": "Swipeblocked: The phrases your iPhone won't suggest",
       "url": "https://swipeblocked.com/",
-      "source": "Hacker News (43 pts)",
+      "source": "Hacker News (45 pts)",
       "published": "2026-11-06T16:01:54+00:00"
     },
     {
@@ -410,6 +416,12 @@
       "published": "2026-11-06T15:07:47+00:00"
     },
     {
+      "title": "b12172",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12172",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-06T14:54:23+00:00"
+    },
+    {
       "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
       "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
       "source": "TechCrunch AI",
@@ -428,10 +440,34 @@
       "published": "2026-11-06T09:00:00-05:00"
     },
     {
+      "title": "Gemini Omni 1.2 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source": "Hacker News (311 pts)",
+      "published": "2026-11-06T13:35:27+00:00"
+    },
+    {
       "title": "Underdog shows off a 32MB speech model in new demo",
       "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
       "source": "TechCrunch AI",
       "published": "2026-11-06T13:02:16+00:00"
+    },
+    {
+      "title": "Physicl raises $10M to make the digital world real enough for robots",
+      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-06T13:00:00+00:00"
+    },
+    {
+      "title": "OpenAI Finds 948 Local Privilege Escalation Bugs in the Linux Kernel",
+      "url": "https://www.phoronix.com/news/OpenAI-948-Linux-LPE-Bugs",
+      "source": "Hacker News (33 pts)",
+      "published": "2026-11-06T12:59:43+00:00"
+    },
+    {
+      "title": "Protesters break into Microsoft data center site in Amsterdam",
+      "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "source": "The Verge AI",
+      "published": "2026-11-06T06:55:19-05:00"
     },
     {
       "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
@@ -446,40 +482,10 @@
       "published": "2026-11-06T08:00:00+00:00"
     },
     {
-      "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
-      "url": "https://arxiv.org/abs/2611.06962",
-      "source": "arXiv cs.AI",
-      "published": "2026-11-06T00:00:00-05:00"
-    },
-    {
-      "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
-      "url": "https://arxiv.org/abs/2611.06972",
-      "source": "arXiv cs.AI",
-      "published": "2026-11-06T00:00:00-05:00"
-    },
-    {
-      "title": "Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism",
-      "url": "https://arxiv.org/abs/2611.06984",
-      "source": "arXiv cs.AI",
-      "published": "2026-11-06T00:00:00-05:00"
-    },
-    {
-      "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
-      "url": "https://arxiv.org/abs/2611.06989",
-      "source": "arXiv cs.AI",
-      "published": "2026-11-06T00:00:00-05:00"
-    },
-    {
-      "title": "Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization",
-      "url": "https://arxiv.org/abs/2611.06995",
-      "source": "arXiv cs.AI",
-      "published": "2026-11-06T00:00:00-05:00"
-    },
-    {
-      "title": "Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity",
-      "url": "https://arxiv.org/abs/2611.06996",
-      "source": "arXiv cs.AI",
-      "published": "2026-11-06T00:00:00-05:00"
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-06T06:28:32+00:00"
     }
   ]
 }
