@@ -390,6 +390,9 @@ PAGE = """<!doctype html>
  .msg{white-space:pre-wrap;line-height:1.5;font-size:14px;padding:10px 12px;border-radius:10px;max-width:92%}
  .msg.bot{background:#f0f2fa;align-self:flex-start}
  .msg.me{background:var(--accent);color:#fff;align-self:flex-end}
+ .qchips{display:flex;flex-wrap:wrap;gap:8px}
+ .qchip{font:inherit;font-size:13px;color:var(--accent);background:#fff;border:1px solid var(--accent);border-radius:999px;padding:5px 12px;cursor:pointer}
+ .qchip:hover{background:var(--accent);color:#fff}
  .msg.note{font-size:12px;color:var(--mute);background:none;padding:0}
  .df{border-top:1px solid var(--line);padding:12px 18px}
  .dread{font-size:13px;color:var(--accent);font-weight:600;text-decoration:none}
@@ -487,6 +490,14 @@ function fill(node, text){
     else node.appendChild(document.createTextNode(part));
   });
 }
+const QUICK = [['More details', 'Give me more details about this story.'], ['Explain simply', 'Explain this simply, in plain language for a non-expert.'],
+  ['Key numbers', 'List the key numbers and results mentioned.'], ['Who is it for?', 'Who is this most relevant to, and why?']];
+function addQuickChips(){
+  const box = el('div', 'qchips');
+  QUICK.forEach(([label, q]) => { const b = el('button', 'qchip', label); b.type = 'button';
+    b.onclick = () => { if(!chat || chat.busy) return; box.remove(); addMsg('me', label); runAsk(q); }; box.appendChild(b); });
+  $('dm').appendChild(box); $('dm').scrollTop = $('dm').scrollHeight;
+}
 async function runAsk(question){
   if(!chat || chat.busy) return;
   chat.busy = true; $('dsend').disabled = true;
@@ -501,6 +512,7 @@ async function runAsk(question){
     fill(wait, d.answer);
     if(question) mine.history.push({role:'user', content:question});
     mine.history.push({role:'assistant', content:d.answer});
+    if(!question) addQuickChips();
     if(d.source === 'excerpt') addMsg('note', 'Based on the feed excerpt only - the full article could not be read.');
   }catch(e){
     if(chat === mine) wait.textContent = 'Sorry - Radar chat is unavailable right now. Try again in a moment, or use Read full article.';
