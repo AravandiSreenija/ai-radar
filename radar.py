@@ -339,7 +339,7 @@ def esc(s):
 
 ARCHIVE = ROOT / "archive"
 KEEP_DAYS = 30
-MORE_LIMIT = 60
+MORE_LIMIT = 100
 
 PAGE = """<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -530,7 +530,7 @@ def main():
     ARCHIVE.mkdir(exist_ok=True)
     SITE.mkdir(exist_ok=True)
     shown_urls = {t["url"] for t in top}
-    more = balanced([i for i in items if i["url"] not in shown_urls], 8, MORE_LIMIT)
+    more = balanced([i for i in items if i["url"] not in shown_urls], 10, MORE_LIMIT)
     record = day_record(top, now.strftime("%Y-%m-%d"), date_str, note, sources_ok,
                         [f.split(":")[0] for f in failed], more)
     (ARCHIVE / f"{record['date']}.json").write_text(json.dumps(record, indent=2), encoding="utf-8")
