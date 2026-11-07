@@ -1,8 +1,8 @@
 {
   "date": "2026-11-07",
   "label": "Saturday, 07 November 2026",
-  "note": "Curated by claude-sonnet-5-5. Window: last 24h.",
-  "sources_ok": 33,
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 25 candidates.",
+  "sources_ok": 34,
   "sources_failed": [
     "Microsoft AI",
     "VentureBeat AI",
@@ -17,40 +17,7 @@
       "snippet": "model: add Kimi-K3.1-Pro text model ( #31779 ) model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no rope). The KDA (linear-attention) layers and the rest of the K3 skeleton - cross-layer residuals, latent MoE, situ, MLA output gate, full-rank KDA gate - are unchang",
       "category": "Models",
       "summary": "model: add Kimi-K3.1-Pro text model ( #31779 ) model: add Kimi-K3.1-Pro text model K3 with the full-attention MLA layers replaced by DSA: on this checkpoint 24 of the 93 layers carry a lightning indexer (32 heads x 128, top_k 2048, no...",
-      "why_it_matters": "llama.cpp adds support for the Kimi-K3.1-Pro text model, which uses DSA in place of full-attention MLA layers, so you can run it locally.",
-      "score": 4
-    },
-    {
-      "source": "Reddit r/LocalLLaMA",
-      "title": "Harness Leaderboard - Kimi Code, Hermes, Pi, Claude Code, Codex, and Others Were Benchmarked Against Terminal Bench 2.1 & Deep SWE 1.1",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/",
-      "published": "2026-11-07T02:41:59+00:00",
-      "snippet": "submitted by   /u/Izento [link]   [comments]",
-      "category": "Research",
-      "summary": "submitted by   /u/Izento [link]   [comments]",
-      "why_it_matters": "A benchmark of agent harnesses (Claude Code, Codex, Kimi Code, Hermes and others) on Terminal Bench 2.1 and Deep SWE 1.1 helps you choose a coding agent.",
-      "score": 4
-    },
-    {
-      "source": "Hacker News (405 pts)",
-      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "published": "2026-11-06T19:48:51+00:00",
-      "snippet": "",
-      "category": "Techniques",
-      "summary": "",
-      "why_it_matters": "A cheaper model that can escalate to Opus for help reportedly matches Opus accuracy at 4x lower cost, a useful pattern for cost-aware agent design.",
-      "score": 4
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "published": "2026-11-06T22:53:46+00:00",
-      "snippet": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
-      "category": "Industry",
-      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
-      "why_it_matters": "OpenAI reportedly raised another $11B at a $1.25T valuation, which shows how much capital is still flowing to frontier labs.",
+      "why_it_matters": "llama.cpp adds support for Kimi-K3.1-Pro, a new model that swaps full-attention MLA layers for DSA, so you can run it locally.",
       "score": 4
     },
     {
@@ -61,29 +28,51 @@
       "snippet": "",
       "category": "Tools",
       "summary": "",
-      "why_it_matters": "Perplexity launched AI agents for work, adding to the competition in enterprise agent products.",
-      "score": 3
+      "why_it_matters": "Perplexity launched AI agents for work, another entrant in the workplace agent market.",
+      "score": 4
     },
     {
-      "source": "Hacker News (83 pts)",
+      "source": "Hacker News (409 pts)",
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "published": "2026-11-06T19:48:51+00:00",
+      "snippet": "",
+      "category": "Techniques",
+      "summary": "",
+      "why_it_matters": "A cheaper-model setup that can ask Opus for help reportedly matches Opus accuracy at 4x lower cost, a practical agent cost pattern.",
+      "score": 4
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Harness Leaderboard - Kimi Code, Hermes, Pi, Claude Code, Codex, and Others Were Benchmarked Against Terminal Bench 2.1 & Deep SWE 1.1",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/",
+      "published": "2026-11-07T02:41:59+00:00",
+      "snippet": "submitted by   /u/Izento [link]   [comments]",
+      "category": "Research",
+      "summary": "submitted by   /u/Izento [link]   [comments]",
+      "why_it_matters": "Benchmarks agent harnesses (Claude Code, Codex, Kimi Code and others) on Terminal Bench 2.1 and Deep SWE 1.1, useful for choosing coding agents.",
+      "score": 4
+    },
+    {
+      "source": "Hacker News (84 pts)",
       "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
       "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
       "published": "2026-11-06T22:50:43+00:00",
       "snippet": "",
       "category": "Security",
       "summary": "",
-      "why_it_matters": "A report says ChatGPT silently passes data between connectors, which raises data-leakage concerns for anyone building on or using connector integrations.",
+      "why_it_matters": "A report says ChatGPT silently passes data between connectors, raising data-leak concerns for anyone building on connectors.",
       "score": 4
     },
     {
-      "source": "Hacker News (101 pts)",
-      "title": "Memorilla: Latent Semantic Memory for LLMs",
-      "url": "https://arxiv.org/abs/2610.21375",
-      "published": "2026-11-06T18:03:33+00:00",
-      "snippet": "",
-      "category": "Techniques",
-      "summary": "",
-      "why_it_matters": "Memorilla proposes latent semantic memory for LLMs, a new approach to agent memory that drew strong interest on Hacker News.",
+      "source": "TechCrunch AI",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "published": "2026-11-06T22:53:46+00:00",
+      "snippet": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "category": "Industry",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "why_it_matters": "OpenAI reportedly raised another $11B at a $1.25T valuation, with Anthropic nearing an IPO, which shows where the AI market is heading.",
       "score": 3
     },
     {
@@ -94,7 +83,7 @@
       "snippet": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU.",
       "category": "Tools",
       "summary": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer...",
-      "why_it_matters": "SageMaker Inference now supports NVIDIA MIG GPU partitioning, so several model endpoints can share one GPU and raise utilization.",
+      "why_it_matters": "SageMaker Inference now supports NVIDIA MIG partitioning, which can raise GPU utilization and cut cost for model endpoints.",
       "score": 3
     },
     {
@@ -103,24 +92,149 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/",
       "published": "2026-11-06T17:09:23+00:00",
       "snippet": "In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a second agent runs on Amazon EKS, and AgentCore Observability traces every allow and deny beside Okta's log in Amazon CloudWatch.",
-      "category": "Security",
+      "category": "Techniques",
       "summary": "In Part 1 you built one governed agent. Part 2 scales the pattern to an enterprise: Amazon Bedrock AgentCore Gateway becomes the single front door and redeems Okta's grant, Cedar policies bind each tool to the agent, a second agent runs on...",
-      "why_it_matters": "A guide to governing which agent can act for which user, using Okta Cross App Access with Bedrock AgentCore Gateway, addresses enterprise agent identity.",
+      "why_it_matters": "Shows how to govern agent identity and access at enterprise scale with Okta Cross App Access and Bedrock AgentCore Gateway.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (101 pts)",
+      "title": "Memorilla: Latent Semantic Memory for LLMs",
+      "url": "https://arxiv.org/abs/2610.21375",
+      "published": "2026-11-06T18:03:33+00:00",
+      "snippet": "",
+      "category": "Research",
+      "summary": "",
+      "why_it_matters": "Memorilla proposes latent semantic memory for LLMs, relevant to agent memory design.",
       "score": 3
     },
     {
       "source": "TechCrunch AI",
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "published": "2026-11-06T18:44:38+00:00",
-      "snippet": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
-      "category": "Security",
-      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
-      "why_it_matters": "Hundreds of exposed servers running the Artex AI hacking tool were found open to anyone online, a reminder of the risks of AI-assisted offensive tooling.",
+      "title": "How a Blue Wave midterm might reshape the AI industry",
+      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "published": "2026-11-06T18:00:00+00:00",
+      "snippet": "Democrats\u2019 historic victories in this week\u2019s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday \u2014 in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren\u2019t on the ballot directly, they were a [\u2026]",
+      "category": "Industry",
+      "summary": "Democrats\u2019 historic victories in this week\u2019s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday \u2014 in all but one, the majority voted to impose more...",
+      "why_it_matters": "Democratic midterm gains may bring AI regulation and data center scrutiny that affect deployers.",
       "score": 3
     }
   ],
   "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-07T06:04:40.351588+00:00"
+    },
+    {
+      "title": "AI industry faces new political reality after Democratic gains in midterms",
+      "url": "https://nbcmontana.com/news/nation-world/ai-industry-faces-new-political-reality-after-democratic-gains-in-midterms-data-centers-moratorium-regulations",
+      "source": "Web: nbcmontana.com",
+      "published": "2026-11-07T06:04:40.351588+00:00"
+    },
+    {
+      "title": "US State AI Laws in Force: What an Enterprise Deployer Actually Owes",
+      "url": "https://daily.dev/posts/us-state-ai-laws-in-force-what-an-enterprise-deployer-actually-owes-bsz5h2fwv",
+      "source": "Web: daily.dev",
+      "published": "2026-11-07T06:04:40.351588+00:00"
+    },
+    {
+      "title": "Big AI is about to get a big reality check",
+      "url": "https://pcworld.com/article/3277948/big-ai-is-about-to-get-a-big-reality-check.html",
+      "source": "Web: pcworld.com",
+      "published": "2026-11-07T06:04:40.351588+00:00"
+    },
+    {
+      "title": "Democrats planning flood of AI bills when they take control of Congress By Reuters",
+      "url": "https://investing.com/news/stock-market-news/democrats-planning-flood-of-ai-bills-when-they-take-control-of-congress-5007213",
+      "source": "Web: investing.com",
+      "published": "2026-11-07T06:04:40.351588+00:00"
+    },
+    {
+      "title": "News & Analysis as of",
+      "url": "https://www.jdsupra.com/topics/algorithms/technology-sector/regulatory-requirements",
+      "source": "Web: jdsupra.com",
+      "published": "2026-11-07T06:04:40.351588+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-07T06:04:40.351201+00:00"
+    },
+    {
+      "title": "Qwen",
+      "url": "https://en.wikipedia.org/wiki/Qwen",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-07T06:04:40.351201+00:00"
+    },
+    {
+      "title": "Qwen4 Release: 4 Variants Named, 0 Open Weights [2026]",
+      "url": "https://tech-insider.org/qwen4-four-variants-no-confirmed-open-weights-alibaba-2026/",
+      "source": "Web: tech-insider.org",
+      "published": "2026-11-07T06:04:40.351201+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-07T06:04:40.350742+00:00"
+    },
+    {
+      "title": "Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-07T06:04:40.350742+00:00"
+    },
+    {
+      "title": "AI Agents News Brief: November 6, 2026 - Acquisitions, Security, and Development Tools",
+      "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-november-6-2026",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-07T06:04:40.350742+00:00"
+    },
+    {
+      "title": "DEV Community",
+      "url": "https://dev.to/levi_ezra_115d2257a6f1f16/top-ai-agent-frameworks-for-developers-1el6",
+      "source": "Web: dev.to",
+      "published": "2026-11-07T06:04:40.350742+00:00"
+    },
+    {
+      "title": "Model Context Protocol",
+      "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-07T06:04:40.350742+00:00"
+    },
+    {
+      "title": "Release notes",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Web: support.claude.com",
+      "published": "2026-11-07T06:04:40.350053+00:00"
+    },
+    {
+      "title": "OpenAI Drops a Hands-On AI Coder",
+      "url": "https://theaiedge.substack.com/p/openai-drops-a-hands-on-ai-coder",
+      "source": "Web: theaiedge.substack.com",
+      "published": "2026-11-07T06:04:40.350053+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-07T06:04:40.349029+00:00"
+    },
+    {
+      "title": "AI Timeline",
+      "url": "https://nhlocal.github.io/AiTimeline/",
+      "source": "Web: nhlocal.github.io",
+      "published": "2026-11-07T06:04:40.349029+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-07T06:04:40.349029+00:00"
+    },
     {
       "title": "Good Luck Getting a Cheap GPU. AMD Is a 'Data Center First Company,' CEO Says",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/",
@@ -242,6 +356,12 @@
       "published": "2026-11-06T19:27:43+00:00"
     },
     {
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-06T18:44:38+00:00"
+    },
+    {
       "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
       "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
       "source": "TechCrunch AI",
@@ -252,12 +372,6 @@
       "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
       "source": "The Verge AI",
       "published": "2026-11-06T13:10:10-05:00"
-    },
-    {
-      "title": "How a Blue Wave midterm might reshape the AI industry",
-      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
-      "source": "TechCrunch AI",
-      "published": "2026-11-06T18:00:00+00:00"
     },
     {
       "title": "Taxonomy of agentic primitives in Amazon Quick",
@@ -370,13 +484,13 @@
     {
       "title": "Reading the Anthropic S-1, with Zvi Mowshowitz",
       "url": "https://www.complexsystemspodcast.com/episodes/reading-the-anthropic-s-1-with-zvi-mowshowitz/",
-      "source": "Hacker News (33 pts)",
+      "source": "Hacker News (34 pts)",
       "published": "2026-11-06T16:04:58+00:00"
     },
     {
       "title": "Swipeblocked: The phrases your iPhone won't suggest",
       "url": "https://swipeblocked.com/",
-      "source": "Hacker News (45 pts)",
+      "source": "Hacker News (46 pts)",
       "published": "2026-11-06T16:01:54+00:00"
     },
     {
@@ -486,6 +600,42 @@
       "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
       "source": "TechCrunch AI",
       "published": "2026-11-06T06:28:32+00:00"
+    },
+    {
+      "title": "Google Cloud launches AI agent engine & governance",
+      "url": "https://securitybrief.asia/story/google-cloud-launches-ai-agent-engine-governance",
+      "source": "Web: securitybrief.asia",
+      "published": "2026-11-06T06:04:40.350742+00:00"
+    },
+    {
+      "title": "Understanding the v2.3.0 MCP Server Release and Its Granular Controls",
+      "url": "https://forkast.news/understanding-the-v2-3-0-mcp-server-release-and-its-granular-controls",
+      "source": "Web: forkast.news",
+      "published": "2026-11-06T06:04:40.350742+00:00"
+    },
+    {
+      "title": "New AI Models: Live Release Tracker (Last 24 Hours)",
+      "url": "https://benchlm.ai/model-updates",
+      "source": "Web: benchlm.ai",
+      "published": "2026-11-06T06:04:40.349029+00:00"
+    },
+    {
+      "title": "AI Model Releases Timeline: Latest Launches, Updated Daily \u2014 PromptZone - AI Prompts, Guides and Tools for Builders",
+      "url": "https://www.promptzone.com/ai-model-releases",
+      "source": "Web: promptzone.com",
+      "published": "2026-11-06T06:04:40.349029+00:00"
+    },
+    {
+      "title": "New Models Today \u2014 AI & LLM Releases Last 24 Hours",
+      "url": "https://pricepertoken.com/news/model-releases",
+      "source": "Web: pricepertoken.com",
+      "published": "2026-11-05T06:04:40.349029+00:00"
+    },
+    {
+      "title": "New AI Models \u2014 November 2026 LLM Releases",
+      "url": "https://llmgateway.io/timeline",
+      "source": "Web: llmgateway.io",
+      "published": "2026-11-05T06:04:40.349029+00:00"
     }
   ]
 }
