@@ -354,6 +354,9 @@ PAGE = """<!doctype html>
  .bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
  .bar select,.bar input{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:#fff}
  .bar input{flex:1;min-width:160px}
+ .bar .nav{font:inherit;font-size:20px;line-height:1;padding:6px 14px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--accent);cursor:pointer}
+ .bar .nav:hover:not(:disabled){background:var(--accent);color:#fff}
+ .bar .nav:disabled{color:#c3c7d4;cursor:default}
  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
  .chips button{font:inherit;font-size:13px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 12px;cursor:pointer}
  .chips button.on{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -376,7 +379,7 @@ PAGE = """<!doctype html>
 </style></head><body>
 <header><h1>AI Radar</h1><p id="sub"></p></header>
 <main>
- <div class="bar"><select id="day" aria-label="Day"></select>
+ <div class="bar"><button id="prev" class="nav" aria-label="Previous day" title="Previous day">&#8249;</button><select id="day" aria-label="Day"></select><button id="next" class="nav" aria-label="Next day" title="Next day">&#8250;</button>
   <input id="q" type="search" placeholder="Search stories, sources..." aria-label="Search"></div>
  <div class="chips" id="chips"></div>
  <div id="list"></div>
@@ -393,6 +396,9 @@ const cleanSrc = s => s.replace(/\\s*\\(\\d+ pts\\)/, '');
 const safe = u => /^https?:\\/\\//.test(u) ? u : '#';
 function render(){
   const day = DAYS[di];
+  $('day').value = di;
+  $('prev').disabled = di >= DAYS.length - 1;   // older days are further down the list
+  $('next').disabled = di <= 0;
   const base = day.items.slice().sort((a,b) => b.score - a.score).slice(0, 10);
   $('sub').textContent = day.label + ' - ' + base.length + ' stories';
   const cats = ['All', ...new Set(base.map(i => i.category))];
@@ -436,6 +442,8 @@ function render(){
   f.appendChild(el('div','','Story picks, scores and "why it matters" lines are AI-generated. The text under each headline is the start of the article itself.'));
 }
 DAYS.forEach((d,i) => { const o = el('option','',d.label); o.value = i; $('day').appendChild(o); });
+$('prev').onclick = () => { if(di < DAYS.length-1){ di++; cat='All'; moreN=15; render(); } };
+$('next').onclick = () => { if(di > 0){ di--; cat='All'; moreN=15; render(); } };
 $('day').onchange = e => { di = +e.target.value; cat='All'; moreN=15; render(); };
 $('q').oninput = e => { q = e.target.value; moreN=15; render(); };
 render();
