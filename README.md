@@ -13,6 +13,7 @@ static website and a daily email, every link pointing to the original source.
    duplicates removed by URL and normalised title.
 3. **Curate** - Claude receives numbered candidates and returns ids, a category, a short
    summary and a "why it matters" line for a reader profile you set.
+   - **Personas:** the same Claude call also scores each story 1-5 for a developer, a product manager and an executive and writes a persona-specific "why it matters". The page lets you switch views.
 4. **Publish** - `site/index.html` (GitHub Pages) and an HTML email.
 5. **Schedule** - a GitHub Actions cron runs it every morning.
 
@@ -21,6 +22,12 @@ static website and a daily email, every link pointing to the original source.
 - Time-window filter and dedupe before the model sees anything.
 - One failing source never stops a run.
 - Pages carry a note that summaries are AI-generated.
+
+## Features
+- Top-10 view plus **Developer / Product / Leadership** persona views
+- Category filters, search, relevance badges, pinned top story
+- 30-day archive (the workflow commits `archive/<date>.json`) with a day picker
+- Source health in the footer
 
 ## Run locally
 
@@ -42,5 +49,4 @@ Tune with `RADAR_PROFILE`, `RADAR_HOURS`, `RADAR_TOP_N`, `RADAR_MODEL`.
 
 ## Roadmap
 - "Ask the radar" chat grounded in the collected items, with citations
-- Personas (developer / product / leadership) like the tabs in a larger internal tool I worked on
 - Public subscribe form with unsubscribe
