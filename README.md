@@ -13,8 +13,10 @@ static website and a daily email, every link pointing to the original source.
    noisy feed from crowding out the rest.
 2. **Filter and dedupe** - only items from the last 24h (widened once on quiet days),
    duplicates removed by URL and normalised title.
-3. **Curate** - Claude receives numbered candidates and returns ids, a category, a short
-   summary and a "why it matters" line for a reader profile you set.
+3. **Curate** - Claude receives numbered candidates and returns only ids, a category, a 1-5 score
+   and a short "why it matters" line for a reader profile you set. The text shown under each
+   headline is the start of the article's own feed text (cut at a word boundary), not a model
+   rewrite - cheaper, and it cannot misstate the article.
 4. **Publish** - `site/index.html` (GitHub Pages) and an HTML email.
 5. **Schedule** - a GitHub Actions cron runs it every morning.
 
@@ -22,7 +24,7 @@ static website and a daily email, every link pointing to the original source.
 - Claude returns **ids only**; titles and URLs come from the fetched feeds, so links cannot be invented.
 - Time-window filter and dedupe before the model sees anything.
 - One failing source never stops a run.
-- Pages carry a note that summaries are AI-generated.
+- Pages state which parts are AI-generated (picks, scores, why-it-matters) and which are the article's own words.
 
 ## Features
 - A **More stories** list (up to 60 extra headlines, with Load more) below the curated top 10; clearly labelled as not AI-curated

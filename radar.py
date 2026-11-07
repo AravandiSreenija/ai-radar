@@ -246,6 +246,15 @@ def balanced(items, per_source, limit):
 
 
 # ------------------------------------------------------------------- ranking
+def lead(text, limit=240):
+    """First lines of the article's own feed text, cut at a word boundary. No model rewrite."""
+    text = (text or "").strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:-")
+    return cut + "..."
+
+
 def _score(v):
     """Clamp whatever the model returned to an int 1-5 (default 3)."""
     try:
@@ -259,7 +268,7 @@ def rank_with_claude(items, top_n):
 
     pool = balanced(items, 6, 90)
     listing = "\n".join(
-        f"[{i}] ({it['source']}) {it['title']} - {it['snippet'][:200]}"
+        f"[{i}] ({it['source']}) {it['title']} - {it['snippet'][:160]}"
         for i, it in enumerate(pool)
     )
     prompt = f"""You curate a daily AI news digest for this reader:
@@ -272,7 +281,7 @@ minor patch releases. Use ONLY the information given. Never invent facts.
 
 Return ONLY a JSON array of up to {top_n} objects, best first:
 {{"id": <number from brackets>, "category": "Models|Tools|Techniques|Industry|Security|Research",
- "summary": "1-2 plain sentences, factual", "why_it_matters": "1 sentence for this reader",
+ "why_it_matters": "1 short sentence for this reader",
  "score": <1-5 relevance to the reader>}}
 
 Candidates:
@@ -297,7 +306,7 @@ Candidates:
         used.add(i)
         it = dict(pool[i])  # URL/title/source come from the feed, not the model
         it.update(category=str(p.get("category", "Industry"))[:20],
-                  summary=str(p.get("summary", ""))[:400],
+                  summary=lead(pool[i]["snippet"]),
                   why_it_matters=str(p.get("why_it_matters", ""))[:300],
                   score=_score(p.get("score")))
         out.append(it)
@@ -312,7 +321,7 @@ def rank_fallback(items, top_n):
         if per_source.get(s, 0) >= 2:
             continue
         per_source[s] = per_source.get(s, 0) + 1
-        out.append(dict(it, category="News", summary=it["snippet"][:240] or it["title"],
+        out.append(dict(it, category="News", summary=lead(it["snippet"]),
                         why_it_matters="", score=3))
         if len(out) == top_n:
             break
@@ -404,7 +413,7 @@ function render(){
     m.appendChild(el('span','',fmt(i.published)));
     c.appendChild(m);
     const h = el('h2'); const a = el('a','',i.title); a.href=safe(i.url); a.target='_blank'; a.rel='noopener noreferrer'; h.appendChild(a); c.appendChild(h);
-    c.appendChild(el('p','',i.summary));
+    if(i.summary) c.appendChild(el('p','',i.summary));
     const why = i.why_it_matters;
     if(why){ const w = el('p','why'); w.appendChild(el('b','','Why it matters: ')); w.appendChild(document.createTextNode(why)); c.appendChild(w); }
     const r = el('a','read','Read source \\u2192'); r.href=safe(i.url); r.target='_blank'; r.rel='noopener noreferrer'; c.appendChild(r);
@@ -425,7 +434,7 @@ function render(){
   const f = $('foot'); f.replaceChildren();
   f.appendChild(el('div','',day.note));
   f.appendChild(el('div','','Sources: ' + day.sources_ok + ' OK' + (day.sources_failed.length ? ', failed: ' + day.sources_failed.join(', ') : ', none failed')));
-  f.appendChild(el('div','','Summaries are AI-generated from the linked sources - always check the source.'));
+  f.appendChild(el('div','','Story picks, scores and "why it matters" lines are AI-generated. The text under each headline is the start of the article itself.'));
 }
 DAYS.forEach((d,i) => { const o = el('option','',d.label); o.value = i; $('day').appendChild(o); });
 $('day').onchange = e => { di = +e.target.value; cat='All'; moreN=15; render(); };
