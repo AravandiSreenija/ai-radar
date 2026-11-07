@@ -348,20 +348,22 @@ PAGE = """<!doctype html>
 <style>
  :root{--bg:#f5f6fa;--card:#fff;--ink:#1c1e26;--mute:#6a7080;--line:#e3e6ee;--accent:#3b4bd8}
  body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink);margin:0}
- header{background:#1c1e26;color:#fff;padding:26px 20px;text-align:center}
- header h1{margin:0 0 4px;font-size:28px} header p{margin:0;opacity:.75}
- main{max-width:780px;margin:20px auto;padding:0 16px}
- .bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
- .bar select,.bar input{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:#fff}
- .bar input{flex:1;min-width:160px}
- .bar .nav{font:inherit;font-size:20px;line-height:1;padding:6px 14px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--accent);cursor:pointer}
- .bar .nav:hover:not(:disabled){background:var(--accent);color:#fff}
- .bar .nav:disabled{color:#c3c7d4;cursor:default}
+ header{background:#1c1e26;color:#fff;padding:22px 20px 20px;text-align:left}
+ .wrap{max-width:920px;margin:0 auto}
+ header h1{margin:0 0 2px;font-size:28px} header p{margin:0;opacity:.75;font-size:14px}
+ main{max-width:920px;margin:20px auto;padding:0 20px}
+ .days{display:flex;gap:8px;min-width:0;margin-top:14px}
+ .daylabel{min-width:250px;display:flex;align-items:center;justify-content:center;font-size:14px;padding:8px 14px;border:1px solid #3a3f4f;border-radius:8px;background:#2a2e3a;color:#fff}
+ .days .nav{font:inherit;font-size:20px;line-height:1;padding:6px 14px;border:1px solid #3a3f4f;border-radius:8px;background:#2a2e3a;color:#fff;cursor:pointer}
+ .days .nav:hover:not(:disabled){background:var(--accent);border-color:var(--accent)}
+ .days .nav:disabled{color:#6a7080;cursor:default}
+ @media(max-width:600px){.card.top h2{font-size:21px}.card.top{padding:18px 0 18px 14px}.daylabel{flex:1;min-width:0;font-size:13px;padding:8px 6px}header,main{padding-left:16px;padding-right:16px}}
  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
  .chips button{font:inherit;font-size:13px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 12px;cursor:pointer}
  .chips button.on{background:var(--accent);border-color:var(--accent);color:#fff}
- .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:14px}
- .card.top{padding:22px 24px;border-left:4px solid var(--accent)}
+ .card{padding:20px 0;border-bottom:1px solid var(--line)}
+ .card p{max-width:900px}
+ .card.top{padding:22px 0 22px 18px;border-left:4px solid var(--accent)}
  .kicker{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
  .by{font-size:12px;color:var(--mute);margin:2px 0 8px}
  .card.top h2{font-size:25px;line-height:1.25}
@@ -375,12 +377,10 @@ PAGE = """<!doctype html>
  .loadmore{display:block;width:100%;margin:18px 0 6px;font:inherit;font-weight:600;padding:12px;border:1.5px solid var(--accent);color:var(--accent);background:transparent;border-radius:10px;cursor:pointer;transition:.15s}
  .loadmore:hover{background:var(--accent);color:#fff}
  .empty{color:var(--mute);text-align:center;padding:30px}
- footer{text-align:center;font-size:12px;color:#8a90a0;padding:20px;max-width:780px;margin:0 auto}
+ footer{text-align:center;font-size:12px;color:#8a90a0;padding:20px;max-width:920px;margin:0 auto}
 </style></head><body>
-<header><h1>AI Radar</h1><p id="sub"></p></header>
+<header><div class="wrap"><h1>AI Radar</h1><p id="sub"></p><div class="days"><button id="prev" class="nav" aria-label="Previous day" title="Previous day">&#8249;</button><div id="daylabel" class="daylabel" aria-live="polite"></div><button id="next" class="nav" aria-label="Next day" title="Next day">&#8250;</button></div></div></header>
 <main>
- <div class="bar"><button id="prev" class="nav" aria-label="Previous day" title="Previous day">&#8249;</button><select id="day" aria-label="Day"></select><button id="next" class="nav" aria-label="Next day" title="Next day">&#8250;</button>
-  <input id="q" type="search" placeholder="Search stories, sources..." aria-label="Search"></div>
  <div class="chips" id="chips"></div>
  <div id="list"></div>
 </main>
@@ -396,7 +396,7 @@ const cleanSrc = s => s.replace(/\\s*\\(\\d+ pts\\)/, '');
 const safe = u => /^https?:\\/\\//.test(u) ? u : '#';
 function render(){
   const day = DAYS[di];
-  $('day').value = di;
+  $('daylabel').textContent = day.label;
   $('prev').disabled = di >= DAYS.length - 1;   // older days are further down the list
   $('next').disabled = di <= 0;
   const base = day.items.slice().sort((a,b) => b.score - a.score).slice(0, 10);
@@ -441,11 +441,8 @@ function render(){
   f.appendChild(el('div','','Sources: ' + day.sources_ok + ' OK' + (day.sources_failed.length ? ', failed: ' + day.sources_failed.join(', ') : ', none failed')));
   f.appendChild(el('div','','Story picks, scores and "why it matters" lines are AI-generated. The text under each headline is the start of the article itself.'));
 }
-DAYS.forEach((d,i) => { const o = el('option','',d.label); o.value = i; $('day').appendChild(o); });
 $('prev').onclick = () => { if(di < DAYS.length-1){ di++; cat='All'; moreN=15; render(); } };
 $('next').onclick = () => { if(di > 0){ di--; cat='All'; moreN=15; render(); } };
-$('day').onchange = e => { di = +e.target.value; cat='All'; moreN=15; render(); };
-$('q').oninput = e => { q = e.target.value; moreN=15; render(); };
 render();
 </script></body></html>"""
 
