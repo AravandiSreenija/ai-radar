@@ -6,7 +6,7 @@ on:
   workflow_dispatch:        # lets you run it manually from the Actions tab
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -30,6 +30,12 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: python radar.py
+      - name: Save today's archive
+        run: |
+          git config user.name "ai-radar-bot"
+          git config user.email "ai-radar-bot@users.noreply.github.com"
+          git add archive
+          git diff --cached --quiet || (git commit -m "archive $(date -u +%F)" && git push)
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

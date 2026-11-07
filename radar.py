@@ -287,38 +287,120 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
-def render_site(items, date_str, note):
-    cards = "\n".join(f"""
-    <article class="card">
-      <div class="meta"><span class="chip">{esc(it['category'])}</span>
-        <span>{esc(it['source'])}</span>
-        <span>{it['published'].strftime('%d %b, %H:%M UTC')}</span></div>
-      <h2><a href="{esc(it['url'])}" target="_blank" rel="noopener noreferrer">{esc(it['title'])}</a></h2>
-      <p>{esc(it['summary'])}</p>
-      {f'<p class="why"><b>Why it matters:</b> {esc(it["why_it_matters"])}</p>' if it['why_it_matters'] else ''}
-      <a class="read" href="{esc(it['url'])}" target="_blank" rel="noopener noreferrer">Read source &rarr;</a>
-    </article>""" for it in items) or "<p>No new items in this window.</p>"
-    return f"""<!doctype html>
+ARCHIVE = ROOT / "archive"
+KEEP_DAYS = 30
+
+PAGE = """<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI Radar - {esc(date_str)}</title>
+<title>AI Radar</title>
 <style>
- body{{font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#f5f6fa;color:#1c1e26;margin:0}}
- header{{background:#1c1e26;color:#fff;padding:28px 20px;text-align:center}}
- header h1{{margin:0 0 6px;font-size:28px}} header p{{margin:0;opacity:.75}}
- main{{max-width:760px;margin:24px auto;padding:0 16px}}
- .card{{background:#fff;border:1px solid #e3e6ee;border-radius:12px;padding:18px 20px;margin-bottom:14px}}
- .meta{{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;color:#6a7080;align-items:center}}
- .chip{{background:#e8ecff;color:#3b4bd8;border-radius:999px;padding:2px 10px;font-weight:600}}
- h2{{font-size:18px;margin:10px 0 6px}} h2 a{{color:inherit;text-decoration:none}} h2 a:hover{{text-decoration:underline}}
- p{{margin:6px 0;line-height:1.5}} .why{{color:#3a3f4f;font-size:14px}}
- .read{{font-size:14px;color:#3b4bd8;text-decoration:none;font-weight:600}}
- footer{{text-align:center;font-size:12px;color:#8a90a0;padding:20px}}
+ :root{--bg:#f5f6fa;--card:#fff;--ink:#1c1e26;--mute:#6a7080;--line:#e3e6ee;--accent:#3b4bd8}
+ body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink);margin:0}
+ header{background:#1c1e26;color:#fff;padding:26px 20px;text-align:center}
+ header h1{margin:0 0 4px;font-size:28px} header p{margin:0;opacity:.75}
+ main{max-width:780px;margin:20px auto;padding:0 16px}
+ .bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+ .bar select,.bar input{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:#fff}
+ .bar input{flex:1;min-width:160px}
+ .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+ .chips button{font:inherit;font-size:13px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 12px;cursor:pointer}
+ .chips button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+ .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:14px}
+ .card.top{border:2px solid var(--accent)}
+ .meta{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--mute);align-items:center}
+ .chip{background:#e8ecff;color:var(--accent);border-radius:999px;padding:2px 10px;font-weight:600}
+ .badge{background:#fff3d6;color:#8a5a00;border-radius:999px;padding:2px 10px;font-weight:600}
+ .star{background:var(--accent);color:#fff;border-radius:999px;padding:2px 10px;font-weight:600}
+ h2{font-size:18px;margin:10px 0 6px} h2 a{color:inherit;text-decoration:none} h2 a:hover{text-decoration:underline}
+ p{margin:6px 0;line-height:1.5} .why{color:#3a3f4f;font-size:14px}
+ .read{font-size:14px;color:var(--accent);text-decoration:none;font-weight:600}
+ .empty{color:var(--mute);text-align:center;padding:30px}
+ footer{text-align:center;font-size:12px;color:#8a90a0;padding:20px;max-width:780px;margin:0 auto}
 </style></head><body>
-<header><h1>AI Radar</h1><p>Top {len(items)} AI stories &middot; {esc(date_str)}</p></header>
-<main>{cards}</main>
-<footer>{esc(note)}<br>Summaries are AI-generated from the linked sources - always check the source.</footer>
-</body></html>"""
+<header><h1>AI Radar</h1><p id="sub"></p></header>
+<main>
+ <div class="bar"><select id="day" aria-label="Day"></select>
+  <input id="q" type="search" placeholder="Search stories, sources..." aria-label="Search"></div>
+ <div class="chips" id="chips"></div>
+ <div id="list"></div>
+</main>
+<footer id="foot"></footer>
+<noscript><p class="empty">Please enable JavaScript to view AI Radar.</p></noscript>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const DAYS = JSON.parse(document.getElementById('data').textContent);
+let di = 0, cat = 'All', q = '';
+const $ = id => document.getElementById(id);
+function el(tag, cls, text){const e=document.createElement(tag); if(cls)e.className=cls; if(text!==undefined)e.textContent=text; return e;}
+const safe = u => /^https?:\\/\\//.test(u) ? u : '#';
+function fmt(iso){return new Date(iso).toLocaleString('en-GB',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',timeZone:'UTC'})+' UTC';}
+function render(){
+  const day = DAYS[di];
+  $('sub').textContent = day.label + ' - ' + day.items.length + ' stories';
+  const cats = ['All', ...new Set(day.items.map(i => i.category))];
+  if(!cats.includes(cat)) cat = 'All';
+  const chips = $('chips'); chips.replaceChildren();
+  cats.forEach(c => { const b = el('button', c===cat?'on':'', c); b.onclick = () => {cat=c; render();}; chips.appendChild(b); });
+  const best = Math.max(...day.items.map(i => i.score));
+  const top = day.items.find(i => i.score === best);
+  const needle = q.trim().toLowerCase();
+  const shown = day.items
+    .filter(i => cat==='All' || i.category===cat)
+    .filter(i => !needle || (i.title+' '+i.summary+' '+i.source+' '+i.why_it_matters).toLowerCase().includes(needle))
+    .sort((a,b) => b.score - a.score);
+  const list = $('list'); list.replaceChildren();
+  if(!shown.length){ list.appendChild(el('div','empty','No stories match.')); }
+  shown.forEach(i => {
+    const c = el('article', 'card' + (i===top ? ' top' : ''));
+    const m = el('div','meta');
+    if(i===top) m.appendChild(el('span','star','Top story'));
+    m.appendChild(el('span','chip',i.category));
+    m.appendChild(el('span','badge','Relevance ' + i.score + '/5'));
+    m.appendChild(el('span','',i.source));
+    m.appendChild(el('span','',fmt(i.published)));
+    c.appendChild(m);
+    const h = el('h2'); const a = el('a','',i.title); a.href=safe(i.url); a.target='_blank'; a.rel='noopener noreferrer'; h.appendChild(a); c.appendChild(h);
+    c.appendChild(el('p','',i.summary));
+    if(i.why_it_matters){ const w = el('p','why'); w.appendChild(el('b','','Why it matters: ')); w.appendChild(document.createTextNode(i.why_it_matters)); c.appendChild(w); }
+    const r = el('a','read','Read source \\u2192'); r.href=safe(i.url); r.target='_blank'; r.rel='noopener noreferrer'; c.appendChild(r);
+    list.appendChild(c);
+  });
+  const f = $('foot'); f.replaceChildren();
+  f.appendChild(el('div','',day.note));
+  f.appendChild(el('div','','Sources: ' + day.sources_ok + ' OK' + (day.sources_failed.length ? ', failed: ' + day.sources_failed.join(', ') : ', none failed')));
+  f.appendChild(el('div','','Summaries are AI-generated from the linked sources - always check the source.'));
+}
+DAYS.forEach((d,i) => { const o = el('option','',d.label); o.value = i; $('day').appendChild(o); });
+$('day').onchange = e => { di = +e.target.value; cat='All'; render(); };
+$('q').oninput = e => { q = e.target.value; render(); };
+render();
+</script></body></html>"""
+
+
+def day_record(top, date_iso, label, note, sources_ok, failed):
+    return {
+        "date": date_iso, "label": label, "note": note,
+        "sources_ok": sources_ok, "sources_failed": failed,
+        "items": [dict(i, published=i["published"].isoformat()) for i in top],
+    }
+
+
+def load_archive():
+    days = []
+    for f in sorted(ARCHIVE.glob("*.json"), reverse=True)[:KEEP_DAYS]:
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+            if d.get("items"):
+                days.append(d)
+        except (json.JSONDecodeError, OSError):
+            continue  # a corrupt archive file must not break the site
+    return days
+
+
+def render_site(days):
+    data = json.dumps(days).replace("</", "<\\/")  # keep data from closing the script tag
+    return PAGE.replace("__DATA__", data)
 
 
 def render_email(items, date_str):
@@ -366,12 +448,18 @@ def main():
         top = rank_fallback(items, TOP_N)
         note = f"Fallback ranking (no AI curation). Window: last {window}h."
 
-    date_str = datetime.now(timezone.utc).strftime("%A, %d %B %Y")
+    now = datetime.now(timezone.utc)
+    date_str = now.strftime("%A, %d %B %Y")
+    sources_ok = len(SOURCES) + len(PAGE_SOURCES) - len(failed)
+    ARCHIVE.mkdir(exist_ok=True)
     SITE.mkdir(exist_ok=True)
-    (SITE / "index.html").write_text(render_site(top, date_str, note), encoding="utf-8")
-    (SITE / "news.json").write_text(json.dumps(
-        [dict(i, published=i["published"].isoformat()) for i in top], indent=2), encoding="utf-8")
-    print(f"Wrote site/index.html with {len(top)} items.")
+    record = day_record(top, now.strftime("%Y-%m-%d"), date_str, note, sources_ok,
+                        [f.split(":")[0] for f in failed])
+    (ARCHIVE / f"{record['date']}.json").write_text(json.dumps(record, indent=2), encoding="utf-8")
+    days = load_archive()
+    (SITE / "index.html").write_text(render_site(days), encoding="utf-8")
+    (SITE / "news.json").write_text(json.dumps(days, indent=2), encoding="utf-8")
+    print(f"Wrote site/index.html: {len(days)} day(s), today has {len(top)} items.")
     if "--no-email" not in sys.argv:
         send_email(top, date_str)
 
