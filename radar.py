@@ -279,9 +279,13 @@ Candidates:
 {listing}"""
     client = anthropic.Anthropic()
     msg = client.messages.create(
-        model=MODEL, max_tokens=4000,
+        model=MODEL, max_tokens=16000,
+        # low effort: curation needs little reasoning; keeps thinking from eating the output budget
+        extra_body={"output_config": {"effort": "low"}},
         messages=[{"role": "user", "content": prompt}],
     )
+    if msg.stop_reason in ("max_tokens", "refusal"):
+        raise RuntimeError(f"Claude stopped early: {msg.stop_reason}")
     text = "".join(b.text for b in msg.content if b.type == "text")
     start, end = text.find("["), text.rfind("]")
     picks = json.loads(text[start:end + 1])
@@ -495,8 +499,13 @@ def main():
         sys.exit("No items collected - check network/sources.")
 
     if os.environ.get("ANTHROPIC_API_KEY"):
-        top = rank_with_claude(items, TOP_N)
-        note = f"Curated by {MODEL}. Window: last {window}h."
+        try:
+            top = rank_with_claude(items, TOP_N)
+            note = f"Curated by {MODEL}. Window: last {window}h."
+        except Exception as exc:  # a model/parse failure must not lose the day's page
+            print(f"Claude curation failed ({type(exc).__name__}: {exc}) - using fallback ranking.")
+            top = rank_fallback(items, TOP_N)
+            note = f"Fallback ranking (AI curation failed). Window: last {window}h."
     else:
         print("ANTHROPIC_API_KEY not set - using simple fallback ranking.")
         top = rank_fallback(items, TOP_N)
