@@ -1,0 +1,437 @@
+{
+  "date": "2026-11-08",
+  "label": "Sunday, 08 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 28 candidates.",
+  "sources_ok": 34,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "published": "2026-11-07T07:30:00-05:00",
+      "snippet": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation [\u2026]",
+      "category": "Industry",
+      "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new...",
+      "why_it_matters": "Reports that Anthropic uses AI to speed up its own AI development, with models improving about twice as fast, signal a major shift in capability progress and safety concerns.",
+      "score": 5
+    },
+    {
+      "source": "Hacker News (380 pts)",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "published": "2026-11-07T20:45:32+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "Claude Code's 'Don't Ask Again' setting reportedly exposed passwords in 1,122 public GitHub files, a practical risk for anyone using coding agents.",
+      "score": 5
+    },
+    {
+      "source": "Hacker News (298 pts)",
+      "title": "MaxxBench \u2013 \"Nice DeepSWE score. But is it true?\"",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "published": "2026-11-07T17:19:00+00:00",
+      "snippet": "",
+      "category": "Research",
+      "summary": "",
+      "why_it_matters": "MaxxBench questions whether DeepSWE scores hold up, which affects how far you can trust coding-agent benchmark claims.",
+      "score": 4
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Saw this benchmark where small changes to coding tasks made a big difference",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqmr2i/saw_this_benchmark_where_small_changes_to_coding/",
+      "published": "2026-11-08T01:44:51+00:00",
+      "snippet": "Saw this tweet about a coding benchmark and thought it was kinda interesting. Apparently they took 89 DeepSWE tasks and changed little things in the instructions or starting code. The tweet says some models that were all around 74% on DeepSWE ended up 23 percentage points apart on the changed tasks. The weird part was that some models seemed to ignore the actual instructions because they thought a",
+      "category": "Research",
+      "summary": "Saw this tweet about a coding benchmark and thought it was kinda interesting. Apparently they took 89 DeepSWE tasks and changed little things in the instructions or starting code. The tweet says some models that were all around 74% on...",
+      "why_it_matters": "Small instruction changes to 89 DeepSWE tasks reportedly caused big score differences, showing coding benchmarks are brittle.",
+      "score": 4
+    },
+    {
+      "source": "The Verge AI",
+      "title": "AI broke the cybersecurity world. What\u2019s next?",
+      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "published": "2026-11-07T10:00:00-05:00",
+      "snippet": "Today, I\u2019m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I\u2019ve always enjoyed talking to Alex because he\u2019s so direct, and you\u2019re going to hear him say [\u2026]",
+      "category": "Security",
+      "summary": "Today, I\u2019m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I\u2019ve always...",
+      "why_it_matters": "Cognition's security chief Alex Stamos discusses how AI has upended cybersecurity, relevant to anyone shipping software.",
+      "score": 4
+    },
+    {
+      "source": "Web: theaiedge.substack.com",
+      "title": "OpenAI Drops a Hands-On AI Coder",
+      "url": "https://theaiedge.substack.com/p/openai-drops-a-hands-on-ai-coder",
+      "published": "2026-11-08T09:20:14.770007+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "OpenAI is reported to have released a hands-on AI coding tool, which may change developer workflows.",
+      "score": 4
+    },
+    {
+      "source": "Hacker News (268 pts)",
+      "title": "Goodbye Claude, Hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "published": "2026-11-08T03:11:48+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "A popular Hacker News post (268 points) about moving from Claude to Pi reflects developers' shifting coding-agent preferences.",
+      "score": 3
+    },
+    {
+      "source": "Web: abcnews.com",
+      "title": "Staff at the US center for AI safety are reporting to the White House, raising independence concerns - ABC News",
+      "url": "https://abcnews.com/US/wireStory/staff-us-center-ai-safety-reporting-white-house-137950879",
+      "published": "2026-11-08T09:20:14.771835+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "Staff at the US AI safety center reporting to the White House raises questions about the independence of government AI evaluation.",
+      "score": 3
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "published": "2026-11-07T10:43:45-05:00",
+      "snippet": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell [\u2026]",
+      "category": "Industry",
+      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on...",
+      "why_it_matters": "Nvidia chip sales to an empty office in China raise export-control and due-diligence concerns affecting AI hardware supply.",
+      "score": 3
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "mtmd: support MageVL-Cowork model by ngxson \u00b7 Pull Request #31819 \u00b7 ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqpc7u/mtmd_support_magevlcowork_model_by_ngxson_pull/",
+      "published": "2026-11-08T04:04:59+00:00",
+      "snippet": "GGUF to use : https://huggingface.co/ggml-org/Mage-VL-Cowork-GGUF   submitted by   /u/pmttyji [link]   [comments]",
+      "category": "Tools",
+      "summary": "GGUF to use : https://huggingface.co/ggml-org/Mage-VL-Cowork-GGUF   submitted by   /u/pmttyji [link]   [comments]",
+      "why_it_matters": "llama.cpp is adding support for the MageVL-Cowork vision model with GGUF files available, useful for local multimodal work.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-08T09:20:14.771835+00:00"
+    },
+    {
+      "title": "Center for AI Safety",
+      "url": "https://en.wikipedia.org/wiki/Center_for_AI_Safety",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-08T09:20:14.771835+00:00"
+    },
+    {
+      "title": "AI News: Artificial Intelligence Stories, Ranked",
+      "url": "https://aiweekly.co/",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-08T09:20:14.771835+00:00"
+    },
+    {
+      "title": "Staff at the US center for AI safety are reporting to the White House, raising independence concerns",
+      "url": "https://wtop.com/national/2026/11/staff-at-the-us-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns",
+      "source": "Web: wtop.com",
+      "published": "2026-11-08T09:20:14.771835+00:00"
+    },
+    {
+      "title": "Staff at the US center for AI safety are reporting to the White House, raising independence concerns :: WRAL.com",
+      "url": "https://www.wral.com/news/ap/d3318-staff-at-the-us-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns/",
+      "source": "Web: wral.com",
+      "published": "2026-11-08T09:20:14.771835+00:00"
+    },
+    {
+      "title": "Mediabias",
+      "url": "https://mediabias.news/politics/us-ai-safety-center-staff-report-to-white-house-sparking-independence-fears",
+      "source": "Web: mediabias.news",
+      "published": "2026-11-08T09:20:14.771835+00:00"
+    },
+    {
+      "title": "AI Companies Can't Score Better Than A C+ On Safety. Who's Holding Them Accountable?",
+      "url": "https://allwork.space/2026/11/ai-companies-cant-score-better-than-a-c-on-safety-whos-holding-them-accountable/",
+      "source": "Web: allwork.space",
+      "published": "2026-11-08T09:20:14.771835+00:00"
+    },
+    {
+      "title": "AI Tactical Toolbox",
+      "url": "https://avihacker.substack.com/p/ai-news-characterais-teen-crisis-935",
+      "source": "Web: avihacker.substack.com",
+      "published": "2026-11-08T09:20:14.771835+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-08T09:20:14.771332+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-08T09:20:14.770962+00:00"
+    },
+    {
+      "title": "CrewAI",
+      "url": "https://en.wikipedia.org/wiki/CrewAI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-08T09:20:14.770962+00:00"
+    },
+    {
+      "title": "Frameworks for AI agents",
+      "url": "https://aiagentnews.io/topics/frameworks",
+      "source": "Web: aiagentnews.io",
+      "published": "2026-11-08T09:20:14.770962+00:00"
+    },
+    {
+      "title": "MCP Server News",
+      "url": "https://mcpmarket.com/es/news",
+      "source": "Web: mcpmarket.com",
+      "published": "2026-11-08T09:20:14.770962+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-08T09:20:14.768704+00:00"
+    },
+    {
+      "title": "AI Timeline",
+      "url": "https://nhlocal.github.io/AiTimeline/",
+      "source": "Web: nhlocal.github.io",
+      "published": "2026-11-08T09:20:14.768704+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-08T09:20:14.768704+00:00"
+    },
+    {
+      "title": "The AI Brief",
+      "url": "https://winterm.substack.com/p/the-ai-brief-the-last-24-hours-f7f",
+      "source": "Web: winterm.substack.com",
+      "published": "2026-11-08T09:20:14.768704+00:00"
+    },
+    {
+      "title": "LMArena",
+      "url": "https://en.wikipedia.org/wiki/LMArena",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-08T09:20:14.768704+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-08T09:20:14.768704+00:00"
+    },
+    {
+      "title": "Arena (AI platform)",
+      "url": "https://en.wikipedia.org/wiki/Arena_(AI_platform)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-08T09:20:14.768704+00:00"
+    },
+    {
+      "title": "b12202",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12202",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-08T08:14:24+00:00"
+    },
+    {
+      "title": "b12201",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12201",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-08T07:01:23+00:00"
+    },
+    {
+      "title": "OpenClaw Retrospective",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqs2sh/openclaw_retrospective/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-08T06:47:56+00:00"
+    },
+    {
+      "title": "b12200",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12200",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-08T06:43:53+00:00"
+    },
+    {
+      "title": "Anybody tried Apex 35B and Axion 35B?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqrqn6/anybody_tried_apex_35b_and_axion_35b/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-08T06:26:17+00:00"
+    },
+    {
+      "title": "b12199",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12199",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-08T04:48:16+00:00"
+    },
+    {
+      "title": "b12198",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12198",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-08T02:09:08+00:00"
+    },
+    {
+      "title": "Two PCs but one with only RAM? or divide GPUs across pcs?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqn4nb/two_pcs_but_one_with_only_ram_or_divide_gpus/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-08T02:04:12+00:00"
+    },
+    {
+      "title": "b12197",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12197",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-08T01:49:14+00:00"
+    },
+    {
+      "title": "b12196",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12196",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-08T01:32:39+00:00"
+    },
+    {
+      "title": "b12195",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12195",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-08T01:15:46+00:00"
+    },
+    {
+      "title": "b12194",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12194",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-08T00:23:00+00:00"
+    },
+    {
+      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+      "source": "Simon Willison",
+      "published": "2026-11-07T23:57:46+00:00"
+    },
+    {
+      "title": "b12193",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12193",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-07T23:48:56+00:00"
+    },
+    {
+      "title": "Anyone running local AI on 16GB vram?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqjenw/anyone_running_local_ai_on_16gb_vram/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-07T23:00:19+00:00"
+    },
+    {
+      "title": "The Stylome bot is useless spam and should be removed",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqinb7/the_stylome_bot_is_useless_spam_and_should_be/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-07T22:24:14+00:00"
+    },
+    {
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-07T22:07:22+00:00"
+    },
+    {
+      "title": "Crowd-v1 - The collaborative LLM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqh8hk/crowdv1_the_collaborative_llm/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-07T21:19:40+00:00"
+    },
+    {
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-07T21:17:08+00:00"
+    },
+    {
+      "title": "0.169.0-alpha.3",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.3",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-07T19:36:41+00:00"
+    },
+    {
+      "title": "Best AI Coding Builder Agent LLM for my legend GTX 1080Ti 11 GB ? [32 GB RAM]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqdndl/best_ai_coding_builder_agent_llm_for_my_legend/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-07T18:43:48+00:00"
+    },
+    {
+      "title": "Use your phone to monitor anything with local models! Demo of my Open Source and 100% local agent (iOS and Android!)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-07T18:16:41+00:00"
+    },
+    {
+      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "url": "https://github.com/hedgerow-dev/coldframe",
+      "source": "Hacker News (231 pts)",
+      "published": "2026-11-07T17:27:30+00:00"
+    },
+    {
+      "title": "Also experienced the Qwen3.8-Flash-Next URL issue",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbjbf/also_experienced_the_qwen38flashnext_url_issue/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-07T17:15:04+00:00"
+    },
+    {
+      "title": "Effects of KV Cache Quantization on Qwen3.8 27B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-07T17:09:51+00:00"
+    },
+    {
+      "title": "NYT Cooking\u2019s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "source": "The Verge AI",
+      "published": "2026-11-07T10:50:00-05:00"
+    },
+    {
+      "title": "Open Source AI is the Path Forward - Peter Theil",
+      "url": "https://petertheil.com/169752",
+      "source": "Web: petertheil.com",
+      "published": "2026-11-07T09:20:14.771332+00:00"
+    },
+    {
+      "title": "New Models Today \u2014 AI & LLM Releases Last 24 Hours",
+      "url": "https://pricepertoken.com/news/model-releases",
+      "source": "Web: pricepertoken.com",
+      "published": "2026-11-07T09:20:14.768704+00:00"
+    },
+    {
+      "title": "AI News Today, November 7: Top Stories",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-07T09:20:14.768704+00:00"
+    },
+    {
+      "title": "AI Regulation Updates Today: What Compliance Teams Need to Know Going into 2027",
+      "url": "https://www.ispartnersllc.com/blog/ai-regulation-updates-today-what-compliance-teams-need-to-know-going-into-2027",
+      "source": "Web: ispartnersllc.com",
+      "published": "2026-11-06T09:20:14.771835+00:00"
+    },
+    {
+      "title": "New AI Models: Live Release Tracker (Last 24 Hours)",
+      "url": "https://benchlm.ai/model-updates",
+      "source": "Web: benchlm.ai",
+      "published": "2026-11-06T09:20:14.768704+00:00"
+    },
+    {
+      "title": "AI Model Releases Timeline: Latest Launches, Updated Daily \u2014 PromptZone - AI Prompts, Guides and Tools for Builders",
+      "url": "https://www.promptzone.com/ai-model-releases",
+      "source": "Web: promptzone.com",
+      "published": "2026-11-06T09:20:14.768704+00:00"
+    }
+  ]
+}
