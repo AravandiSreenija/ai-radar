@@ -1,0 +1,725 @@
+{
+  "date": "2026-11-10",
+  "label": "Tuesday, 10 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 32 candidates.",
+  "sources_ok": 34,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Web: thenewstack.io",
+      "title": "Anthropic launches Fable 5.2 with a price cut and stronger coding scores - The New Stack",
+      "url": "https://thenewstack.io/anthropic-fable-coding-upgrade",
+      "published": "2026-11-10T10:13:20.586743+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Anthropic's Fable 5.2 launches with a price cut and stronger coding scores, which affects model choice for coding and agent workloads.",
+      "score": 5
+    },
+    {
+      "source": "Hacker News (346 pts)",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "published": "2026-11-09T20:04:55+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Fable 5.2 reportedly tops the Artificial Analysis index with a score of 65, an independent signal of where it ranks.",
+      "score": 4
+    },
+    {
+      "source": "Web: techcrunch.com",
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
+      "published": "2026-11-10T10:13:20.586028+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "Anthropic released Mythos and Fable models amid recursive self-improvement (RSI) concerns, so capability and safety news arrive together.",
+      "score": 4
+    },
+    {
+      "source": "Claude Code releases",
+      "title": "v2.1.321",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+      "published": "2026-11-09T19:22:30+00:00",
+      "snippet": "What's changed Added Claude Fable 5.2 ( claude-fable-5-2 ), now the default Fable model \u2014 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added --settings <file> to claude remote-control , which applies a settings file to every session it starts; if the file changes, no new session starts until you restart claude remote-control Fixed MCP OAuth requests sending secrets such as refresh token",
+      "category": "Tools",
+      "summary": "What's changed Added Claude Fable 5.2 ( claude-fable-5-2 ), now the default Fable model \u2014 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads Added --settings <file> to claude remote-control , which applies a settings file to every...",
+      "why_it_matters": "Claude Code makes Fable 5.2 the default Fable model, with 1M context and $8/$40 per Mtok pricing that you can use directly.",
+      "score": 4
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "published": "2026-11-10T07:28:21+00:00",
+      "snippet": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts it's priced th",
+      "category": "Models",
+      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex...",
+      "why_it_matters": "Meta's Muse Ember is a small, efficient model positioned against Claude Haiku, relevant for cheap high-volume tasks.",
+      "score": 4
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Introducing Claude Fable 5.2 on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws/",
+      "published": "2026-11-09T20:04:37+00:00",
+      "snippet": "Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS. Learn what's new in both models, why Fable 5.2 matters for your technical workloads, and how to get started building with it on Amazon Bedrock.",
+      "category": "Tools",
+      "summary": "Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS. Learn what's new in both models, why Fable 5.2 matters for your technical workloads, and how to get started building with it on Amazon...",
+      "why_it_matters": "Fable 5.2 and Mythos 5.2 are now on Amazon Bedrock, so AWS teams can adopt them without changing platforms.",
+      "score": 3
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
+      "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/",
+      "published": "2026-11-09T20:13:18+00:00",
+      "snippet": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches retrieval effort to each request, using an illustrative internal banking policy assistant.",
+      "category": "Techniques",
+      "summary": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches retrieval effort to...",
+      "why_it_matters": "Bedrock Managed Knowledge Base adds single-shot RAG and retrieval-only requests alongside agentic retrieval, giving more options for RAG design.",
+      "score": 3
+    },
+    {
+      "source": "GitHub: ollama",
+      "title": "v0.40.16",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+      "published": "2026-11-09T23:45:36+00:00",
+      "snippet": "Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected model ollama launch explains when a cloud model has been retired /v1/responses respects truncation and no longer silently tru",
+      "category": "Models",
+      "summary": "Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always...",
+      "why_it_matters": "Ollama v0.40.16 adds Ripple Preview, a 65B dense model built for agentic coding that you can run locally.",
+      "score": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "published": "2026-11-10T01:27:12+00:00",
+      "snippet": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "category": "Industry",
+      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "why_it_matters": "Anthropic is reportedly moving ahead with its IPO and expected to set a valuation range this week, a major industry event.",
+      "score": 3
+    },
+    {
+      "source": "arXiv cs.CL",
+      "title": "A Model Organism for Studying Unverbalized Evaluation Awareness",
+      "url": "https://arxiv.org/abs/2611.09945",
+      "published": "2026-11-10T00:00:00-05:00",
+      "snippet": "arXiv:2611.09945v1 Announce Type: new Abstract: Large language models can recognize when they are being evaluated and change their behavior accordingly, undermining the reliability of safety benchmarks. Evaluation awareness (EA) is usually measured by having an LLM judge scan reasoning traces for explicit statements of recognition, but this signal is increasingly unreliable. Recent frontier-model ",
+      "category": "Research",
+      "summary": "arXiv:2611.09945v1 Announce Type: new Abstract: Large language models can recognize when they are being evaluated and change their behavior accordingly, undermining the reliability of safety benchmarks. Evaluation awareness (EA) is usually...",
+      "why_it_matters": "A model organism for unverbalized evaluation awareness addresses models changing behavior when they detect they are being evaluated, which undermines safety testing.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-10T10:13:20.587534+00:00"
+    },
+    {
+      "title": "With New Democratic Congress Incoming, Pritzker Calls for Federal AI Regulations",
+      "url": "https://news.wttw.com/2026/11/09/new-democratic-congress-incoming-pritzker-calls-federal-ai-regulations",
+      "source": "Web: news.wttw.com",
+      "published": "2026-11-10T10:13:20.587534+00:00"
+    },
+    {
+      "title": "The AI Regulation Debate",
+      "url": "https://einpresswire.com/article/955666063/the-ai-regulation-debate",
+      "source": "Web: einpresswire.com",
+      "published": "2026-11-10T10:13:20.587534+00:00"
+    },
+    {
+      "title": "News & Analysis as of",
+      "url": "https://www.jdsupra.com/topics/algorithms/technology-sector/regulatory-requirements",
+      "source": "Web: jdsupra.com",
+      "published": "2026-11-10T10:13:20.587534+00:00"
+    },
+    {
+      "title": "AI News Today, November 10: Top Stories",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-10T10:13:20.587534+00:00"
+    },
+    {
+      "title": "Center for AI Safety",
+      "url": "https://en.wikipedia.org/wiki/Center_for_AI_Safety",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-10T10:13:20.587534+00:00"
+    },
+    {
+      "title": "Trump says he threatened AI executive with arrest over security concerns",
+      "url": "https://www.business-standard.com/amp/world-news/trump-says-he-threatened-ai-executive-with-arrest-over-security-concerns-126111000275_1.html",
+      "source": "Web: business-standard.com",
+      "published": "2026-11-10T10:13:20.587534+00:00"
+    },
+    {
+      "title": "Australia announces new AI safety regulator after OpenAI breach",
+      "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2548282",
+      "source": "Web: mlex.com",
+      "published": "2026-11-10T10:13:20.587534+00:00"
+    },
+    {
+      "title": "AI Tactical Toolbox",
+      "url": "https://avihacker.substack.com/p/ai-news-characterais-teen-crisis-935",
+      "source": "Web: avihacker.substack.com",
+      "published": "2026-11-10T10:13:20.587534+00:00"
+    },
+    {
+      "title": "OpenAI No Longer Takes Safety Seriously",
+      "url": "https://jbradleychen.substack.com/p/openai-no-longer-takes-safety-seriously",
+      "source": "Web: jbradleychen.substack.com",
+      "published": "2026-11-10T10:13:20.587534+00:00"
+    },
+    {
+      "title": "AK\u2019s Substack",
+      "url": "https://akhaliq.substack.com/p/trending-ai-news-stories-papers-aea",
+      "source": "Web: akhaliq.substack.com",
+      "published": "2026-11-10T10:13:20.587534+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-10T10:13:20.587257+00:00"
+    },
+    {
+      "title": "New on Yahoo",
+      "url": "https://tech.yahoo.com/computing/articles/meta-unveils-llama-3-1-193232454.html",
+      "source": "Web: tech.yahoo.com",
+      "published": "2026-11-10T10:13:20.587257+00:00"
+    },
+    {
+      "title": "Qwen",
+      "url": "https://en.wikipedia.org/wiki/Qwen",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-10T10:13:20.587257+00:00"
+    },
+    {
+      "title": "Kolmena Launches AI Platform That Turns Individual Agents Into Coordinated Workforces",
+      "url": "https://prnewswire.com/news-releases/kolmena-launches-ai-platform-that-turns-individual-agents-into-coordinated-workforces-302932841.html",
+      "source": "Web: prnewswire.com",
+      "published": "2026-11-10T10:13:20.587048+00:00"
+    },
+    {
+      "title": "Frameworks for AI agents",
+      "url": "https://aiagentnews.io/topics/frameworks",
+      "source": "Web: aiagentnews.io",
+      "published": "2026-11-10T10:13:20.587048+00:00"
+    },
+    {
+      "title": "Zhihe AI Launches Agent 3.5 Local Edition and Open-Sources 70 Legal AI Skills at CIIE 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/11/10/3399162/0/en/zhihe-ai-launches-agent-3-5-local-edition-and-open-sources-70-legal-ai-skills-at-ciie-2026.html",
+      "source": "Web: globenewswire.com",
+      "published": "2026-11-10T10:13:20.587048+00:00"
+    },
+    {
+      "title": "Codenotary Releases AgentMon Live",
+      "url": "https://aithority.com/it-and-devops/cloud/codenotary-releases-agentmon-live-free-open-source-software-to-improve-ai-coding-productivity/",
+      "source": "Web: aithority.com",
+      "published": "2026-11-10T10:13:20.586743+00:00"
+    },
+    {
+      "title": "Anthropic Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
+      "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
+      "source": "Web: gizmodo.com",
+      "published": "2026-11-10T10:13:20.586028+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-10T10:13:20.586028+00:00"
+    },
+    {
+      "title": "Anthropic rolls out faster, cheaper AI models ahead of US$100b Wall Street debut",
+      "url": "https://www.malaymail.com/news/money/2026/11/10/anthropic-rolls-out-faster-cheaper-ai-models-ahead-of-us100b-wall-street-debut/242666",
+      "source": "Web: malaymail.com",
+      "published": "2026-11-10T10:13:20.586028+00:00"
+    },
+    {
+      "title": "From Wearable Agent To Heavy Coding: Top AI Releases From Meta, Google, OpenAI, And Anthropic",
+      "url": "https://www.etvbharat.com/en/technology/major-ai-upgrades-meta-muse-openai-dot-multi-device-support-google-maps-platform-in-ai-studio-and-claude-fable-mythos-enn26111002884",
+      "source": "Web: etvbharat.com",
+      "published": "2026-11-10T10:13:20.586028+00:00"
+    },
+    {
+      "title": "Anthropic Unveils New Fable, Mythos AI Models Ahead of IPO - Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-09/anthropic-unveils-new-fable-mythos-ai-models-ahead-of-ipo",
+      "source": "Web: bloomberg.com",
+      "published": "2026-11-10T10:13:20.586028+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-10T10:13:20.586028+00:00"
+    },
+    {
+      "title": "Vertex AI",
+      "url": "https://en.wikipedia.org/wiki/Vertex_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-10T10:13:20.586028+00:00"
+    },
+    {
+      "title": "Meta\u2019s Muse Ember matches Claude Haiku at a third of the cost per task",
+      "url": "https://thenextweb.com/news/meta-muse-ember-small-ai-model-haiku-luna",
+      "source": "Web: thenextweb.com",
+      "published": "2026-11-10T10:13:20.586028+00:00"
+    },
+    {
+      "title": "Claude Fable 5.2 release date: Nov 9, 2026 Access FAQ",
+      "url": "https://callmissed.com/blog/claude-fable-5-2-release-date",
+      "source": "Web: callmissed.com",
+      "published": "2026-11-10T10:13:20.586028+00:00"
+    },
+    {
+      "title": "Google launches new AI models and brings \u2018thinking\u2019 to Gemini",
+      "url": "https://techcrunch.com/2025/02/05/google-launches-new-ai-models-and-brings-thinking-to-gemini/embed/",
+      "source": "Web: techcrunch.com",
+      "published": "2026-11-10T10:13:20.586028+00:00"
+    },
+    {
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "source": "OpenAI",
+      "published": "2026-11-10T09:00:00+00:00"
+    },
+    {
+      "title": "b12244",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12244",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-10T07:28:33+00:00"
+    },
+    {
+      "title": "feat: external PLE file loading by pwilkin \u00b7 Pull Request #31185 \u00b7 ggml-org/llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsgpby/feat_external_ple_file_loading_by_pwilkin_pull/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-10T07:26:42+00:00"
+    },
+    {
+      "title": "b12246",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12246",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-10T07:00:55+00:00"
+    },
+    {
+      "title": "Otter AI can now follow conversations across 30+ languages",
+      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-10T07:00:00+00:00"
+    },
+    {
+      "title": "b12245: llama : apply the iGPU lazy-mode fallback only when mmap is off (#31957)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12245",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-10T06:55:46+00:00"
+    },
+    {
+      "title": "b12243",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12243",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-10T06:52:20+00:00"
+    },
+    {
+      "title": "Prediction: more enthusiasts will get custom quantisations build by opus and Asta for their hardware and precision needs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsg2cu/prediction_more_enthusiasts_will_get_custom/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-10T06:47:23+00:00"
+    },
+    {
+      "title": "v3.49.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.49.0",
+      "source": "OpenAI Python SDK",
+      "published": "2026-11-10T06:47:04+00:00"
+    },
+    {
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "source": "Simon Willison",
+      "published": "2026-11-10T05:34:14+00:00"
+    },
+    {
+      "title": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
+      "url": "https://arxiv.org/abs/2611.10045",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "Veterans' Mental Health Crisis Severity Annotation: Do LLMs Agree More Than Human Experts?",
+      "url": "https://arxiv.org/abs/2611.10048",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "LoRazor: Trimming Adapter Execution for Efficient Multi-LoRA Serving",
+      "url": "https://arxiv.org/abs/2611.10049",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "AYO: A Safe and Privacy-Preserving Platform for Studying Children's Interaction with LLMs",
+      "url": "https://arxiv.org/abs/2611.10054",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "META-IR: Meta-Introspective Reasoning for Adaptive Safety Alignment in LLM",
+      "url": "https://arxiv.org/abs/2611.10089",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "The Infrastructure Divide: Analyzing Community Stance on Data Center Development via Reddit",
+      "url": "https://arxiv.org/abs/2611.10109",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "Homeopathic Learning: Diluting poisoned fine-tuning data can strengthen its effect",
+      "url": "https://arxiv.org/abs/2611.10110",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "What Is the Value of AI-Involved Art? Evidence From a Juried In-Person Exhibition",
+      "url": "https://arxiv.org/abs/2611.10150",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "WorldMind: Test-Time Scaling for Visual Spatial Reasoning through Latent World Simulation",
+      "url": "https://arxiv.org/abs/2611.10151",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "DeepResearch RewardBench: Evaluating Reward Models for Deep Research Report",
+      "url": "https://arxiv.org/abs/2611.10156",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "BIBIMBAP: A Benchmark for Instructional BIM-Based Automated Programming",
+      "url": "https://arxiv.org/abs/2611.09933",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "Rethinking Supervision Targets for Multimodal LLM Unlearning: Less Private Information, Reduced Distribution Shift",
+      "url": "https://arxiv.org/abs/2611.09939",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "Retrofitting Unbounded Context onto Stock Language Models",
+      "url": "https://arxiv.org/abs/2611.10141",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "ASCENT: Scale-Complementary External State for Frozen Long-Context Language Models",
+      "url": "https://arxiv.org/abs/2611.10175",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "Compact Greek Language Models from Scratch: Pretraining 500M- and 1B-Parameter Decoder-Only Transformers",
+      "url": "https://arxiv.org/abs/2611.10209",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "Beyond the Prompt: Leveraging Pre-Decoding States for Jailbreak Detection in dLLMs",
+      "url": "https://arxiv.org/abs/2611.10258",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "I play of the cello: Evaluating Constructional Bleeding in Multilingual LLMs with CALQUE",
+      "url": "https://arxiv.org/abs/2611.10266",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "Prove What You Can: Hybrid Neurosymbolic Reasoning for Logical Natural Language Inference",
+      "url": "https://arxiv.org/abs/2611.10319",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "Policy Over Purpose: Auditing LLM Content Moderation of Reclaimed Slur Usage",
+      "url": "https://arxiv.org/abs/2611.10327",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "LongCapHarness: Capability-Guided Auto-Harnessing for Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2611.10463",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-10T00:00:00-05:00"
+    },
+    {
+      "title": "These names are wild, but I love them/New Model: DavidAU Qwen3.8-40B-Ultimate-Heretic-Uncensored-Turbo-Brilliance-50x-AGI-NEO-GGUF",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsde08/these_names_are_wild_but_i_love_themnew_model/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-10T04:16:17+00:00"
+    },
+    {
+      "title": "langchain-core==1.7.7",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7",
+      "source": "GitHub: langchain",
+      "published": "2026-11-10T04:08:29+00:00"
+    },
+    {
+      "title": "Yonkers Rises",
+      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+      "source": "Simon Willison",
+      "published": "2026-11-10T03:53:04+00:00"
+    },
+    {
+      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "source": "Hacker News (150 pts)",
+      "published": "2026-11-10T03:20:06+00:00"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next: Have you tried swapping the ngrams as per their latest version?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsbmbx/qwen38flashnext_have_you_tried_swapping_the/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-10T02:46:55+00:00"
+    },
+    {
+      "title": "Multiverse Computing's Comet 60B (A12B) GGUFs with the MTP head",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsbc2r/multiverse_computings_comet_60b_a12b_ggufs_with/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-10T02:32:52+00:00"
+    },
+    {
+      "title": "v2.1.322",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "source": "Claude Code releases",
+      "published": "2026-11-10T02:29:43+00:00"
+    },
+    {
+      "title": "CUDA+ROCm dual-backends LLM inference for mixed-vendor GPUs (up to 48% faster)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsaurn/cudarocm_dualbackends_llm_inference_for/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-10T02:09:31+00:00"
+    },
+    {
+      "title": "b12242",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12242",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-10T02:04:48+00:00"
+    },
+    {
+      "title": "b12241",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12241",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-10T01:47:57+00:00"
+    },
+    {
+      "title": "b12240",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12240",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-10T01:23:59+00:00"
+    },
+    {
+      "title": "I made a 400M model for NPC judgement calls in games (Apache-2.0, ~0.1s on a 3060 Ti)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs9nux/i_made_a_400m_model_for_npc_judgement_calls_in/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-10T01:11:58+00:00"
+    },
+    {
+      "title": "b12239",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12239",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-10T00:52:44+00:00"
+    },
+    {
+      "title": "David Ellison says AI could be the \u2018biggest creative unlock in modern history\u2019",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "source": "The Verge AI",
+      "published": "2026-11-09T19:28:49-05:00"
+    },
+    {
+      "title": "b12238",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12238",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-10T00:27:42+00:00"
+    },
+    {
+      "title": "How skills and agents work in AWS Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-10T00:21:34+00:00"
+    },
+    {
+      "title": "How to mess around with neurons... a short guide",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs81f3/how_to_mess_around_with_neurons_a_short_guide/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-09T23:59:37+00:00"
+    },
+    {
+      "title": "llm-anthropic 0.31",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "source": "Simon Willison",
+      "published": "2026-11-09T23:58:46+00:00"
+    },
+    {
+      "title": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "source": "Simon Willison",
+      "published": "2026-11-09T23:57:21+00:00"
+    },
+    {
+      "title": "What could China get from Jensen Huang?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "source": "The Verge AI",
+      "published": "2026-11-09T18:51:58-05:00"
+    },
+    {
+      "title": "rust-v0.169.0-alpha.8",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.8",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-09T23:51:39+00:00"
+    },
+    {
+      "title": "0.167.0-alpha.4.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.1",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-09T23:49:13+00:00"
+    },
+    {
+      "title": "Here\u2019s what Trump said he knew about Jensen Huang",
+      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+      "source": "The Verge AI",
+      "published": "2026-11-09T18:47:46-05:00"
+    },
+    {
+      "title": "b12237",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12237",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-09T23:47:33+00:00"
+    },
+    {
+      "title": "Same prompt, DeepSeek V4.1 Flash vs Qwen 3.8 FN: 94 tok/s vs 350 tok/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs7ffm/same_prompt_deepseek_v41_flash_vs_qwen_38_fn_94/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-09T23:32:31+00:00"
+    },
+    {
+      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-09T23:28:37+00:00"
+    },
+    {
+      "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source": "The Verge AI",
+      "published": "2026-11-09T18:07:59-05:00"
+    },
+    {
+      "title": "A short seller flagged Nvidia CEO\u2019s ties to a suspected Chinese spy six months before the scandal",
+      "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-09T22:46:09+00:00"
+    },
+    {
+      "title": "The race is on to sue Nvidia",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-09T22:23:42+00:00"
+    },
+    {
+      "title": "Is ArtificialAnalysis biased against open weight models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs5pkl/is_artificialanalysis_biased_against_open_weight/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-09T22:22:35+00:00"
+    },
+    {
+      "title": "A year after the 100% AI mandate nobody understands our code",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+      "source": "Hacker News (126 pts)",
+      "published": "2026-11-09T22:19:12+00:00"
+    },
+    {
+      "title": "0.169.0-alpha.7",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.7",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-09T22:01:36+00:00"
+    },
+    {
+      "title": "langchain-fireworks==1.7.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3",
+      "source": "GitHub: langchain",
+      "published": "2026-11-09T20:54:21+00:00"
+    },
+    {
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-09T20:09:06+00:00"
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-09T20:01:20+00:00"
+    },
+    {
+      "title": "USPS now offers official ZIP Code boundary polygons",
+      "url": "https://postalpro.usps.com/zcb",
+      "source": "Hacker News (622 pts)",
+      "published": "2026-11-09T19:58:59+00:00"
+    },
+    {
+      "title": "The backlash about data centers might really just be about electricity",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "source": "MIT Technology Review AI",
+      "published": "2026-11-09T19:35:33+00:00"
+    },
+    {
+      "title": "0.169.0-alpha.6",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.6",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-09T19:30:34+00:00"
+    },
+    {
+      "title": "Claude Fable 5.2 launch offers",
+      "url": "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers",
+      "source": "Hacker News (27 pts)",
+      "published": "2026-11-09T19:12:16+00:00"
+    },
+    {
+      "title": "Apple\u2019s $50 Intelligence Usage Packs extend access to some AI features",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "source": "The Verge AI",
+      "published": "2026-11-09T14:09:58-05:00"
+    },
+    {
+      "title": "Pluggable Agentic AI Framework: A seven-layer composable enterprise agentic AI reference architecture on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture-on-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-09T19:05:54+00:00"
+    },
+    {
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "source": "OpenAI",
+      "published": "2026-11-09T19:00:00+00:00"
+    }
+  ]
+}
