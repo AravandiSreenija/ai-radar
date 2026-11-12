@@ -1,0 +1,707 @@
+{
+  "date": "2026-11-12",
+  "label": "Thursday, 12 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 30 candidates.",
+  "sources_ok": 34,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Google AI",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "published": "2026-11-11T18:00:00+00:00",
+      "snippet": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "category": "Models",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "why_it_matters": "Google launches a Gemini Decisions API for fast, calibrated multimodal decisions, joining other providers in a new 'decision model' category.",
+      "score": 5
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Anthropic's IPO roadshow video",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "published": "2026-11-11T15:11:59+00:00",
+      "snippet": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why ",
+      "category": "Industry",
+      "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom...",
+      "why_it_matters": "Anthropic's IPO roadshow video reveals previously unreleased information about the company, a major industry milestone.",
+      "score": 4
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Introducing the Web Search API on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
+      "published": "2026-11-11T23:13:16+00:00",
+      "snippet": "Today we're announcing the Web Search API on Amazon Bedrock AgentCore: your own code can search the web with a single signed API call, with no gateway and no resources to create. Call it from the AWS SDKs or the AWS CLI and use it in applications, agent loops, and data pipelines.",
+      "category": "Tools",
+      "summary": "Today we're announcing the Web Search API on Amazon Bedrock AgentCore: your own code can search the web with a single signed API call, with no gateway and no resources to create. Call it from the AWS SDKs or the AWS CLI and use it in...",
+      "why_it_matters": "Bedrock AgentCore gets a Web Search API that lets agent code search the web with one signed call, simplifying agent builds.",
+      "score": 4
+    },
+    {
+      "source": "Simon Willison",
+      "title": "aws-emulator",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "published": "2026-11-11T21:18:30+00:00",
+      "snippet": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog. It currently req",
+      "category": "Tools",
+      "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in...",
+      "why_it_matters": "AWS ships an official emulator for running tests against local clones of its services, with no paid API keys needed; useful for testing agent-written code.",
+      "score": 4
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "OpenAI Codex on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
+      "published": "2026-11-11T23:35:47+00:00",
+      "snippet": "A practical guide for enterprises rolling out OpenAI Codex to developers on AWS, with Amazon Bedrock as the model backend, covering the access, governance, and cost decisions that platform, security, and finance teams need to align on.",
+      "category": "Tools",
+      "summary": "A practical guide for enterprises rolling out OpenAI Codex to developers on AWS, with Amazon Bedrock as the model backend, covering the access, governance, and cost decisions that platform, security, and finance teams need to align on.",
+      "why_it_matters": "Practical enterprise guide to rolling out OpenAI Codex on AWS with Bedrock as the model backend.",
+      "score": 4
+    },
+    {
+      "source": "Simon Willison",
+      "title": "llm 0.37.2",
+      "url": "https://simonwillison.net/2026/Nov/11/llm/",
+      "published": "2026-11-11T17:19:52+00:00",
+      "snippet": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other providers. Daniel reported two ways this could accidentally send your configured OpenAI API key to",
+      "category": "Security",
+      "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command...",
+      "why_it_matters": "The llm CLI 0.37.2 fixes a security issue (two GHSA advisories), so users should upgrade.",
+      "score": 4
+    },
+    {
+      "source": "Web: pymnts.com",
+      "title": "New York Launches AI Safety Center Ahead of RAISE Act Deadline",
+      "url": "https://pymnts.com/news/artificial-intelligence/2026/new-york-launches-ai-safety-center-ahead-of-raise-act-deadline",
+      "published": "2026-11-12T10:04:33.433160+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "New York's AI safety center and RAISE Act deadline put filing obligations on OpenAI and Anthropic, signaling the direction of AI regulation.",
+      "score": 4
+    },
+    {
+      "source": "Web: newsroom.ibm.com",
+      "title": "IBM and Microsoft Announce a New AI Agent Platform Designed for Industry-Specific Transformation",
+      "url": "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation",
+      "published": "2026-11-11T10:04:33.432451+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "IBM and Microsoft announce an enterprise AI agent platform for industry-specific use.",
+      "score": 3
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "published": "2026-11-11T15:00:15+00:00",
+      "snippet": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "category": "Research",
+      "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "why_it_matters": "DeepMind's AlphaGenome 2 predicts how DNA variations affect specific cell types and disease, a notable applied-AI science advance.",
+      "score": 3
+    },
+    {
+      "source": "The Verge AI",
+      "title": "United won\u2019t let your AI agent book your flight",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "published": "2026-11-11T16:54:21-05:00",
+      "snippet": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned [\u2026]",
+      "category": "Industry",
+      "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal...",
+      "why_it_matters": "United bans personal AI agents from booking flights, an early sign of platform resistance to agentic commerce.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-12T10:04:33.433160+00:00"
+    },
+    {
+      "title": "New York Proposes $3 Million Daily Fines for AI Safety Violations",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/new-york-proposes-3-million-daily-fines-for-ai-safety-violations/",
+      "source": "Web: pymnts.com",
+      "published": "2026-11-12T10:04:33.433160+00:00"
+    },
+    {
+      "title": "AI Governance News: Regulations, Incidents & Best Practices",
+      "url": "https://aigovernance.com/news",
+      "source": "Web: aigovernance.com",
+      "published": "2026-11-12T10:04:33.433160+00:00"
+    },
+    {
+      "title": "New York Opens AI Portal; OpenAI, Anthropic Must File by Jan 1",
+      "url": "https://aiweekly.co/alerts/new-york-opens-ai-portal-openai-anthropic-must-file-by-jan-1",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-12T10:04:33.433160+00:00"
+    },
+    {
+      "title": "News & Analysis as of",
+      "url": "https://www.jdsupra.com/topics/algorithms/technology-sector/regulatory-requirements",
+      "source": "Web: jdsupra.com",
+      "published": "2026-11-12T10:04:33.433160+00:00"
+    },
+    {
+      "title": "Llama (language model)",
+      "url": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-12T10:04:33.432865+00:00"
+    },
+    {
+      "title": "Best Local LLM for Coding: $0 Weights vs $2 API [2026]",
+      "url": "https://shattered.io/best-local-llm-for-coding-free-weights-vs-2-api-2026",
+      "source": "Web: shattered.io",
+      "published": "2026-11-12T10:04:33.432865+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-12T10:04:33.432865+00:00"
+    },
+    {
+      "title": "Ollama",
+      "url": "https://en.wikipedia.org/wiki/Ollama",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-12T10:04:33.432865+00:00"
+    },
+    {
+      "title": "Large language model",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-12T10:04:33.432865+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-12T10:04:33.432451+00:00"
+    },
+    {
+      "title": "AI Agents News \u2014 Week of November 11, 2026 (Daily Updates)",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+      "source": "Web: aiagentstore.ai",
+      "published": "2026-11-12T10:04:33.432451+00:00"
+    },
+    {
+      "title": "AI Agents News Brief: November 11, 2026 - Major Platform Launches and Acquisitions",
+      "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-november-11-2026",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-12T10:04:33.432451+00:00"
+    },
+    {
+      "title": "AntiFox: ARTEX AI Fork Targets AWS Credentials",
+      "url": "https://blog.gitguardian.com/another-new-ai-hacking-agent-vs-the-same-credential-problem-antifox-targeting-aws-credentials",
+      "source": "Web: blog.gitguardian.com",
+      "published": "2026-11-12T10:04:33.432451+00:00"
+    },
+    {
+      "title": "Databricks' new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth",
+      "source": "Web: techcrunch.com",
+      "published": "2026-11-12T10:04:33.432451+00:00"
+    },
+    {
+      "title": "Model Context Protocol",
+      "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-12T10:04:33.432451+00:00"
+    },
+    {
+      "title": "Google DeepMind releases new advanced robotics AI model and next-generation gene prediction model - SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model",
+      "source": "Web: siliconangle.com",
+      "published": "2026-11-12T10:04:33.430965+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-12T10:04:33.430965+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-12T10:04:33.430965+00:00"
+    },
+    {
+      "title": "AI Timeline",
+      "url": "https://nhlocal.github.io/AiTimeline/",
+      "source": "Web: nhlocal.github.io",
+      "published": "2026-11-12T10:04:33.430965+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-12T10:04:33.430965+00:00"
+    },
+    {
+      "title": "Why Every AI Model Will Ship as a Torrent",
+      "url": "https://pirateface.co/articles/every-ai-model-should-be-a-torrent",
+      "source": "Hacker News (24 pts)",
+      "published": "2026-11-12T07:20:22+00:00"
+    },
+    {
+      "title": "b12317",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12317",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-12T07:02:04+00:00"
+    },
+    {
+      "title": "b12318: CUDA: add cuda debug buffer pool (#31919)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12318",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-12T06:50:32+00:00"
+    },
+    {
+      "title": "b12316",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12316",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-12T06:29:07+00:00"
+    },
+    {
+      "title": "v0.34.0rc2",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc2",
+      "source": "GitHub: vllm",
+      "published": "2026-11-12T06:21:02+00:00"
+    },
+    {
+      "title": "Gemma4-31b latent space discovery: Caring and Contempt for user controlled by the same 3 neurons! Plus, how to find your own steering recipes and export to GGUF steering vector for llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu4n7b/gemma431b_latent_space_discovery_caring_and/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-12T05:37:54+00:00"
+    },
+    {
+      "title": "b12314",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12314",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-12T05:27:01+00:00"
+    },
+    {
+      "title": "b12311",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12311",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-12T05:06:19+00:00"
+    },
+    {
+      "title": "b12308",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12308",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-12T04:35:45+00:00"
+    },
+    {
+      "title": "b12307",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12307",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-12T04:13:33+00:00"
+    },
+    {
+      "title": "b12306",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12306",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-12T03:50:19+00:00"
+    },
+    {
+      "title": "The regulation of local AI could/should be viewed as the largest censorship implementation in the history of mankind.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu2mdo/the_regulation_of_local_ai_couldshould_be_viewed/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-12T03:49:33+00:00"
+    },
+    {
+      "title": "b12304",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12304",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-12T03:22:26+00:00"
+    },
+    {
+      "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+      "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-12T03:13:10+00:00"
+    },
+    {
+      "title": "b12303",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12303",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-12T02:59:05+00:00"
+    },
+    {
+      "title": "Someone voltage-glitched a CMP 170HX mining card into a working A100-80G, and it's ~1.18x faster than retail",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu1dkz/someone_voltageglitched_a_cmp_170hx_mining_card/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-12T02:47:50+00:00"
+    },
+    {
+      "title": "I released Inflect v3: lightweight local TTS in 34M parameters (Apache 2.0)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtzwxf/i_released_inflect_v3_lightweight_local_tts_in/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-12T01:36:10+00:00"
+    },
+    {
+      "title": "0.170.0-alpha.2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.2",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-12T01:34:33+00:00"
+    },
+    {
+      "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-12T01:18:23+00:00"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 1017 exl3 2.9bpw APEX 2025 benchmark results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtyxl9/deepseek_v41_flash_1017_exl3_29bpw_apex_2025/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-12T00:50:08+00:00"
+    },
+    {
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "source": "OpenAI",
+      "published": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "title": "0.167.0-alpha.4.3",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.3",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-11T23:59:38+00:00"
+    },
+    {
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T23:50:00+00:00"
+    },
+    {
+      "title": "Semantic diffing of formal policies with anti-unification",
+      "url": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-11T23:33:03+00:00"
+    },
+    {
+      "title": "Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-11T23:30:03+00:00"
+    },
+    {
+      "title": "Nvidia\u2019s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T23:28:45+00:00"
+    },
+    {
+      "title": "Jensen Huang accused of having another affair \u2014 with an Nvidia exec",
+      "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T23:17:05+00:00"
+    },
+    {
+      "title": "0.167.2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-11T22:46:17+00:00"
+    },
+    {
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+      "source": "The Verge AI",
+      "published": "2026-11-11T17:44:36-05:00"
+    },
+    {
+      "title": "Architecture trends: From full to local attention",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtvxtp/architecture_trends_from_full_to_local_attention/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-11T22:38:09+00:00"
+    },
+    {
+      "title": "Nvidia is Preparing to Oust Nvidia CEO Jensen Huang",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtvsi7/nvidia_is_preparing_to_oust_nvidia_ceo_jensen/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-11T22:31:56+00:00"
+    },
+    {
+      "title": "0.169.0-alpha.11.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.11.1",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-11T22:27:26+00:00"
+    },
+    {
+      "title": "ICYMI: What landed for AI builders in October 2026",
+      "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-11T22:26:40+00:00"
+    },
+    {
+      "title": "Gemini Decisions API",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "source": "Simon Willison",
+      "published": "2026-11-11T22:03:25+00:00"
+    },
+    {
+      "title": "[2610.29162v1] Why is AI-generated language so hard to understand?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtux72/261029162v1_why_is_aigenerated_language_so_hard/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-11T21:56:29+00:00"
+    },
+    {
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "source": "Hacker News (555 pts)",
+      "published": "2026-11-11T21:24:35+00:00"
+    },
+    {
+      "title": "The attendee\u2019s guide to the AWS re:Invent 2026 AI/ML track",
+      "url": "https://aws.amazon.com/blogs/machine-learning/the-attendees-guide-to-the-aws-reinvent-2026-ai-ml-track/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-11T21:05:59+00:00"
+    },
+    {
+      "title": "Automating AWS Agent Registry updates with push-based architecture",
+      "url": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-11T20:52:48+00:00"
+    },
+    {
+      "title": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-11T20:45:45+00:00"
+    },
+    {
+      "title": "Why the data center you dread might never even be built",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T20:15:15+00:00"
+    },
+    {
+      "title": "Meta is losing its longtime head of infrastructure",
+      "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T20:12:01+00:00"
+    },
+    {
+      "title": "0.170.0-alpha.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.1",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-11T20:09:52+00:00"
+    },
+    {
+      "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T20:02:14+00:00"
+    },
+    {
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T19:54:00+00:00"
+    },
+    {
+      "title": "v0.34.0rc1",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc1",
+      "source": "GitHub: vllm",
+      "published": "2026-11-11T19:37:13+00:00"
+    },
+    {
+      "title": "With $720M round, Britain\u2019s Fractile gets a leg up in the race for AI chips",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T19:34:55+00:00"
+    },
+    {
+      "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+      "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T19:22:22+00:00"
+    },
+    {
+      "title": "Accelerating generative AI delivery with reusable assets",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-11T19:19:21+00:00"
+    },
+    {
+      "title": "US and China \"may\" collaborate on AI. The jokes write themselves",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtqsuu/us_and_china_may_collaborate_on_ai_the_jokes/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-11T19:15:33+00:00"
+    },
+    {
+      "title": "Browse tools.simonwillison.net by tag",
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+      "source": "Simon Willison",
+      "published": "2026-11-11T18:42:50+00:00"
+    },
+    {
+      "title": "New Paper -> Unless Told Otherwise, an Open Language Model Says OpenAI Made It",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtpqxm/new_paper_unless_told_otherwise_an_open_language/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-11T18:36:37+00:00"
+    },
+    {
+      "title": "AWS Emulator and the engineer's job when agents write the code",
+      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "source": "Hacker News (111 pts)",
+      "published": "2026-11-11T18:28:31+00:00"
+    },
+    {
+      "title": "Launch HN: Pomerado (YC F26) \u2013 Turn any website into an MCP for agents",
+      "url": "https://news.ycombinator.com/item?id=50455811",
+      "source": "Hacker News (55 pts)",
+      "published": "2026-11-11T17:11:56+00:00"
+    },
+    {
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "source": "Hacker News (494 pts)",
+      "published": "2026-11-11T16:38:44+00:00"
+    },
+    {
+      "title": "Reddit Migration's Impact on Lemmy (2023)",
+      "url": "https://www.jmis.org/archive/view_article?pid=jmis-10-4-333",
+      "source": "Hacker News (41 pts)",
+      "published": "2026-11-11T16:35:38+00:00"
+    },
+    {
+      "title": "langchain-typesafe==0.1.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0",
+      "source": "GitHub: langchain",
+      "published": "2026-11-11T16:14:25+00:00"
+    },
+    {
+      "title": "Multiple remote code execution vulnerabilities in danfoss sm-800A",
+      "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
+      "source": "Hacker News (20 pts)",
+      "published": "2026-11-11T16:08:14+00:00"
+    },
+    {
+      "title": "Accelerating product development with AI-driven lifecycle management (AI-PDLC) in AWS Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-11T16:05:33+00:00"
+    },
+    {
+      "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
+      "url": "https://github.com/klad-app/klad",
+      "source": "Hacker News (79 pts)",
+      "published": "2026-11-11T16:00:50+00:00"
+    },
+    {
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "source": "Google AI",
+      "published": "2026-11-11T16:00:00+00:00"
+    },
+    {
+      "title": "Google\u2019s Tabletop AI experiment lets you build custom collaboration apps",
+      "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+      "source": "The Verge AI",
+      "published": "2026-11-11T11:00:00-05:00"
+    },
+    {
+      "title": "UAEF: A framework-agnostic system for closed-loop evaluation of AI agents",
+      "url": "https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-11T15:50:55+00:00"
+    },
+    {
+      "title": "langchain==1.5.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0",
+      "source": "GitHub: langchain",
+      "published": "2026-11-11T15:47:24+00:00"
+    },
+    {
+      "title": "Show HN: Yogurt \u2013 Free, private, open-source alternative to Granola",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "source": "Hacker News (241 pts)",
+      "published": "2026-11-11T15:33:06+00:00"
+    },
+    {
+      "title": "langchain-core==1.8.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0",
+      "source": "GitHub: langchain",
+      "published": "2026-11-11T15:22:09+00:00"
+    },
+    {
+      "title": "Google\u2019s AlphaGenome 2 zooms in on the cellular roots of disease",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+      "source": "The Verge AI",
+      "published": "2026-11-11T10:00:00-05:00"
+    },
+    {
+      "title": "Adobe\u2019s AI experiments let you walk around in photos and interview your characters",
+      "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "source": "The Verge AI",
+      "published": "2026-11-11T09:00:00-05:00"
+    },
+    {
+      "title": "My AI agents found an unmapped Maya site?",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "source": "Hacker News (990 pts)",
+      "published": "2026-11-11T12:05:22+00:00"
+    },
+    {
+      "title": "0.169.0-alpha.11",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.11",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-11T10:17:38+00:00"
+    },
+    {
+      "title": "New York's AI Safety Law Hits OpenAI, Anthropic Today",
+      "url": "https://www.techbuzz.ai/articles/new-york-s-ai-safety-law-hits-openai-anthropic-today",
+      "source": "Web: techbuzz.ai",
+      "published": "2026-11-11T10:04:33.433160+00:00"
+    },
+    {
+      "title": "AI News Today, November 11: Top Stories",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-11T10:04:33.432451+00:00"
+    },
+    {
+      "title": "IBM, Microsoft launch enterprise AI agent platform",
+      "url": "https://www.stocktitan.net/news/IBM/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-lru04a04v7rx.html",
+      "source": "Web: stocktitan.net",
+      "published": "2026-11-11T10:04:33.432451+00:00"
+    },
+    {
+      "title": "ChatGPT release notes",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "Web: help.openai.com",
+      "published": "2026-11-11T10:04:33.431900+00:00"
+    },
+    {
+      "title": "Models \u2014 AI Hub",
+      "url": "https://aihub.com/models",
+      "source": "Web: aihub.com",
+      "published": "2026-11-11T10:04:33.430965+00:00"
+    },
+    {
+      "title": "From Wearable Agent To Heavy Coding: Top AI Releases From Meta, Google, OpenAI, And Anthropic",
+      "url": "https://www.etvbharat.com/en/technology/major-ai-upgrades-meta-muse-openai-dot-multi-device-support-google-maps-platform-in-ai-studio-and-claude-fable-mythos-enn26111002884",
+      "source": "Web: etvbharat.com",
+      "published": "2026-11-10T10:04:33.431900+00:00"
+    },
+    {
+      "title": "Codenotary Releases AgentMon Live",
+      "url": "https://aithority.com/it-and-devops/cloud/codenotary-releases-agentmon-live-free-open-source-software-to-improve-ai-coding-productivity/",
+      "source": "Web: aithority.com",
+      "published": "2026-11-10T10:04:33.431900+00:00"
+    }
+  ]
+}
