@@ -1,0 +1,432 @@
+{
+  "date": "2026-11-15",
+  "label": "Sunday, 15 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 22 candidates.",
+  "sources_ok": 33,
+  "sources_failed": [
+    "xAI News",
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Web: techbuzz.ai",
+      "title": "Google Launches Gemini 4 Hydrogen for Agentic Coding",
+      "url": "https://www.techbuzz.ai/articles/google-launches-gemini-4-hydrogen-for-agentic-coding",
+      "published": "2026-11-13T09:44:26.127588+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Google's Gemini 4 Hydrogen targets agentic coding, directly relevant to developers building with coding agents.",
+      "score": 5
+    },
+    {
+      "source": "Web: casrai.org",
+      "title": "IBM and Microsoft announce Imagine Enterprise AI agent platform",
+      "url": "https://casrai.org/news/ibm-microsoft-imagine-enterprise-agent-platform-2026",
+      "published": "2026-11-15T09:44:26.128040+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "IBM and Microsoft announcing an enterprise AI agent platform signals new options for deploying agents at scale.",
+      "score": 4
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "RASA will cause total chaos to open LLMs and beyond",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/",
+      "published": "2026-11-15T04:47:03+00:00",
+      "snippet": "Commerce Moves to Finalize Rule Blocking Chinese AI Firms From Renting Nvidia GPUs Abroad https://explainx.ai/blog/commerce-final-rule-chinese-ai-firms-remote-nvidia-chips-the-information-2026 House Passes Remote Access Security Act to Limit Adversaries\u2019 Remote Access to Critical Technology https://www.cmtradelaw.com/2026/01/house-passes-remote-access-security-act-to-limit-adversaries-remote-acces",
+      "category": "Industry",
+      "summary": "Commerce Moves to Finalize Rule Blocking Chinese AI Firms From Renting Nvidia GPUs Abroad https://explainx.ai/blog/commerce-final-rule-chinese-ai-firms-remote-nvidia-chips-the-information-2026 House Passes Remote Access Security Act to...",
+      "why_it_matters": "A Commerce rule blocking Chinese AI firms from renting Nvidia GPUs abroad could affect open LLM development and compute access.",
+      "score": 4
+    },
+    {
+      "source": "Web: dailygazette.com",
+      "title": "Advocacy groups sue AI giants to freeze new models, warning of 'catastrophic' risks",
+      "url": "https://www.dailygazette.com/ade/ap/business/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks/article_8d85864d-a05e-5bf2-ad82-dfea7c837a6b.html",
+      "published": "2026-11-13T09:44:26.128585+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "Advocacy groups suing major AI firms to freeze new models could disrupt release schedules and shape regulation.",
+      "score": 4
+    },
+    {
+      "source": "Hacker News (137 pts)",
+      "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+      "published": "2026-11-14T14:09:25+00:00",
+      "snippet": "",
+      "category": "Techniques",
+      "summary": "",
+      "why_it_matters": "Serving GLM-5.3 at ~608 tok/s on two DGX stations with vLLM offers a concrete high-throughput inference reference.",
+      "score": 4
+    },
+    {
+      "source": "GitHub: llama.cpp",
+      "title": "b12406",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12406",
+      "published": "2026-11-15T09:32:05+00:00",
+      "snippet": "feat: add Inkling 2 support (text + vision) ( #32217 ) convert : add Inkling2 text GGUF conversion Assisted-by: Codex llama : implement Inkling2 text inference Assisted-by: Codex tests : cover Inkling2 text support Assisted-by: Codex conversion : dequantize packed Inkling2 experts in row chunks Decode per-layer NVFP4 and MXFP8 schemes, validate companions, and use stored scale shapes with a warnin",
+      "category": "Tools",
+      "summary": "feat: add Inkling 2 support (text + vision) ( #32217 ) convert : add Inkling2 text GGUF conversion Assisted-by: Codex llama : implement Inkling2 text inference Assisted-by: Codex tests : cover Inkling2 text support Assisted-by: Codex...",
+      "why_it_matters": "llama.cpp adding Inkling 2 text and vision support makes the new model runnable locally.",
+      "score": 3
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Qwen3 4B / 8B / 14B at ~2.7 bits per weight with Leech lattice quantization. Beats IQ2_S on quality at the same size, loses on speed [open source, Rust + CUDA]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwerbo/qwen3_4b_8b_14b_at_27_bits_per_weight_with_leech/",
+      "published": "2026-11-14T22:10:59+00:00",
+      "snippet": "https://preview.redd.it/dfiyzcvakn1i1.png?width=2356&format=png&auto=webp&s=41301d5648563b26353cba70079fb6afcd9bf329 hi r/LocalLLaMA , I've been working for a while on an independent Rust implementation of LLVQ, the Leech lattice quantization paper from Qualcomm ( arXiv:2603.11021 ), with my own CUDA kernel to actually run the result. Three Qwen3 models are done (4B, 8B, 14B), all around 2.7 bits ",
+      "category": "Techniques",
+      "summary": "https://preview.redd.it/dfiyzcvakn1i1.png?width=2356&format=png&auto=webp&s=41301d5648563b26353cba70079fb6afcd9bf329 hi r/LocalLLaMA , I've been working for a while on an independent Rust implementation of LLVQ, the Leech lattice...",
+      "why_it_matters": "Open-source Leech lattice quantization gives Qwen3 models better quality than IQ2_S at about 2.7 bits per weight, though it runs slower.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (47 pts)",
+      "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+      "published": "2026-11-14T17:51:13+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "A report of Claude deleting a professor's syllabus and notes during a simple task is a cautionary example for agent file-access safety.",
+      "score": 3
+    },
+    {
+      "source": "Web: technology.org",
+      "title": "New York Opens AI Safety Center to Test Models",
+      "url": "https://www.technology.org/2026/11/15/new-york-ai-safety-center-binghamton-raise-act/",
+      "published": "2026-11-15T09:44:26.128585+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "New York's new AI safety center for testing models may signal emerging state-level evaluation requirements.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (233 pts)",
+      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "published": "2026-11-14T15:04:15+00:00",
+      "snippet": "",
+      "category": "Research",
+      "summary": "",
+      "why_it_matters": "A DeepSeek V3 implementation in about 200 lines of JAX is a compact way to learn the architecture.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-15T09:44:26.128585+00:00"
+    },
+    {
+      "title": "Deep Dive into Today's AI News",
+      "url": "https://note.com/hirokimiyano/n/n16e62c360c77?hl=en",
+      "source": "Web: note.com",
+      "published": "2026-11-15T09:44:26.128585+00:00"
+    },
+    {
+      "title": "News & Analysis as of",
+      "url": "https://www.jdsupra.com/topics/algorithms/technology-sector/regulatory-requirements",
+      "source": "Web: jdsupra.com",
+      "published": "2026-11-15T09:44:26.128585+00:00"
+    },
+    {
+      "title": "Center for AI Safety",
+      "url": "https://en.wikipedia.org/wiki/Center_for_AI_Safety",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-15T09:44:26.128585+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-15T09:44:26.128322+00:00"
+    },
+    {
+      "title": "Llama news and updates: every Meta open-weights release, tracked \u2014 AI Chat Daily",
+      "url": "https://www.aichatdaily.com/llama",
+      "source": "Web: aichatdaily.com",
+      "published": "2026-11-15T09:44:26.128322+00:00"
+    },
+    {
+      "title": "Mistral vs Llama: How to Choose the Right Open-Weight Model",
+      "url": "https://techyorker.com/choosing-between-mistral-and-llama-a-release-by-release-open-weight-guide/",
+      "source": "Web: techyorker.com",
+      "published": "2026-11-15T09:44:26.128322+00:00"
+    },
+    {
+      "title": "Frameworks for AI agents",
+      "url": "https://aiagentnews.io/topics/frameworks",
+      "source": "Web: aiagentnews.io",
+      "published": "2026-11-15T09:44:26.128040+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-15T09:44:26.126598+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-15T09:44:26.126598+00:00"
+    },
+    {
+      "title": "AI Timeline",
+      "url": "https://nhlocal.github.io/AiTimeline/",
+      "source": "Web: nhlocal.github.io",
+      "published": "2026-11-15T09:44:26.126598+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-15T09:44:26.126598+00:00"
+    },
+    {
+      "title": "The best (and AMD-est) computer I've ever owned",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwqvd2/the_best_and_amdest_computer_ive_ever_owned/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-15T09:00:52+00:00"
+    },
+    {
+      "title": "b12405",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12405",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T08:00:17+00:00"
+    },
+    {
+      "title": "b12404",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12404",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T07:47:41+00:00"
+    },
+    {
+      "title": "b12403",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12403",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T07:27:40+00:00"
+    },
+    {
+      "title": "b12402",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12402",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T07:17:14+00:00"
+    },
+    {
+      "title": "b12401",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12401",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T07:02:25+00:00"
+    },
+    {
+      "title": "b12400",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12400",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T06:50:17+00:00"
+    },
+    {
+      "title": "b12399",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12399",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T06:36:29+00:00"
+    },
+    {
+      "title": "b12398",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12398",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T06:20:04+00:00"
+    },
+    {
+      "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+      "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+      "source": "Hacker News (55 pts)",
+      "published": "2026-11-15T03:05:54+00:00"
+    },
+    {
+      "title": "Where was Nvidia\u2019s security team?",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-15T00:08:07+00:00"
+    },
+    {
+      "title": "b12407: model : metal : workaround fusion for LFM3 (#32296)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12407",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T00:05:20+00:00"
+    },
+    {
+      "title": "datasette-llm 0.1a11",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "source": "Simon Willison",
+      "published": "2026-11-14T23:59:28+00:00"
+    },
+    {
+      "title": "LFM2.5-24B-A2B + Hermes is awesome!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwgiow/lfm2524ba2b_hermes_is_awesome/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-14T23:31:27+00:00"
+    },
+    {
+      "title": "Finally clicked for me: local AI is the future, not cloud AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwf8bb/finally_clicked_for_me_local_ai_is_the_future_not/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-14T22:32:27+00:00"
+    },
+    {
+      "title": "Hot take: frontier models haven\u2019t actually become much smarter",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwegdi/hot_take_frontier_models_havent_actually_become/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-14T21:57:33+00:00"
+    },
+    {
+      "title": "Microsoft patent describes turning idle gaming GPUs into paid AI training hardware",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwe9i5/microsoft_patent_describes_turning_idle_gaming/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-14T21:48:41+00:00"
+    },
+    {
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-14T21:41:22+00:00"
+    },
+    {
+      "title": "Ai Rig finally done and stable, perfect winter heater",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwc3m7/ai_rig_finally_done_and_stable_perfect_winter/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-14T20:13:38+00:00"
+    },
+    {
+      "title": "Update: tandem.cpp \u2014 DeepSeek-V4.1 on a 64 GB PC with a 16 GB card, and AMD (ROCm) support",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-14T19:12:45+00:00"
+    },
+    {
+      "title": "nex-agi/Nex-N2.6 \u00b7 Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw9mpa/nexaginexn26_hugging_face/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-14T18:31:49+00:00"
+    },
+    {
+      "title": "My LumaBrowser project is nearing 150 stars on Github! Not a big accomplishment I know, but in return here is a video showing some of its \"Anthropic/OpenAI in a box\" abilities. Hotswapping LLM/Image/V",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw8af1/my_lumabrowser_project_is_nearing_150_stars_on/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-14T17:38:18+00:00"
+    },
+    {
+      "title": "The AI graveyard: a running list of projects and startups that didn\u2019t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-14T17:30:00+00:00"
+    },
+    {
+      "title": "tiny-voca: a fully open 4.5M-parameter TTS (code, weights, dataset). Runs 70x real time on a CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw7zrg/tinyvoca_a_fully_open_45mparameter_tts_code/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-14T17:26:13+00:00"
+    },
+    {
+      "title": "datasette-vega 0.7",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+      "source": "Simon Willison",
+      "published": "2026-11-14T17:09:09+00:00"
+    },
+    {
+      "title": "Asian governments react to Nvidia CEO Jensen Huang\u2019s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-14T16:34:15+00:00"
+    },
+    {
+      "title": "Formalizing US Tax Code (Using Lean)",
+      "url": "https://lexifina.com/blog/formalizing-the-us-tax-code",
+      "source": "Hacker News (145 pts)",
+      "published": "2026-11-14T15:41:20+00:00"
+    },
+    {
+      "title": "The OpenAI board member who fired Sam Altman says we still can\u2019t trust AI CEOs",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "source": "The Verge AI",
+      "published": "2026-11-14T10:00:00-05:00"
+    },
+    {
+      "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+      "url": "https://gitlab.com/snipedbywifi/terminactory",
+      "source": "Hacker News (156 pts)",
+      "published": "2026-11-14T14:05:54+00:00"
+    },
+    {
+      "title": "The Myth of Neutral Code",
+      "url": "https://foss.life/notes/2026/the-myth-of-neutral-code/",
+      "source": "Hacker News (26 pts)",
+      "published": "2026-11-14T13:52:11+00:00"
+    },
+    {
+      "title": "The Claude Delusion",
+      "url": "https://www.netmeister.org/blog/claude-delusion.html",
+      "source": "Hacker News (148 pts)",
+      "published": "2026-11-14T13:36:17+00:00"
+    },
+    {
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "The Verge AI",
+      "published": "2026-11-14T07:00:00-05:00"
+    },
+    {
+      "title": "v0.34.0rc4",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc4",
+      "source": "GitHub: vllm",
+      "published": "2026-11-14T10:15:55+00:00"
+    },
+    {
+      "title": "Gemini 4 Hydrogen: Rollout and Research Workflows \u2014 CASRAI",
+      "url": "https://casrai.org/news/google-gemini-4-hydrogen-release-2026",
+      "source": "Web: casrai.org",
+      "published": "2026-11-14T09:44:26.127588+00:00"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "url": "https://www.mlex.com/mlex/artificial-intelligence",
+      "source": "Web: mlex.com",
+      "published": "2026-11-13T09:44:26.128585+00:00"
+    },
+    {
+      "title": "AI companies sued over safety risks as groups seek to halt development",
+      "url": "https://thebusinessjournal.com/ai-companies-lawsuit-safety-risks-development/",
+      "source": "Web: thebusinessjournal.com",
+      "published": "2026-11-13T09:44:26.128585+00:00"
+    },
+    {
+      "title": "Watchdogs Haul Five Tech Giants To Court Over Concerns AI Could \u2018Exterminate\u2019 Humanity",
+      "url": "https://dailycaller.com/2026/11/12/alliance-for-secure-ai-anthropic-google-meta-open-ai-space/",
+      "source": "Web: dailycaller.com",
+      "published": "2026-11-13T09:44:26.128585+00:00"
+    },
+    {
+      "title": "New AI Models \u2014 November 2026 LLM Releases",
+      "url": "https://llmgateway.io/timeline",
+      "source": "Web: llmgateway.io",
+      "published": "2026-11-13T09:44:26.126598+00:00"
+    },
+    {
+      "title": "AI Model Releases Timeline: Latest Launches, Updated Daily \u2014 PromptZone - AI Prompts, Guides and Tools for Builders",
+      "url": "https://www.promptzone.com/ai-model-releases",
+      "source": "Web: promptzone.com",
+      "published": "2026-11-13T09:44:26.126598+00:00"
+    }
+  ]
+}
