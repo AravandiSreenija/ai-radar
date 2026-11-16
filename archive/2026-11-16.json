@@ -1,0 +1,695 @@
+{
+  "date": "2026-11-16",
+  "label": "Monday, 16 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 34 candidates.",
+  "sources_ok": 34,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Web: qwen.ai",
+      "title": "Qwen4-Max: Your New Teammate Has Arrived",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "published": "2026-11-16T10:01:19.734370+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Alibaba's Qwen4-Max flagship brings a new architecture, native vision and 1M context, and is reported to cut token usage and cost per task.",
+      "score": 5
+    },
+    {
+      "source": "Web: startupfortune.com",
+      "title": "Alibaba's Qwen4-Max beats Qwen3.8-Max with half the tokens and a 62% lower cost per task - Startup Fortune",
+      "url": "https://startupfortune.com/alibabas-qwen4-max-beats-qwen38-max-with-half-the-tokens-and-a-62-lower-cost-per-task/",
+      "published": "2026-11-16T10:01:19.732554+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Reported comparison against Qwen3.8-Max: half the tokens and 62% lower cost per task, which matters for agent cost planning.",
+      "score": 4
+    },
+    {
+      "source": "Web: cryptobriefing.com",
+      "title": "Alibaba unveils Qwen4-Max, claims it beats rival models on coding",
+      "url": "https://cryptobriefing.com/alibaba-unveils-qwen4-max-ai-model",
+      "published": "2026-11-16T10:01:19.734370+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Alibaba claims Qwen4-Max beats rival models on coding, relevant to anyone choosing a coding model.",
+      "score": 4
+    },
+    {
+      "source": "Web: scmp.com",
+      "title": "Alibaba says new flagship AI model cuts task costs by 60% while tightening cyber guardrails",
+      "url": "https://scmp.com/tech/big-tech/article/3374540/alibaba-says-new-flagship-ai-model-cuts-task-costs-60-while-tightening-cyber-guardrails",
+      "published": "2026-11-16T10:01:19.732554+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "Alibaba pairs the 60% task-cost cut with tighter cyber guardrails, a useful signal for enterprise deployment.",
+      "score": 3
+    },
+    {
+      "source": "Web: cyberpress.org",
+      "title": "Hackers Use ARTEX and Other AI Agents to Automate Reconnaissance, Exploitation, and Data Theft",
+      "url": "https://cyberpress.org/ai-agents-automate-cyberattacks/",
+      "published": "2026-11-16T10:01:19.733988+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "Attackers are using AI agents such as ARTEX to automate reconnaissance, exploitation and data theft, raising the threat model for defenders.",
+      "score": 4
+    },
+    {
+      "source": "Web: technology.org",
+      "title": "New York Launches AI Safety Center to Independently Test AI Models",
+      "url": "https://www.technology.org/2026/11/15/new-york-ai-safety-center-binghamton-raise-act/",
+      "published": "2026-11-15T10:01:19.735020+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "New York is launching an AI safety center to independently test models, which may shape future evaluation and compliance expectations.",
+      "score": 3
+    },
+    {
+      "source": "Web: itbrief.com.au",
+      "title": "Australia to legislate safety rules for frontier AI",
+      "url": "https://itbrief.com.au/story/australia-to-legislate-safety-rules-for-frontier-ai",
+      "published": "2026-11-16T10:01:19.735020+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "Australia plans to legislate safety rules for frontier AI, part of the growing regulatory landscape.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (1166 pts)",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "published": "2026-11-15T14:46:58+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "A top Hacker News debate (1166 points) on whether AI-generated code should be open source, with licensing implications for developers.",
+      "score": 3
+    },
+    {
+      "source": "arXiv cs.AI",
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "url": "https://arxiv.org/abs/2611.17338",
+      "published": "2026-11-16T00:00:00-05:00",
+      "snippet": "arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves hard-drop from gains of +0.186 to +0.230 at perfect resolution to losses of -0.176 to -0.181 at the lowest te",
+      "category": "Research",
+      "summary": "arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three...",
+      "why_it_matters": "Shows that hard-deleting facts classed as stale can hurt LLM agent memory, which bears directly on agent memory design.",
+      "score": 3
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "published": "2026-11-15T14:15:43-05:00",
+      "snippet": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority [\u2026]",
+      "category": "Industry",
+      "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various...",
+      "why_it_matters": "Congress is moving to tighten AI chip export rules after the Nvidia scandal, which could affect hardware supply and the AI industry.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-16T10:01:19.735020+00:00"
+    },
+    {
+      "title": "AI Governance News: Regulations, Incidents & Best Practices",
+      "url": "https://aigovernance.com/news",
+      "source": "Web: aigovernance.com",
+      "published": "2026-11-16T10:01:19.735020+00:00"
+    },
+    {
+      "title": "AI News Today, November 15: Top Stories",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-16T10:01:19.735020+00:00"
+    },
+    {
+      "title": "Center for AI Safety",
+      "url": "https://en.wikipedia.org/wiki/Center_for_AI_Safety",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-16T10:01:19.735020+00:00"
+    },
+    {
+      "title": "AI News: Artificial Intelligence Stories, Ranked",
+      "url": "https://aiweekly.co/",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-16T10:01:19.735020+00:00"
+    },
+    {
+      "title": "AI Tactical Toolbox",
+      "url": "https://avihacker.substack.com/p/ai-news-characterais-teen-crisis-935",
+      "source": "Web: avihacker.substack.com",
+      "published": "2026-11-16T10:01:19.735020+00:00"
+    },
+    {
+      "title": "OpenAI No Longer Takes Safety Seriously",
+      "url": "https://jbradleychen.substack.com/p/openai-no-longer-takes-safety-seriously",
+      "source": "Web: jbradleychen.substack.com",
+      "published": "2026-11-16T10:01:19.735020+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-16T10:01:19.734370+00:00"
+    },
+    {
+      "title": "Meta Models: Muse and Llama Specs, Prices and Dates",
+      "url": "https://nhimg.org/meta-llm-models-guide",
+      "source": "Web: nhimg.org",
+      "published": "2026-11-16T10:01:19.734370+00:00"
+    },
+    {
+      "title": "Llama news and updates: every Meta open-weights release, tracked \u2014 AI Chat Daily",
+      "url": "https://www.aichatdaily.com/llama",
+      "source": "Web: aichatdaily.com",
+      "published": "2026-11-16T10:01:19.734370+00:00"
+    },
+    {
+      "title": "Qwen AI",
+      "url": "https://qwen.ai/",
+      "source": "Web: qwen.ai",
+      "published": "2026-11-16T10:01:19.734370+00:00"
+    },
+    {
+      "title": "Qwen",
+      "url": "https://qwen.ai/research",
+      "source": "Web: qwen.ai",
+      "published": "2026-11-16T10:01:19.734370+00:00"
+    },
+    {
+      "title": "Alibaba Launches Qwen4-Max with 50% Lower Token Usage and 28% Higher Score",
+      "url": "https://www.kucoin.com/news/flash/alibaba-launches-qwen4-max-with-50-lower-token-usage-and-28-higher-score",
+      "source": "Web: kucoin.com",
+      "published": "2026-11-16T10:01:19.734370+00:00"
+    },
+    {
+      "title": "Qwen Developers on X: \"Well, here we go. Qwen4-Max is officially here A new architecture, native vision, 1M context, and quite a few improvements we've been working on. It's been a long time coming, a",
+      "url": "https://x.com/QwenDevs/status/2122156218928242799",
+      "source": "Web: x.com",
+      "published": "2026-11-16T10:01:19.734370+00:00"
+    },
+    {
+      "title": "Alibaba unveils new Qwen3.5 model for 'agentic AI era'",
+      "url": "https://finance.yahoo.com/news/alibaba-unveils-qwen3-5-model-090141322.html",
+      "source": "Web: finance.yahoo.com",
+      "published": "2026-11-16T10:01:19.734370+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-16T10:01:19.733988+00:00"
+    },
+    {
+      "title": "AI Agents News Brief: November 12, 2026",
+      "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-november-12-2026",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-16T10:01:19.733988+00:00"
+    },
+    {
+      "title": "AI Agent Platforms Compared: Builders and Frameworks",
+      "url": "https://nhimg.org/ai-agent-platforms-compared",
+      "source": "Web: nhimg.org",
+      "published": "2026-11-16T10:01:19.733988+00:00"
+    },
+    {
+      "title": "DEV Community",
+      "url": "https://dev.to/levi_ezra_115d2257a6f1f16/top-ai-agent-frameworks-for-developers-1el6",
+      "source": "Web: dev.to",
+      "published": "2026-11-16T10:01:19.733988+00:00"
+    },
+    {
+      "title": "AI Agents News Brief: November 15, 2026",
+      "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-november-15-2026",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-16T10:01:19.733640+00:00"
+    },
+    {
+      "title": "AI Coding Agent News: Launches, Pricing Changes & Shutdowns",
+      "url": "https://getaicodingagent.com/news",
+      "source": "Web: getaicodingagent.com",
+      "published": "2026-11-16T10:01:19.733640+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-16T10:01:19.732554+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-16T10:01:19.732554+00:00"
+    },
+    {
+      "title": "Qwen4-Max \u2014 Alibaba's Qwen4 flagship is live on\u2026",
+      "url": "https://ai-tldr.dev/releases/qwen-qwen4-max",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-16T10:01:19.732554+00:00"
+    },
+    {
+      "title": "Latest News",
+      "url": "https://newsroom.ibm.com/campaign?item=1987",
+      "source": "Web: newsroom.ibm.com",
+      "published": "2026-11-16T10:01:19.732554+00:00"
+    },
+    {
+      "title": "Google launches new AI models and brings \u2018thinking\u2019 to Gemini",
+      "url": "https://techcrunch.com/2025/02/05/google-launches-new-ai-models-and-brings-thinking-to-gemini/embed/",
+      "source": "Web: techcrunch.com",
+      "published": "2026-11-16T10:01:19.732554+00:00"
+    },
+    {
+      "title": "b12431",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12431",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-16T09:24:51+00:00"
+    },
+    {
+      "title": "LVMH\u2019s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "source": "OpenAI",
+      "published": "2026-11-16T09:00:00+00:00"
+    },
+    {
+      "title": "b12430",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12430",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-16T06:39:21+00:00"
+    },
+    {
+      "title": "New AA ranking Qwen3.8-FN better than GLM-5.3-Flash?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxibeh/new_aa_ranking_qwen38fn_better_than_glm53flash/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-16T06:32:08+00:00"
+    },
+    {
+      "title": "How to make almost anything",
+      "url": "https://pub.cba.mit.edu/863.26/site/",
+      "source": "Hacker News (252 pts)",
+      "published": "2026-11-16T05:50:37+00:00"
+    },
+    {
+      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "url": "https://arxiv.org/abs/2611.17339",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+      "url": "https://arxiv.org/abs/2611.17341",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "An Operationalization of Opaque Serial Depth",
+      "url": "https://arxiv.org/abs/2611.17495",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "Advancing Quantization for R&R Models with Microscaling Formats",
+      "url": "https://arxiv.org/abs/2611.17501",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+      "url": "https://arxiv.org/abs/2611.17515",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
+      "url": "https://arxiv.org/abs/2611.17524",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
+      "url": "https://arxiv.org/abs/2611.17532",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
+      "url": "https://arxiv.org/abs/2611.17539",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "AI-Voyager: A Public-Interest System for Human-AI Civic Reasoning to Contest and Shape the Rules That Govern AI",
+      "url": "https://arxiv.org/abs/2611.17564",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "Tracing Knowledge and Reasoning in LLM",
+      "url": "https://arxiv.org/abs/2611.17461",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "Poetry 'resurrection' from LLMs",
+      "url": "https://arxiv.org/abs/2611.17464",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "Creating Steering Vectors via Input Optimisation",
+      "url": "https://arxiv.org/abs/2611.17481",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "CamSpokenNLI: A Pilot Resource for Cross-Variety Transfer Evaluation in Cameroon Pidgin English and Camfranglais",
+      "url": "https://arxiv.org/abs/2611.17573",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "Small Open-Weight Language Models for Crowd Decision-Making: Capabilities and Limits of Output-Level Fusion and Linguistic Aggregation",
+      "url": "https://arxiv.org/abs/2611.17589",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "What Do Multilingual Self-Supervised Speech Encoders Know About Sentence Meaning?",
+      "url": "https://arxiv.org/abs/2611.17686",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "See Every Block Once: Variance-Reduced Post-Training for Masked Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2611.17754",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "RAG-FGO: Dynamic Optimization of Query-Rewriting Agents for Generative RAG",
+      "url": "https://arxiv.org/abs/2611.17788",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "AI Reviews Are Biased Towards the Appendix",
+      "url": "https://arxiv.org/abs/2611.17811",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "PaperCritic: Training AI Reviewers to Assess the Soundness of Papers",
+      "url": "https://arxiv.org/abs/2611.17834",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "title": "v0.34.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+      "source": "GitHub: vllm",
+      "published": "2026-11-16T04:27:15+00:00"
+    },
+    {
+      "title": "[Release] Qwen3.8-27B-Perplexing-Pegasus-Heretic: Unified vision + typed decider + abliterated weights for local agent stacks (GGUF, AutoRound, NVFP4)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxg12n/release_qwen3827bperplexingpegasusheretic_unified/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-16T04:22:20+00:00"
+    },
+    {
+      "title": "I'm starting to think a specialized 4B is enough for most of the tasks I'd use an LLM for",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxfv69/im_starting_to_think_a_specialized_4b_is_enough/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-16T04:13:31+00:00"
+    },
+    {
+      "title": "Tell HN: HN is being scraped for emails to scam",
+      "url": "https://news.ycombinator.com/item?id=50513451",
+      "source": "Hacker News (92 pts)",
+      "published": "2026-11-16T02:53:30+00:00"
+    },
+    {
+      "title": "Apple launches new app to study how people use AI for health",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-16T01:30:00+00:00"
+    },
+    {
+      "title": "Apple\u2019s new study looks to improve the effectiveness of AI health tools",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "source": "The Verge AI",
+      "published": "2026-11-15T20:26:56-05:00"
+    },
+    {
+      "title": "b12428",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12428",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-16T00:17:10+00:00"
+    },
+    {
+      "title": "Why download abliterated Flash Next models when LoRA exists?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxawbh/why_download_abliterated_flash_next_models_when/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-16T00:06:16+00:00"
+    },
+    {
+      "title": "AI Day Seoul Brings Together Korea\u2019s Industry Leaders, Startups and Developer Communities",
+      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+      "source": "NVIDIA",
+      "published": "2026-11-16T00:00:28+00:00"
+    },
+    {
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "source": "Simon Willison",
+      "published": "2026-11-15T23:58:36+00:00"
+    },
+    {
+      "title": "b12429: convert: fix ripple dflash2 NoPE metadata (#32363)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12429",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T23:47:27+00:00"
+    },
+    {
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-15T23:30:00+00:00"
+    },
+    {
+      "title": "b12427",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12427",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T23:27:19+00:00"
+    },
+    {
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "source": "Simon Willison",
+      "published": "2026-11-15T23:20:27+00:00"
+    },
+    {
+      "title": "0.171.0-alpha.7",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.7",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-15T23:18:44+00:00"
+    },
+    {
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "source": "Simon Willison",
+      "published": "2026-11-15T23:18:17+00:00"
+    },
+    {
+      "title": "langchain-mistralai==1.2.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0",
+      "source": "GitHub: langchain",
+      "published": "2026-11-15T22:38:06+00:00"
+    },
+    {
+      "title": "Someone should do an analysis on the rate of Self-promo here.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx85mw/someone_should_do_an_analysis_on_the_rate_of/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-15T22:05:21+00:00"
+    },
+    {
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "OpenAI",
+      "published": "2026-11-15T22:00:01+00:00"
+    },
+    {
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "source": "OpenAI",
+      "published": "2026-11-15T22:00:00+00:00"
+    },
+    {
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-15T21:56:35+00:00"
+    },
+    {
+      "title": "langchain-groq==1.2.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0",
+      "source": "GitHub: langchain",
+      "published": "2026-11-15T21:49:10+00:00"
+    },
+    {
+      "title": "I have created a tool to observe what happens inside an LLM. Also allows for the comparison of two quantizations of the same model to see at what point they diverge, token by token",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx7qbf/i_have_created_a_tool_to_observe_what_happens/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-15T21:46:56+00:00"
+    },
+    {
+      "title": "langchain-xai==1.4.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0",
+      "source": "GitHub: langchain",
+      "published": "2026-11-15T21:35:22+00:00"
+    },
+    {
+      "title": "langchain-deepseek==1.2.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.0",
+      "source": "GitHub: langchain",
+      "published": "2026-11-15T21:34:42+00:00"
+    },
+    {
+      "title": "b12426",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12426",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T21:09:00+00:00"
+    },
+    {
+      "title": "Best direction to go for my setup EPYC 32core + 512GB DDR4 + 44GB GPU ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx6dpd/best_direction_to_go_for_my_setup_epyc_32core/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-15T20:50:14+00:00"
+    },
+    {
+      "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "source": "The Verge AI",
+      "published": "2026-11-15T15:43:49-05:00"
+    },
+    {
+      "title": "Llama.cpp performance improvement over time (Gemma4 models)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx607x/llamacpp_performance_improvement_over_time_gemma4/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-15T20:34:44+00:00"
+    },
+    {
+      "title": "b12425",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12425",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T20:26:37+00:00"
+    },
+    {
+      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-15T20:20:57+00:00"
+    },
+    {
+      "title": "b12424",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12424",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T20:11:50+00:00"
+    },
+    {
+      "title": "BigMoeOnEdge outperforms Strata and colibri on 8-16 GB cards and Mac and you can run any model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx5fng/bigmoeonedge_outperforms_strata_and_colibri_on/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-15T20:11:18+00:00"
+    },
+    {
+      "title": "b12423",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12423",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T19:58:54+00:00"
+    },
+    {
+      "title": "b12422",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12422",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-15T19:33:50+00:00"
+    },
+    {
+      "title": "0.171.0-alpha.6",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.6",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-15T19:03:37+00:00"
+    },
+    {
+      "title": "[audio.cpp] SoulX-FlashHead + LFM3-Audio + OWSM v4 = Real-Time Local Avatar Chat",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx2vi0/audiocpp_soulxflashhead_lfm3audio_owsm_v4/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-15T18:29:39+00:00"
+    },
+    {
+      "title": "A Human Reads the Anthropic IPO Filing",
+      "url": "https://www.nytimes.com/2026/11/15/business/anthropic-ipo-filing-prospectus.html",
+      "source": "Hacker News (21 pts)",
+      "published": "2026-11-15T15:18:06+00:00"
+    },
+    {
+      "title": "langchain-core==1.8.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1",
+      "source": "GitHub: langchain",
+      "published": "2026-11-15T14:57:13+00:00"
+    },
+    {
+      "title": "The Hypertext Transfer Protocol Status Code 483 (I'm Not a Freezer)",
+      "url": "https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/",
+      "source": "Hacker News (75 pts)",
+      "published": "2026-11-15T14:31:52+00:00"
+    },
+    {
+      "title": "Show HN: db-branch \u2013 database branches in seconds for AI agents and CI, via ZFS",
+      "url": "https://github.com/db-branch/db-branch",
+      "source": "Hacker News (42 pts)",
+      "published": "2026-11-15T13:50:51+00:00"
+    },
+    {
+      "title": "An overview of Jensen Huang\u2019s messy days",
+      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "source": "The Verge AI",
+      "published": "2026-11-15T08:00:00-05:00"
+    },
+    {
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "source": "Hacker News (228 pts)",
+      "published": "2026-11-15T12:14:06+00:00"
+    },
+    {
+      "title": "New Models Today \u2014 AI & LLM Releases Last 24 Hours",
+      "url": "https://pricepertoken.com/news/model-releases",
+      "source": "Web: pricepertoken.com",
+      "published": "2026-11-15T10:01:19.733640+00:00"
+    }
+  ]
+}
