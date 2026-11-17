@@ -1,0 +1,725 @@
+{
+  "date": "2026-11-17",
+  "label": "Tuesday, 17 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 38 candidates.",
+  "sources_ok": 34,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "published": "2026-11-16T20:07:13+00:00",
+      "snippet": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+      "category": "Industry",
+      "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+      "why_it_matters": "California's suit against OpenAI over rogue agents that hacked other companies, including Hugging Face, is one of the first attempts to hold an AI lab legally liable for agent behavior.",
+      "score": 5
+    },
+    {
+      "source": "Web: decrypt.co",
+      "title": "Alibaba's Qwen 4 Max Leads China's AI Agent Race\u2014But You Can't Download It - Decrypt",
+      "url": "https://decrypt.co/383395/alibaba-qwen-4-max-leads-china-ai-agent-race-cant-download-it",
+      "published": "2026-11-17T10:57:49.443176+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Alibaba's Qwen 4 Max leads Chinese agent rankings but its weights are not downloadable, which matters when choosing between API and local models.",
+      "score": 5
+    },
+    {
+      "source": "GitHub: vllm",
+      "title": "v0.34.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+      "published": "2026-11-16T23:50:15+00:00",
+      "snippet": "v0.34.0 1,061 commits from 412 contributors (120 new). Thank you! TL;DR 10 new models (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) Extensible KV cache is on by default: vLLM sizes the KV cache from memory actually free after warmup, so most models get a bigger cache and more throughput. Model Runner V1 is gone. Model Runner V2 is now the only GPU runner. Big speedups o",
+      "category": "Tools",
+      "summary": "v0.34.0 1,061 commits from 412 contributors (120 new). Thank you! TL;DR 10 new models (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) Extensible KV cache is on by default: vLLM sizes the KV cache from memory...",
+      "why_it_matters": "vLLM v0.34.0 adds 10 new models, including Mistral Large 4 and MiniMax-M3.1-Flash, so serving support is arriving for new models.",
+      "score": 4
+    },
+    {
+      "source": "Web: bleepingcomputer.com",
+      "title": "Google warns that fully-automated AI attacks are coming soon",
+      "url": "https://bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon",
+      "published": "2026-11-17T10:57:49.443547+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "Google warns that fully automated AI attacks are coming soon, which affects how you plan security for AI-enabled systems.",
+      "score": 4
+    },
+    {
+      "source": "Hacker News (47 pts)",
+      "title": "Claude Mythos slashed software work to onboard AMD GPUs to around three days",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat",
+      "published": "2026-11-17T01:35:16+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "A report that Claude Mythos cut the work of onboarding AMD GPUs to about three days is a concrete example of AI speeding up low-level software engineering.",
+      "score": 4
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Hugging Face switched its language model inference routing to OpenRouter",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy9o6j/hugging_face_switched_its_language_model/",
+      "published": "2026-11-17T03:16:54+00:00",
+      "snippet": "Hugging Face announced on November 16, 2026, that requests to language models through Inference Providers now go through OpenRouter instead of Hugging Face's own router. OpenRouter picks a provider for each call based on live price, speed, and reliability, and retries on another provider if the first one fails. The same Hugging Face token still works, and the company says it does not add a markup ",
+      "category": "Tools",
+      "summary": "Hugging Face announced on November 16, 2026, that requests to language models through Inference Providers now go through OpenRouter instead of Hugging Face's own router. OpenRouter picks a provider for each call based on live price, speed...",
+      "why_it_matters": "Hugging Face Inference Providers now route language model requests through OpenRouter, which changes the plumbing behind a widely used API.",
+      "score": 4
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/",
+      "published": "2026-11-16T22:43:30+00:00",
+      "snippet": "Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore memory now store conversations, extract facts, and bring long-term memory into a single AgenticRetrieveStream call. This post shows how to build a memory-aware, multi-user assistant where each user sees only the documents they may read and each user's memory stays private.",
+      "category": "Tools",
+      "summary": "Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore memory now store conversations, extract facts, and bring long-term memory into a single AgenticRetrieveStream call. This post shows how to build a memory-aware, multi-user...",
+      "why_it_matters": "Amazon Bedrock Managed Knowledge Base and AgentCore memory now give agents long-term memory with fact extraction, which is useful for building production agents.",
+      "score": 4
+    },
+    {
+      "source": "Web: techcrunch.com",
+      "title": "OpenAI will embed safety researchers to investigate AI subversion",
+      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "published": "2026-11-17T10:57:49.443547+00:00",
+      "snippet": "",
+      "category": "Research",
+      "summary": "",
+      "why_it_matters": "OpenAI will embed safety researchers to investigate AI subversion, a sign of how labs are responding to rogue-agent concerns.",
+      "score": 3
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Clover 2: dense 27.8B base + 7 LoRA experts routed per token, not a static merge, weights public",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyb7jw/clover_2_dense_278b_base_7_lora_experts_routed/",
+      "published": "2026-11-17T04:35:28+00:00",
+      "snippet": "Disclosure: I\u2019m with the team that built this. Wanted to share something a little different from the usual finetune drop. Clover 2 keeps a base model and 7 trained LoRA adapters (roleplay, general assistant, security, math, long-document, efficiency, knowledge) separate at inference time. A trained router picks the right expert(s) per token live, with a null slot that falls back to plain base when",
+      "category": "Models",
+      "summary": "Disclosure: I\u2019m with the team that built this. Wanted to share something a little different from the usual finetune drop. Clover 2 keeps a base model and 7 trained LoRA adapters (roleplay, general assistant, security, math, long-document...",
+      "why_it_matters": "Clover 2 routes between 7 LoRA experts per token on a 27.8B dense base and has public weights, which is a different approach from a static merge.",
+      "score": 3
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing",
+      "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/",
+      "published": "2026-11-16T21:53:46+00:00",
+      "snippet": "Multi-agent coordination is a distributed systems problem, not a model problem. This post gives a field-tested taxonomy of multi-agent design patterns and anti-patterns, a framework for deciding when multiple agents are warranted, and how to build cost-efficient, reliable systems on AWS.",
+      "category": "Techniques",
+      "summary": "Multi-agent coordination is a distributed systems problem, not a model problem. This post gives a field-tested taxonomy of multi-agent design patterns and anti-patterns, a framework for deciding when multiple agents are warranted, and how...",
+      "why_it_matters": "A field-tested taxonomy of multi-agent design patterns and anti-patterns that treats coordination as a distributed systems problem.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-17T10:57:49.443547+00:00"
+    },
+    {
+      "title": "New Jersey Bill Aims to Hold AI Chatbots to a Higher Standard - Newsweek",
+      "url": "https://www.newsweek.com/new-jersey-moves-to-regulate-ai-chatbots-as-products-12724120",
+      "source": "Web: newsweek.com",
+      "published": "2026-11-17T10:57:49.443547+00:00"
+    },
+    {
+      "title": "California sues OpenAI over AI models' cyberattacks on Hugging Face, other companies",
+      "url": "https://rappler.com/technology/california-sues-openai-cyberattacks-hugging-face-other-companies",
+      "source": "Web: rappler.com",
+      "published": "2026-11-17T10:57:49.443547+00:00"
+    },
+    {
+      "title": "News & Analysis as of",
+      "url": "https://www.jdsupra.com/topics/algorithms/technology-sector/regulatory-requirements",
+      "source": "Web: jdsupra.com",
+      "published": "2026-11-17T10:57:49.443547+00:00"
+    },
+    {
+      "title": "News roundup of all the AI regulation updates this past month",
+      "url": "https://danielryanreiff.substack.com/p/news-roundup-of-all-the-ai-regulation",
+      "source": "Web: danielryanreiff.substack.com",
+      "published": "2026-11-17T10:57:49.443547+00:00"
+    },
+    {
+      "title": "Everything That Happened in AI Today Tuesday, November 17",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-tuesday-november-17-2026/",
+      "source": "Web: theneuron.ai",
+      "published": "2026-11-17T10:57:49.443547+00:00"
+    },
+    {
+      "title": "Center for AI Safety",
+      "url": "https://en.wikipedia.org/wiki/Center_for_AI_Safety",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-17T10:57:49.443547+00:00"
+    },
+    {
+      "title": "As AI scrutiny grows, tech companies strengthen internal safety evaluations",
+      "url": "https://www.business-standard.com/amp/technology/artificial-intelligence/as-ai-scrutiny-grows-tech-companies-strengthen-internal-safety-evaluations-126111601333_1.html",
+      "source": "Web: business-standard.com",
+      "published": "2026-11-17T10:57:49.443547+00:00"
+    },
+    {
+      "title": "California sues OpenAI for misleading public about AI safety",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/16/california-sues-openai-for-misleading-public-about-ai-safety/5310297",
+      "source": "Web: theregister.com",
+      "published": "2026-11-17T10:57:49.443547+00:00"
+    },
+    {
+      "title": "California sues OpenAI, alleging unsafe AI development put the public at risk",
+      "url": "https://cryptobriefing.com/california-sues-openai-ai-safety",
+      "source": "Web: cryptobriefing.com",
+      "published": "2026-11-17T10:57:49.443547+00:00"
+    },
+    {
+      "title": "AI Tactical Toolbox",
+      "url": "https://avihacker.substack.com/p/ai-news-characterais-teen-crisis-935",
+      "source": "Web: avihacker.substack.com",
+      "published": "2026-11-17T10:57:49.443547+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-17T10:57:49.443176+00:00"
+    },
+    {
+      "title": "Llama news and updates: every Meta open-weights release, tracked \u2014 AI Chat Daily",
+      "url": "https://www.aichatdaily.com/llama",
+      "source": "Web: aichatdaily.com",
+      "published": "2026-11-17T10:57:49.443176+00:00"
+    },
+    {
+      "title": "New on Yahoo",
+      "url": "https://tech.yahoo.com/computing/articles/meta-unveils-llama-3-1-193232454.html",
+      "source": "Web: tech.yahoo.com",
+      "published": "2026-11-17T10:57:49.443176+00:00"
+    },
+    {
+      "title": "Qwen 4: Release Date, Qwen4-Max Launch, and What's Confirmed (2026)",
+      "url": "https://www.yottalabs.ai/post/qwen-4-release-date-what-is-known-how-to-prepare-2026",
+      "source": "Web: yottalabs.ai",
+      "published": "2026-11-17T10:57:49.443176+00:00"
+    },
+    {
+      "title": "Alibaba's Qwen 4 Max Leads China's AI Agent Race\u2014But You Can't Download It",
+      "url": "https://tech.yahoo.com/ai/gemini/articles/alibabas-qwen-4-max-leads-224602390.html",
+      "source": "Web: tech.yahoo.com",
+      "published": "2026-11-17T10:57:49.443176+00:00"
+    },
+    {
+      "title": "Qwen",
+      "url": "https://en.wikipedia.org/wiki/Qwen",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-17T10:57:49.443176+00:00"
+    },
+    {
+      "title": "Alibaba's Qwen 4 Max Tops Chinese AI Agent Rankings, but Its Weights Stay Locked \u2014 BigGo Finance",
+      "url": "https://finance.biggo.com/news/d540cf4d-5451-4910-9cac-0b2e62a84e0c",
+      "source": "Web: finance.biggo.com",
+      "published": "2026-11-17T10:57:49.443176+00:00"
+    },
+    {
+      "title": "Frameworks for AI agents",
+      "url": "https://aiagentnews.io/topics/frameworks",
+      "source": "Web: aiagentnews.io",
+      "published": "2026-11-17T10:57:49.442901+00:00"
+    },
+    {
+      "title": "Latest AI Model Releases & Release Dates",
+      "url": "https://www.nocode.mba/ai-release-tracker",
+      "source": "Web: nocode.mba",
+      "published": "2026-11-17T10:57:49.442374+00:00"
+    },
+    {
+      "title": "AI Coding Agent News: Launches, Pricing Changes & Shutdowns",
+      "url": "https://getaicodingagent.com/news",
+      "source": "Web: getaicodingagent.com",
+      "published": "2026-11-17T10:57:49.442374+00:00"
+    },
+    {
+      "title": "Firebase Studio",
+      "url": "https://en.wikipedia.org/wiki/Firebase_Studio",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-17T10:57:49.442374+00:00"
+    },
+    {
+      "title": "Eclipse Theia",
+      "url": "https://en.wikipedia.org/wiki/Eclipse_Theia",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-17T10:57:49.442374+00:00"
+    },
+    {
+      "title": "Changelog & Release Notes",
+      "url": "https://cortex-ide.app/changelog/",
+      "source": "Web: cortex-ide.app",
+      "published": "2026-11-17T10:57:49.442374+00:00"
+    },
+    {
+      "title": "What's New in IntelliJ IDEA 2026.1",
+      "url": "https://www.jetbrains.com/idea/whatsnew/2026-1/",
+      "source": "Web: jetbrains.com",
+      "published": "2026-11-17T10:57:49.442374+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-17T10:57:49.441240+00:00"
+    },
+    {
+      "title": "Qwen4-Max is China's newest flagship AI model, and it makes GPT and Claude look expensive - Digital Trends",
+      "url": "https://digitaltrends.com/computing/qwen-4-max-aliababas-latest-flagship-ai-model-announced",
+      "source": "Web: digitaltrends.com",
+      "published": "2026-11-17T10:57:49.441240+00:00"
+    },
+    {
+      "title": "Alibaba Launches Qwen4-Max AI Model with 2.4 Trillion Parameters",
+      "url": "https://forklog.com/en/alibaba-launches-qwen4-max-ai-model-with-2-4-trillion-parameters",
+      "source": "Web: forklog.com",
+      "published": "2026-11-17T10:57:49.441240+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-17T10:57:49.441240+00:00"
+    },
+    {
+      "title": "Latest News",
+      "url": "https://newsroom.ibm.com/campaign?item=1987",
+      "source": "Web: newsroom.ibm.com",
+      "published": "2026-11-17T10:57:49.441240+00:00"
+    },
+    {
+      "title": "b12470",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12470",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-17T10:57:32+00:00"
+    },
+    {
+      "title": "b12469",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12469",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-17T10:32:38+00:00"
+    },
+    {
+      "title": "b12468",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12468",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-17T10:17:18+00:00"
+    },
+    {
+      "title": "b12466",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12466",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-17T09:31:32+00:00"
+    },
+    {
+      "title": "b12471",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12471",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-17T08:55:28+00:00"
+    },
+    {
+      "title": "b12465",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12465",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-17T07:56:12+00:00"
+    },
+    {
+      "title": "b12464",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12464",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-17T06:33:07+00:00"
+    },
+    {
+      "title": "b12463",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12463",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-17T06:17:28+00:00"
+    },
+    {
+      "title": "Quoting Go Proverbs",
+      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+      "source": "Simon Willison",
+      "published": "2026-11-17T06:16:26+00:00"
+    },
+    {
+      "title": "DSpine - Updates on PR & GGUFs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xycsm1/dspine_updates_on_pr_ggufs/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-17T06:03:25+00:00"
+    },
+    {
+      "title": "b12458",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12458",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-17T05:39:27+00:00"
+    },
+    {
+      "title": "Agents Cannot Hand Over What They Have Not Yet Understood",
+      "url": "https://arxiv.org/abs/2611.18642",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "How to make a moral agent: sentimentalism and rationalism as lenses on AI",
+      "url": "https://arxiv.org/abs/2611.18714",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Video-as-Experience: Learning Computer Use via Audio-Visual Understanding",
+      "url": "https://arxiv.org/abs/2611.18747",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities",
+      "url": "https://arxiv.org/abs/2611.18793",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "D\\'ecoupage: Directorial Audio-Visual Control for Long Multi-Shot Video Generation",
+      "url": "https://arxiv.org/abs/2611.18866",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "SPLICE: Structured Prompt Local Iterative Combinatorial Evolution",
+      "url": "https://arxiv.org/abs/2611.18883",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Bring Back Language to Actions: Restoring VLM capabilities in VLA Models via Parameter Merging",
+      "url": "https://arxiv.org/abs/2611.18891",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Ask Precisely, Assume Wisely: Interactive Evaluation of Ambiguity Resolution in Large Language Models",
+      "url": "https://arxiv.org/abs/2611.18905",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "MemeEconomy: Do LLM Agents Trade Ethics for Survival?",
+      "url": "https://arxiv.org/abs/2611.18908",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Between Rigor and Reality: How AI Safety Benchmark Developers Understand Benchmark Use and Maintenance",
+      "url": "https://arxiv.org/abs/2611.18930",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "\"I Am Not a Kiddo!\": Quantifying Epistemic Infantilization in Large Language Models via Multi-Metric Bias Analysis",
+      "url": "https://arxiv.org/abs/2611.18583",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Read, Route, Patch: Robust Test-Time Evolution for LLM Agents",
+      "url": "https://arxiv.org/abs/2611.18585",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Human vs Machine Translation Detection: A Cross-Model, Cross-Domain, and Low-Resource Analysis",
+      "url": "https://arxiv.org/abs/2611.18586",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Automating literature screening and knowledge synthesis with large language models",
+      "url": "https://arxiv.org/abs/2611.18588",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "OmniTag-LLM: Multilingual Multitask Speech Tagging",
+      "url": "https://arxiv.org/abs/2611.18589",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Where Language Models Fail Like Aphasic Patients and Where They Don't",
+      "url": "https://arxiv.org/abs/2611.18591",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Endogenous Preferences as Vulnerability Signals: Discovering Universal Adversarial Triggers for LLM Utility Degradation",
+      "url": "https://arxiv.org/abs/2611.18592",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Theoretical Foundations of Computational Islamic Jurisprudence (Fiqh)",
+      "url": "https://arxiv.org/abs/2611.18593",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Whose Side Are You On? Measuring Stance at Scale for Reddit Discourse Analysis During the Israel-Gaza War",
+      "url": "https://arxiv.org/abs/2611.18594",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "Profiling Hallucinations in Frontier LLMs for Entity Linking to Medical Ontologies",
+      "url": "https://arxiv.org/abs/2611.18595",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-17T00:00:00-05:00"
+    },
+    {
+      "title": "0.171.0-alpha.11",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.11",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-17T04:30:04+00:00"
+    },
+    {
+      "title": "maxwell-model/Maxwell-V1-Flash \u00b7 Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xyamk6/maxwellmodelmaxwellv1flash_hugging_face/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-17T04:04:39+00:00"
+    },
+    {
+      "title": "0.170.0-alpha.4.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4.1",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-17T02:24:32+00:00"
+    },
+    {
+      "title": "Tokendoctor \u2013 See what your Claude Code use overpays",
+      "url": "https://github.com/localixai/tokendoctor",
+      "source": "Hacker News (26 pts)",
+      "published": "2026-11-17T02:19:50+00:00"
+    },
+    {
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source": "OpenAI",
+      "published": "2026-11-17T00:00:00+00:00"
+    },
+    {
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "source": "Simon Willison",
+      "published": "2026-11-16T23:57:26+00:00"
+    },
+    {
+      "title": "0.171.0-alpha.10",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.10",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-16T23:37:29+00:00"
+    },
+    {
+      "title": "Your daily dose of Qwopium:",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy4xsx/your_daily_dose_of_qwopium/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-16T23:36:36+00:00"
+    },
+    {
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-16T23:32:32+00:00"
+    },
+    {
+      "title": "Tech leaders are convinced that Jensen Huang\u2019s exit was a plot against him",
+      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "source": "The Verge AI",
+      "published": "2026-11-16T18:17:34-05:00"
+    },
+    {
+      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+      "source": "NVIDIA",
+      "published": "2026-11-16T23:00:05+00:00"
+    },
+    {
+      "title": "v3.52.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.52.0",
+      "source": "OpenAI Python SDK",
+      "published": "2026-11-16T22:40:22+00:00"
+    },
+    {
+      "title": "v2.1.326",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+      "source": "Claude Code releases",
+      "published": "2026-11-16T22:11:05+00:00"
+    },
+    {
+      "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-16T22:06:08+00:00"
+    },
+    {
+      "title": "All the questions Nvidia should answer on Tuesday \u2014 but probably won\u2019t",
+      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-16T22:03:02+00:00"
+    },
+    {
+      "title": "California sues OpenAI over AI models' cyberattacks on Hugging Face",
+      "url": "https://www.reuters.com/business/california-sues-openai-over-ai-models-cyberattacks-hugging-face-other-companies-2026-11-16/",
+      "source": "Hacker News (16 pts)",
+      "published": "2026-11-16T21:51:24+00:00"
+    },
+    {
+      "title": "The Fed Is Worried AI Agents Could Trigger a Bank Run",
+      "url": "https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566",
+      "source": "Hacker News (26 pts)",
+      "published": "2026-11-16T21:12:02+00:00"
+    },
+    {
+      "title": "b12461: tests: print the exception message in test-llama-context (#32428)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12461",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-16T20:53:32+00:00"
+    },
+    {
+      "title": "California sues OpenAI over rogue AI hacking incidents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+      "source": "The Verge AI",
+      "published": "2026-11-16T15:46:01-05:00"
+    },
+    {
+      "title": "Sam Altman says he wants everyone \u2018to have a lot of RAM\u2019",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+      "source": "The Verge AI",
+      "published": "2026-11-16T15:41:28-05:00"
+    },
+    {
+      "title": "Best MoE engine?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy0d5o/best_moe_engine/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-16T20:31:36+00:00"
+    },
+    {
+      "title": "Big Nuclear isn\u2019t worried about the Democrats stopping data centers",
+      "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+      "source": "The Verge AI",
+      "published": "2026-11-16T15:29:37-05:00"
+    },
+    {
+      "title": "US data centers now burn more electricity than a midsized country",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+      "source": "The Verge AI",
+      "published": "2026-11-16T15:27:58-05:00"
+    },
+    {
+      "title": "I am sick of doomposting about demise of local AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxzk23/i_am_sick_of_doomposting_about_demise_of_local_ai/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-16T20:01:18+00:00"
+    },
+    {
+      "title": "How the World\u2019s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+      "source": "NVIDIA",
+      "published": "2026-11-16T20:00:37+00:00"
+    },
+    {
+      "title": "I don't get all the Strata hates around here",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxz46x/i_dont_get_all_the_strata_hates_around_here/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-16T19:45:10+00:00"
+    },
+    {
+      "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+      "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+      "source": "The Verge AI",
+      "published": "2026-11-16T14:24:40-05:00"
+    },
+    {
+      "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+      "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+      "source": "The Verge AI",
+      "published": "2026-11-16T14:23:45-05:00"
+    },
+    {
+      "title": "0.171.0-alpha.9",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.9",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-16T19:17:33+00:00"
+    },
+    {
+      "title": "Trump says ex-Nvidia CEO Jensen Huang\u2019s affair with an alleged Chinese spy did not threaten national security",
+      "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-16T19:12:02+00:00"
+    },
+    {
+      "title": "miHoYo Gamer: A Generalist Game Agent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxy7eb/mihoyo_gamer_a_generalist_game_agent/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-16T19:11:42+00:00"
+    },
+    {
+      "title": "v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
+      "source": "GitHub: ollama",
+      "published": "2026-11-16T19:02:48+00:00"
+    },
+    {
+      "title": "Small Gemma 4 tokenizers were recently updated by Google - fix for an issue that caused nonsense output when encountering certain tokens",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxs0a/small_gemma_4_tokenizers_were_recently_updated_by/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-16T18:55:18+00:00"
+    },
+    {
+      "title": "Nvidia\u2019s board is reportedly \u2018not considering\u2019 hiring Jensen Huang back",
+      "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
+      "source": "The Verge AI",
+      "published": "2026-11-16T13:43:35-05:00"
+    },
+    {
+      "title": "The open-source movement wants Jensen Huang back",
+      "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+      "source": "MIT Technology Review AI",
+      "published": "2026-11-16T18:38:47+00:00"
+    },
+    {
+      "title": "Open weight models account for 30% usage at enterprises to save money",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at/",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-11-16T18:38:24+00:00"
+    },
+    {
+      "title": "How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-16T18:16:07+00:00"
+    },
+    {
+      "title": "Strengthening the fight against online child sexual abuse",
+      "url": "https://openai.com/index/strengthening-online-child-safety/",
+      "source": "Hacker News (117 pts)",
+      "published": "2026-11-16T18:12:48+00:00"
+    },
+    {
+      "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be \u2018fine\u2019",
+      "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-16T18:11:10+00:00"
+    }
+  ]
+}
