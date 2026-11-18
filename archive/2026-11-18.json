@@ -1,0 +1,726 @@
+{
+  "date": "2026-11-18",
+  "label": "Wednesday, 18 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 48 candidates.",
+  "sources_ok": 33,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/LocalLLaMA",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Simon Willison",
+      "title": "GPT\u20116.2 Astra and GPT\u20116.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "published": "2026-11-17T22:38:52+00:00",
+      "snippet": "GPT\u20116.2 Astra and GPT\u20116.2 Sol OpenAI: We\u2019re introducing GPT\u20116.2 Astra, our new frontier model for your hardest projects, and GPT\u20116.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with support for the new models. 6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as ",
+      "category": "Models",
+      "summary": "GPT\u20116.2 Astra and GPT\u20116.2 Sol OpenAI: We\u2019re introducing GPT\u20116.2 Astra, our new frontier model for your hardest projects, and GPT\u20116.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and...",
+      "why_it_matters": "OpenAI introduces GPT-6.2 Astra (frontier) and GPT-6.2 Sol (efficient), a major model release for anyone building on OpenAI.",
+      "score": 5
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google\u2019s Spark AI agent becomes \u2018Tasks\u2019 \u2014 and now it\u2019s free",
+      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "published": "2026-11-17T13:58:01-05:00",
+      "snippet": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US [\u2026]",
+      "category": "Tools",
+      "summary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails...",
+      "why_it_matters": "Google's Spark agent becomes the free 'Tasks', powered by the new Gemini 4 Hydrogen model, bringing agent capabilities to a wider audience.",
+      "score": 4
+    },
+    {
+      "source": "Web: testingcatalog.com",
+      "title": "Microsoft launches seven MAI models at Ignite 2026",
+      "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/",
+      "published": "2026-11-18T10:29:35.707245+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Microsoft launched seven MAI models at Ignite, a push toward cheaper specialized models that rival OpenAI and Anthropic.",
+      "score": 4
+    },
+    {
+      "source": "Web: business-standard.com",
+      "title": "Google flags first autonomous AI cyberattack, warns of growing threats",
+      "url": "https://business-standard.com/technology/artificial-intelligence/google-flags-first-autonomous-ai-cyberattack-warns-of-growing-threats-126111700791_1.html",
+      "published": "2026-11-18T10:29:35.708705+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "Google reports what it calls the first autonomous AI cyberattack, signaling that automated exploit tooling is arriving.",
+      "score": 4
+    },
+    {
+      "source": "Web: cryptobriefing.com",
+      "title": "Cognition launches Devin Bots to put its AI coders under AI management",
+      "url": "https://cryptobriefing.com/cognition-launches-devin-bots-ai-coding/",
+      "published": "2026-11-18T10:29:35.708284+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "Cognition's Devin Bots put AI coders under AI management, an example of how agent orchestration for coding is evolving.",
+      "score": 4
+    },
+    {
+      "source": "arXiv cs.AI",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "published": "2026-11-18T00:00:00-05:00",
+      "snippet": "arXiv:2611.21885v1 Announce Type: new Abstract: Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one. We ask whether a model can rewrite its own weights to make itself better, and find that",
+      "category": "Research",
+      "summary": "arXiv:2611.21885v1 Announce Type: new Abstract: Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A...",
+      "why_it_matters": "Research showing language models can rewrite their own weights points toward continual self-improvement without full retraining.",
+      "score": 3
+    },
+    {
+      "source": "arXiv cs.AI",
+      "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+      "url": "https://arxiv.org/abs/2611.21799",
+      "published": "2026-11-18T00:00:00-05:00",
+      "snippet": "arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it opaque to monitors. We stress-test this risk through persona-control training: supervised fine-tuning on mathematical reasoning traces rewritt",
+      "category": "Research",
+      "summary": "arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their...",
+      "why_it_matters": "Finds that making chain-of-thought controllable can reduce its monitorability, which matters for agent oversight and safety.",
+      "score": 3
+    },
+    {
+      "source": "Simon Willison",
+      "title": "External sandboxes for coding agents",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "published": "2026-11-17T22:52:29+00:00",
+      "snippet": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant , the AI research lab behind Superpowers and other projects . My post on th",
+      "category": "Techniques",
+      "summary": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause...",
+      "why_it_matters": "Simon Willison explores external sandboxes for running coding-agent code more safely, a practical concern for agent developers.",
+      "score": 4
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+      "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/",
+      "published": "2026-11-17T23:33:26+00:00",
+      "snippet": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the orchestration layer yourself.",
+      "category": "Tools",
+      "summary": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the...",
+      "why_it_matters": "Managed NVIDIA Dynamo on SageMaker HyperPod adds disaggregated serving and KV-aware routing for large-scale inference.",
+      "score": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "published": "2026-11-17T22:29:05+00:00",
+      "snippet": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+      "category": "Industry",
+      "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+      "why_it_matters": "Amazon and Google will together own nearly 30% of Anthropic after its IPO, reshaping the frontier-lab landscape.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Attorney General James Announces Creation of AI Safety, Standards, Enforcement, and Transparency Unit",
+      "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-announces-creation-ai-safety-standards-enforcement-and",
+      "source": "Web: ag.ny.gov",
+      "published": "2026-11-18T10:29:35.709511+00:00"
+    },
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-18T10:29:35.709511+00:00"
+    },
+    {
+      "title": "Regulators Converge on Twin Compliance Challenges From AI Agents",
+      "url": "https://pymnts.com/news/artificial-intelligence/2026/regulators-converge-on-twin-compliance-challenges-from-ai-agents",
+      "source": "Web: pymnts.com",
+      "published": "2026-11-18T10:29:35.709511+00:00"
+    },
+    {
+      "title": "News & Analysis as of",
+      "url": "https://www.jdsupra.com/topics/algorithms/technology-sector/regulatory-requirements",
+      "source": "Web: jdsupra.com",
+      "published": "2026-11-18T10:29:35.709511+00:00"
+    },
+    {
+      "title": "Center for AI Safety",
+      "url": "https://en.wikipedia.org/wiki/Center_for_AI_Safety",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-18T10:29:35.709511+00:00"
+    },
+    {
+      "title": "News: U.S. and World News Headlines : NPR",
+      "url": "https://www.npr.org/sections/news/",
+      "source": "Web: npr.org",
+      "published": "2026-11-18T10:29:35.709511+00:00"
+    },
+    {
+      "title": "OpenAI announces new AI safety program; researchers worry it won't be enough",
+      "url": "https://www.ksfr.org/npr-news/2026-11-18/openai-announces-new-ai-safety-program-researchers-worry-it-wont-be-enough",
+      "source": "Web: ksfr.org",
+      "published": "2026-11-18T10:29:35.709511+00:00"
+    },
+    {
+      "title": "Dario Amodei to Sam Altman: What tech leaders fear about AI misuse",
+      "url": "https://business-standard.com/technology/artificial-intelligence/dario-amodei-to-sam-altman-what-tech-leaders-fear-about-ai-misuse-126111800337_1.html",
+      "source": "Web: business-standard.com",
+      "published": "2026-11-18T10:29:35.709511+00:00"
+    },
+    {
+      "title": "AI Tactical Toolbox",
+      "url": "https://avihacker.substack.com/p/ai-news-characterais-teen-crisis-935",
+      "source": "Web: avihacker.substack.com",
+      "published": "2026-11-18T10:29:35.709511+00:00"
+    },
+    {
+      "title": "OpenAI No Longer Takes Safety Seriously",
+      "url": "https://jbradleychen.substack.com/p/openai-no-longer-takes-safety-seriously",
+      "source": "Web: jbradleychen.substack.com",
+      "published": "2026-11-18T10:29:35.709511+00:00"
+    },
+    {
+      "title": "Llama news and updates: every Meta open-weights release, tracked \u2014 AI Chat Daily",
+      "url": "https://www.aichatdaily.com/llama",
+      "source": "Web: aichatdaily.com",
+      "published": "2026-11-18T10:29:35.709086+00:00"
+    },
+    {
+      "title": "New on Yahoo",
+      "url": "https://tech.yahoo.com/computing/articles/meta-unveils-llama-3-1-193232454.html",
+      "source": "Web: tech.yahoo.com",
+      "published": "2026-11-18T10:29:35.709086+00:00"
+    },
+    {
+      "title": "Qwen",
+      "url": "https://qwen.ai/",
+      "source": "Web: qwen.ai",
+      "published": "2026-11-18T10:29:35.709086+00:00"
+    },
+    {
+      "title": "Qwen4 Max Just Dropped, China\u2019s New BEST AI Model!",
+      "url": "https://theirishchannel.com/qwen4-max-just-dropped-chinas-new-best-ai-model",
+      "source": "Web: theirishchannel.com",
+      "published": "2026-11-18T10:29:35.709086+00:00"
+    },
+    {
+      "title": "This Week: Outages, Agent Security and AI Platforms \u2014 UC Today",
+      "url": "https://uctoday.com/this-week-outages-agent-security-and-ai-platforms",
+      "source": "Web: uctoday.com",
+      "published": "2026-11-18T10:29:35.708705+00:00"
+    },
+    {
+      "title": "Google warns that fully-automated AI attacks are coming soon",
+      "url": "https://ground.news/article/in-a-first-google-detects-ai-automated-cyberattack",
+      "source": "Web: ground.news",
+      "published": "2026-11-18T10:29:35.708705+00:00"
+    },
+    {
+      "title": "Google Finds AI Framework Configured to Automate Patch-Based Exploits.",
+      "url": "https://www.tokenpost.com/news/technology/59718",
+      "source": "Web: tokenpost.com",
+      "published": "2026-11-18T10:29:35.708705+00:00"
+    },
+    {
+      "title": "DEV Community",
+      "url": "https://dev.to/levi_ezra_115d2257a6f1f16/top-ai-agent-frameworks-for-developers-1el6",
+      "source": "Web: dev.to",
+      "published": "2026-11-18T10:29:35.708705+00:00"
+    },
+    {
+      "title": "Release notes",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Web: support.claude.com",
+      "published": "2026-11-18T10:29:35.708284+00:00"
+    },
+    {
+      "title": "OpenAI Drops a Hands-On AI Coder",
+      "url": "https://theaiedge.substack.com/p/openai-drops-a-hands-on-ai-coder",
+      "source": "Web: theaiedge.substack.com",
+      "published": "2026-11-18T10:29:35.708284+00:00"
+    },
+    {
+      "title": "Firebase Studio",
+      "url": "https://en.wikipedia.org/wiki/Firebase_Studio",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-18T10:29:35.708284+00:00"
+    },
+    {
+      "title": "IAd Producer",
+      "url": "https://en.wikipedia.org/wiki/IAd_Producer",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-18T10:29:35.708284+00:00"
+    },
+    {
+      "title": "Google Antigravity",
+      "url": "https://en.wikipedia.org/wiki/Google_Antigravity",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-18T10:29:35.708284+00:00"
+    },
+    {
+      "title": "IntelliJ IDEA",
+      "url": "https://en.wikipedia.org/wiki/IntelliJ_IDEA",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-18T10:29:35.708284+00:00"
+    },
+    {
+      "title": "Changelog & Release Notes",
+      "url": "https://cortex-ide.app/changelog/",
+      "source": "Web: cortex-ide.app",
+      "published": "2026-11-18T10:29:35.708284+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-18T10:29:35.707245+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-18T10:29:35.707245+00:00"
+    },
+    {
+      "title": "Microsoft aims to challenge OpenAI, Anthropic with cheaper, specialized AI models",
+      "url": "https://axios.com/2026/11/17/microsoft-ai-models-openai-anthropic-ignite",
+      "source": "Web: axios.com",
+      "published": "2026-11-18T10:29:35.707245+00:00"
+    },
+    {
+      "title": "Nvidia (NVDA) Q3 2027 earnings report: Live updates",
+      "url": "https://cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
+      "source": "Web: cnbc.com",
+      "published": "2026-11-18T10:29:35.707245+00:00"
+    },
+    {
+      "title": "OpenAI unveils its latest artificial intelligence models - Oreanda-News",
+      "url": "https://www.oreanda-news.com/en/v_mire/openai-unveils-its-latest-artificial-intelligence-models/article1605327/",
+      "source": "Web: oreanda-news.com",
+      "published": "2026-11-18T10:29:35.707245+00:00"
+    },
+    {
+      "title": "Latest News",
+      "url": "https://newsroom.ibm.com/campaign?item=1987",
+      "source": "Web: newsroom.ibm.com",
+      "published": "2026-11-18T10:29:35.707245+00:00"
+    },
+    {
+      "title": "Codeberg.org Not Reachable",
+      "url": "https://social.anoxinon.de/@codebergstatus/117636437840688845",
+      "source": "Hacker News (70 pts)",
+      "published": "2026-11-18T10:02:17+00:00"
+    },
+    {
+      "title": "r/codeberg Banned",
+      "url": "https://www.reddit.com/r/codeberg",
+      "source": "Hacker News (16 pts)",
+      "published": "2026-11-18T09:43:17+00:00"
+    },
+    {
+      "title": "b12503",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12503",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T08:32:17+00:00"
+    },
+    {
+      "title": "Codeberg is down due to a domain issue",
+      "url": "https://social.anoxinon.de/@Codeberg/117636454915265360",
+      "source": "Hacker News (23 pts)",
+      "published": "2026-11-18T08:28:46+00:00"
+    },
+    {
+      "title": "b12502",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12502",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T08:14:05+00:00"
+    },
+    {
+      "title": "b12504",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12504",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T08:08:35+00:00"
+    },
+    {
+      "title": "Codeberg seems to have vanished from DNS",
+      "url": "https://news.ycombinator.com/item?id=50542948",
+      "source": "Hacker News (46 pts)",
+      "published": "2026-11-18T07:28:57+00:00"
+    },
+    {
+      "title": "Australia's full national topographic library at your fingertips",
+      "url": "https://www.ga.gov.au/news/australias-full-national-topographic-library-at-your-fingertips",
+      "source": "Hacker News (20 pts)",
+      "published": "2026-11-18T07:10:46+00:00"
+    },
+    {
+      "title": "b12500",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12500",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T07:08:23+00:00"
+    },
+    {
+      "title": "0.171.0-alpha.13",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-18T05:52:48+00:00"
+    },
+    {
+      "title": "b12499",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12499",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T05:27:24+00:00"
+    },
+    {
+      "title": "v3.55.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.55.0",
+      "source": "OpenAI Python SDK",
+      "published": "2026-11-18T05:21:54+00:00"
+    },
+    {
+      "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+      "url": "https://arxiv.org/abs/2611.21682",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR",
+      "url": "https://arxiv.org/abs/2611.21827",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research",
+      "url": "https://arxiv.org/abs/2611.21832",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
+      "url": "https://arxiv.org/abs/2611.21925",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "SLED: Sensor SLicing from Edge to Datacenter",
+      "url": "https://arxiv.org/abs/2611.21937",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "Conserved Verdicts, Drifting Commitments: Identifying Harmful Overthinking",
+      "url": "https://arxiv.org/abs/2611.21946",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "Honest Brokers in AI Regulation: How Public Comments Introduce Evidence to Regulators",
+      "url": "https://arxiv.org/abs/2611.21948",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "DiscoveryAgent: A Framework for Scientist-centric Agentic AI",
+      "url": "https://arxiv.org/abs/2611.21950",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "WebAgents: Unbundling Agent Creation, Hosting, and Execution for an Agent-Native Web",
+      "url": "https://arxiv.org/abs/2611.21978",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "KV-LTM: Persistent Per-Session KV Caches as Long-Term Memory for Personal Assistants",
+      "url": "https://arxiv.org/abs/2611.21998",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "CrisisBench: an evaluation suite for crisis counseling AI",
+      "url": "https://arxiv.org/abs/2611.21622",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "Sleep2Word: Peripheral-to-EEG Translation via Duration-Aware Wordization",
+      "url": "https://arxiv.org/abs/2611.21643",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering",
+      "url": "https://arxiv.org/abs/2611.21644",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "Limite 1B - Violetto: Technical Report",
+      "url": "https://arxiv.org/abs/2611.21646",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "FieldGuide: A Corpus Map for Token-Efficient Agentic Document Exploration",
+      "url": "https://arxiv.org/abs/2611.21647",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "Corrupting Ties: Investigating Robustness to Bias Injection Across Multi-Agent Network Topologies",
+      "url": "https://arxiv.org/abs/2611.21804",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "Knowing Which, Not How Much: Language Models Order Party Positions They Cannot Place",
+      "url": "https://arxiv.org/abs/2611.21878",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "Call-Efficient ICD-10 Code Prediction via Supervised Candidate Generation and Selective LLM Invocation",
+      "url": "https://arxiv.org/abs/2611.21891",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "Latent Fact Composition under Next-Token Training",
+      "url": "https://arxiv.org/abs/2611.21921",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "Beyond Acuity Accuracy: A Multidimensional Framework for Evaluating Patient-Facing Emergency Triage AI Tools",
+      "url": "https://arxiv.org/abs/2611.22045",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-18T00:00:00-05:00"
+    },
+    {
+      "title": "b12498",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12498",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T04:22:36+00:00"
+    },
+    {
+      "title": "Why is Gemini 4 Carbon taking so long?",
+      "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+      "source": "Hacker News (101 pts)",
+      "published": "2026-11-18T04:14:04+00:00"
+    },
+    {
+      "title": "b12497",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12497",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T04:07:46+00:00"
+    },
+    {
+      "title": "b12496",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12496",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T03:48:52+00:00"
+    },
+    {
+      "title": "Claude was trained on protein sequences at scale",
+      "url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+      "source": "Hacker News (59 pts)",
+      "published": "2026-11-18T03:47:43+00:00"
+    },
+    {
+      "title": "0.170.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-18T03:45:39+00:00"
+    },
+    {
+      "title": "b12494",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12494",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T02:41:53+00:00"
+    },
+    {
+      "title": "b12493",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12493",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T02:25:25+00:00"
+    },
+    {
+      "title": "0.170.0-alpha.4.2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4.2",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-18T02:02:46+00:00"
+    },
+    {
+      "title": "Nvidia\u2019s startup stakes ballooned to $65B, but Huang\u2019s exit puts future deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T01:44:21+00:00"
+    },
+    {
+      "title": "Nvidia promises that revenue will keep soaring \u2014 for now",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T00:16:50+00:00"
+    },
+    {
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "source": "OpenAI",
+      "published": "2026-11-18T00:00:00+00:00"
+    },
+    {
+      "title": "Satya Nadella says he\u2019s AGI-pilled now",
+      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "source": "The Verge AI",
+      "published": "2026-11-17T18:41:18-05:00"
+    },
+    {
+      "title": "Nvidia is abandoning China after Jensen Huang\u2019s ouster",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T23:37:48+00:00"
+    },
+    {
+      "title": "v2.1.327",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+      "source": "Claude Code releases",
+      "published": "2026-11-17T23:17:45+00:00"
+    },
+    {
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang\u2019s exit",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T23:04:35+00:00"
+    },
+    {
+      "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-17T22:44:51+00:00"
+    },
+    {
+      "title": "v3.54.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.54.0",
+      "source": "OpenAI Python SDK",
+      "published": "2026-11-17T22:42:56+00:00"
+    },
+    {
+      "title": "langchain-core==1.8.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.2",
+      "source": "GitHub: langchain",
+      "published": "2026-11-17T22:42:55+00:00"
+    },
+    {
+      "title": "Nvidia says it doesn\u2019t plan to reappoint Jensen Huang as CEO",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T22:42:27+00:00"
+    },
+    {
+      "title": "0.169.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.1",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-17T22:22:49+00:00"
+    },
+    {
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T21:48:07+00:00"
+    },
+    {
+      "title": "Nvidia\u2019s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+      "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+      "source": "The Verge AI",
+      "published": "2026-11-17T16:40:59-05:00"
+    },
+    {
+      "title": "Google joins the tech outage trend by announcing it\u2019s not having one",
+      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T21:34:50+00:00"
+    },
+    {
+      "title": "Ask HN: Aren't the current cyber attacks suspicious?",
+      "url": "https://news.ycombinator.com/item?id=50538449",
+      "source": "Hacker News (17 pts)",
+      "published": "2026-11-17T21:28:57+00:00"
+    },
+    {
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "source": "Hacker News (188 pts)",
+      "published": "2026-11-17T21:16:12+00:00"
+    },
+    {
+      "title": "Cut generative AI costs: Code for rules, models for judgment",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-17T21:14:55+00:00"
+    },
+    {
+      "title": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-17T21:11:51+00:00"
+    },
+    {
+      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "source": "The Verge AI",
+      "published": "2026-11-17T16:00:55-05:00"
+    },
+    {
+      "title": "langchain-openai==1.8.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.1",
+      "source": "GitHub: langchain",
+      "published": "2026-11-17T20:39:46+00:00"
+    },
+    {
+      "title": "Govern and discover records with common metadata in AWS Agent Registry",
+      "url": "https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-17T20:31:04+00:00"
+    },
+    {
+      "title": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-17T20:25:23+00:00"
+    },
+    {
+      "title": "Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets for model development workflows",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-17T19:40:01+00:00"
+    },
+    {
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T19:32:11+00:00"
+    },
+    {
+      "title": "Anthropic Paid Rubio's Ex-Chief of Staff's Firm $740k.it Lobbied His NSC",
+      "url": "https://www.zerohedge.com/political/anthropic-paid-rubios-ex-chief-staffs-firm-740000-after-jensen-memo-it-lobbied-his-nsc",
+      "source": "Hacker News (93 pts)",
+      "published": "2026-11-17T19:08:45+00:00"
+    },
+    {
+      "title": "Getting AI out of the demo and into businesses globally",
+      "url": "https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-17T19:05:22+00:00"
+    },
+    {
+      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T19:02:20+00:00"
+    }
+  ]
+}
