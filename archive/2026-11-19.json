@@ -1,0 +1,726 @@
+{
+  "date": "2026-11-19",
+  "label": "Thursday, 19 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 47 candidates.",
+  "sources_ok": 33,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/LocalLLaMA",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Google DeepMind",
+      "title": "Introducing Gemini 4 Neon",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "published": "2026-11-18T21:35:43+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Google's new midtier Gemini 4 Neon is positioned as a top coding agent model and is reportedly three times faster than Carbon.",
+      "score": 5
+    },
+    {
+      "source": "Web: tekedia.com",
+      "title": "Alibaba Releases Qwen4-Max, a 2.4 Trillion-Parameter AI Model With Improved Efficiency - Tekedia",
+      "url": "https://tekedia.com/alibaba-releases-qwen4-max-a-2-4-trillion-parameter-ai-model-with-improved-efficiency",
+      "published": "2026-11-19T10:36:50.376585+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Alibaba's Qwen4-Max, a 2.4T-parameter model, is a major new frontier model release with improved efficiency.",
+      "score": 4
+    },
+    {
+      "source": "Web: digit.in",
+      "title": "Microsoft unveils MAI Code 2, Cyber 2 Flash and 5 other AI models: Check details",
+      "url": "https://digit.in/news/general/microsoft-unveils-mai-code-2-cyber-2-flash-and-5-other-ai-models-check-details.html",
+      "published": "2026-11-19T10:36:50.374634+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Microsoft released six or more new models, including MAI Code 2 and Cyber 2 Flash, aimed at cutting the cost of AI coding and cybersecurity.",
+      "score": 4
+    },
+    {
+      "source": "Web: theregister.com",
+      "title": "Microsoft's official Python agent framework hijacked to distribute malware",
+      "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
+      "published": "2026-11-19T10:36:50.376316+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "Microsoft's official Python agent framework was briefly poisoned on PyPI, a supply-chain risk for anyone building agents.",
+      "score": 5
+    },
+    {
+      "source": "Web: technology.org",
+      "title": "Google GTIG Finds Attackers Using AI Agents to Turn Patches Into Working Exploits",
+      "url": "https://www.technology.org/2026/11/18/google-gtig-ai-threat-tracker-exploit-agent-autonomous-attacks/",
+      "published": "2026-11-19T10:36:50.376316+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "Google GTIG finds attackers using AI agents to turn patches into working exploits, shortening patch windows.",
+      "score": 4
+    },
+    {
+      "source": "Web: nextgov.com",
+      "title": "Major AI platforms generated viable plans for terrorist attacks, GAO finds - Nextgov/FCW",
+      "url": "https://www.nextgov.com/artificial-intelligence/2026/11/major-ai-platforms-generated-viable-plans-terrorist-attacks-gao-finds/417305/",
+      "published": "2026-11-19T10:36:50.376877+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "A GAO finding that major chatbots produced viable attack plans is driving Senate hearings and safety scrutiny.",
+      "score": 4
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic prices IPO at $83 a share, above projected range",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "published": "2026-11-18T22:11:15+00:00",
+      "snippet": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+      "category": "Industry",
+      "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+      "why_it_matters": "Anthropic's IPO priced at $83 per share, reportedly valuing it at $1.5T, is a landmark moment for the AI industry.",
+      "score": 4
+    },
+    {
+      "source": "GitHub: vllm",
+      "title": "v0.34.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+      "published": "2026-11-18T21:02:33+00:00",
+      "snippet": "v0.34.0 1,061 commits from 412 contributors (120 new). Thank you! TL;DR 10 new models (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) Extensible KV cache is on by default: vLLM sizes the KV cache from memory actually free after warmup, so most models get a bigger cache and more throughput - in most cases you should now remove gpu_memory_utilization from your configs. Mode",
+      "category": "Tools",
+      "summary": "v0.34.0 1,061 commits from 412 contributors (120 new). Thank you! TL;DR 10 new models (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) Extensible KV cache is on by default: vLLM sizes the KV cache from memory...",
+      "why_it_matters": "vLLM v0.34.0 adds 10 new models, including Mistral Large 4 and MiniMax-M3.1-Flash, which matters for anyone self-hosting inference.",
+      "score": 4
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "How Airbnb uses cost per task to operate coding agents on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/",
+      "published": "2026-11-18T21:48:19+00:00",
+      "snippet": "Airbnb runs evals on real engineering tasks and uses Amazon Bedrock observability to choose models for its coding agents and control production costs. This post shows how cost per task guides model selection, why production spending can differ from eval results, and how to monitor latency, manage quotas, and attribute spend.",
+      "category": "Techniques",
+      "summary": "Airbnb runs evals on real engineering tasks and uses Amazon Bedrock observability to choose models for its coding agents and control production costs. This post shows how cost per task guides model selection, why production spending can...",
+      "why_it_matters": "Airbnb's approach of evaluating real engineering tasks and tracking cost per task is a practical template for running coding agents in production.",
+      "score": 4
+    },
+    {
+      "source": "Web: gov.ca.gov",
+      "title": "Governor Newsom\u2019s nation-leading AI safety framework is getting even stronger as California releases next steps on mandatory safety standards and oversight",
+      "url": "https://www.gov.ca.gov/2026/11/18/governor-newsoms-nation-leading-ai-safety-framework-is-getting-even-stronger-as-california-releases-next-steps-on-mandatory-safety-standards-and-oversight/",
+      "published": "2026-11-19T10:36:50.376877+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "California's next steps on mandatory AI safety standards and oversight could shape compliance requirements for AI developers.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Newsom touts an AI kill switch to halt dangerous OpenAI, Anthropic releases - Palo Alto Online",
+      "url": "https://www.paloaltoonline.com/calmatters/2026/11/18/newsom-touts-an-ai-kill-switch-to-halt-dangerous-openai-anthropic-releases/",
+      "source": "Web: paloaltoonline.com",
+      "published": "2026-11-19T10:36:50.376877+00:00"
+    },
+    {
+      "title": "AI News Today, November 19: Top Stories",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-19T10:36:50.376877+00:00"
+    },
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-19T10:36:50.376877+00:00"
+    },
+    {
+      "title": "Trump Asia live updates: Trump, Xi and Putin 'choosing a different course,' Trump says - ABC News",
+      "url": "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702",
+      "source": "Web: abcnews.com",
+      "published": "2026-11-19T10:36:50.376877+00:00"
+    },
+    {
+      "title": "GAO: Four AI Chatbots Gave Viable Attack Plans \u2014 CASRAI",
+      "url": "https://casrai.org/news/gao-ai-chatbots-covert-tests-attack-plans-hassan-hearings",
+      "source": "Web: casrai.org",
+      "published": "2026-11-19T10:36:50.376877+00:00"
+    },
+    {
+      "title": "News & Analysis as of",
+      "url": "https://www.jdsupra.com/topics/algorithms/technology-sector/regulatory-requirements",
+      "source": "Web: jdsupra.com",
+      "published": "2026-11-19T10:36:50.376877+00:00"
+    },
+    {
+      "title": "Center for AI Safety",
+      "url": "https://en.wikipedia.org/wiki/Center_for_AI_Safety",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-19T10:36:50.376877+00:00"
+    },
+    {
+      "title": "News: U.S. and World News Headlines : NPR",
+      "url": "https://www.npr.org/sections/news/",
+      "source": "Web: npr.org",
+      "published": "2026-11-19T10:36:50.376877+00:00"
+    },
+    {
+      "title": "OpenAI announces new AI safety program; researchers worry it won't be enough",
+      "url": "https://laist.com/news/openai-announces-new-ai-safety-program-researchers-worry-it-wont-be-enough",
+      "source": "Web: laist.com",
+      "published": "2026-11-19T10:36:50.376877+00:00"
+    },
+    {
+      "title": "Senate AI hearings in works after platforms planned U.S. terror attack when asked to: \"We need to act now\" - CBS News",
+      "url": "https://www.cbsnews.com/news/ai-platforms-plan-us-terror-attack-when-asked-to-senate-hearings/",
+      "source": "Web: cbsnews.com",
+      "published": "2026-11-19T10:36:50.376877+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-19T10:36:50.376585+00:00"
+    },
+    {
+      "title": "Llama news and updates: every Meta open-weights release, tracked \u2014 AI Chat Daily",
+      "url": "https://www.aichatdaily.com/llama",
+      "source": "Web: aichatdaily.com",
+      "published": "2026-11-19T10:36:50.376585+00:00"
+    },
+    {
+      "title": "New on Yahoo",
+      "url": "https://tech.yahoo.com/computing/articles/meta-unveils-llama-3-1-193232454.html",
+      "source": "Web: tech.yahoo.com",
+      "published": "2026-11-19T10:36:50.376585+00:00"
+    },
+    {
+      "title": "alternativeto.net",
+      "url": "https://alternativeto.net/software/llama-ai/about",
+      "source": "Web: alternativeto.net",
+      "published": "2026-11-19T10:36:50.376585+00:00"
+    },
+    {
+      "title": "Qwen 4 Release Date: Qwen4-Max Launched 16 Nov 2026",
+      "url": "https://felloai.com/qwen-4/",
+      "source": "Web: felloai.com",
+      "published": "2026-11-19T10:36:50.376585+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-19T10:36:50.376316+00:00"
+    },
+    {
+      "title": "AI Agents News Brief: November 18, 2026",
+      "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-november-18-2026",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-19T10:36:50.376316+00:00"
+    },
+    {
+      "title": "Microsoft's Agent Framework Poisoned on PyPI for ~45 Minutes - FourWeekMBA",
+      "url": "https://fourweekmba.com/ai-microsofts-agent-framework-poisoned-on-pypi-for-45-minutes/",
+      "source": "Web: fourweekmba.com",
+      "published": "2026-11-19T10:36:50.376316+00:00"
+    },
+    {
+      "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview - SecurityWeek",
+      "url": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
+      "source": "Web: securityweek.com",
+      "published": "2026-11-19T10:36:50.376316+00:00"
+    },
+    {
+      "title": "DEV Community",
+      "url": "https://dev.to/levi_ezra_115d2257a6f1f16/top-ai-agent-frameworks-for-developers-1el6",
+      "source": "Web: dev.to",
+      "published": "2026-11-19T10:36:50.376316+00:00"
+    },
+    {
+      "title": "Microsoft Introduces New Models to Cut the Cost of AI Coding and Cybersecurity",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/microsoft-introduces-new-models-to-cut-the-cost-of-ai-coding-and-cybersecurity/",
+      "source": "Web: pymnts.com",
+      "published": "2026-11-19T10:36:50.375704+00:00"
+    },
+    {
+      "title": "Gemini 4 Neon: Google\u2019s New #1 Coding Agent Model",
+      "url": "https://byteiota.com/gemini-4-neon-coding-agent/",
+      "source": "Web: byteiota.com",
+      "published": "2026-11-19T10:36:50.375704+00:00"
+    },
+    {
+      "title": "Revenium Launches Sidekick, Putting Real-Time AI Coding Costs and Budget Limits Inside Claude Code and Claude Cowork",
+      "url": "https://globenewswire.com/news-release/2026/11/19/3406346/0/en/revenium-launches-sidekick-putting-real-time-ai-coding-costs-and-budget-limits-inside-claude-code-and-claude-cowork.html",
+      "source": "Web: globenewswire.com",
+      "published": "2026-11-19T10:36:50.375704+00:00"
+    },
+    {
+      "title": "OpenAI Drops a Hands-On AI Coder",
+      "url": "https://theaiedge.substack.com/p/openai-drops-a-hands-on-ai-coder",
+      "source": "Web: theaiedge.substack.com",
+      "published": "2026-11-19T10:36:50.375704+00:00"
+    },
+    {
+      "title": "OpenAI launches Codex, an AI coding agent, in ChatGPT",
+      "url": "https://finance.yahoo.com/news/openai-launches-codex-ai-coding-150000373.html",
+      "source": "Web: finance.yahoo.com",
+      "published": "2026-11-19T10:36:50.375704+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-19T10:36:50.374634+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-19T10:36:50.374634+00:00"
+    },
+    {
+      "title": "OpenAI unveils new Astra AI model after scrapping prior release",
+      "url": "https://thestar.com.my/tech/tech-news/2026/11/18/openai-unveils-new-astra-ai-model-after-scrapping-prior-release",
+      "source": "Web: thestar.com.my",
+      "published": "2026-11-19T10:36:50.374634+00:00"
+    },
+    {
+      "title": "Google's latest midtier model Gemini 4 Neon is three times faster than Carbon and wins on some metrics - SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/18/googles-latest-midtier-model-gemini-4-neon-is-three-times-faster-than-carbon-and-wins-on-some-metrics/",
+      "source": "Web: siliconangle.com",
+      "published": "2026-11-19T10:36:50.374634+00:00"
+    },
+    {
+      "title": "Microsoft unveils six new AI models for business services",
+      "url": "https://tickernews.co/microsoft-launches-six-in-house-ai-models-at-ignite-conference",
+      "source": "Web: tickernews.co",
+      "published": "2026-11-19T10:36:50.374634+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-19T10:36:50.374634+00:00"
+    },
+    {
+      "title": "b12534",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12534",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-19T06:13:06+00:00"
+    },
+    {
+      "title": "b12533: CUDA: use 64-bit dst offsets in mul_mat_q (#32374)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12533",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-19T06:11:44+00:00"
+    },
+    {
+      "title": "langgraph==1.2.23",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.23",
+      "source": "GitHub: langgraph",
+      "published": "2026-11-19T05:33:06+00:00"
+    },
+    {
+      "title": "langgraph-prebuilt==1.1.3",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.3",
+      "source": "GitHub: langgraph",
+      "published": "2026-11-19T05:26:17+00:00"
+    },
+    {
+      "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
+      "url": "https://arxiv.org/abs/2611.23322",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "Training Language Models for Introspective Oversight",
+      "url": "https://arxiv.org/abs/2611.23365",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "Where the Tokens Go: Heat, Entropy and Error in Agentic Coding",
+      "url": "https://arxiv.org/abs/2611.23375",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
+      "url": "https://arxiv.org/abs/2611.23398",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+      "url": "https://arxiv.org/abs/2611.23410",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "Why Sub-4-Bit Vision CNNs Collapse and Where Mixed-Precision Recovery Stops",
+      "url": "https://arxiv.org/abs/2611.23445",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese",
+      "url": "https://arxiv.org/abs/2611.23454",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items",
+      "url": "https://arxiv.org/abs/2611.23456",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance",
+      "url": "https://arxiv.org/abs/2611.23476",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations",
+      "url": "https://arxiv.org/abs/2611.23480",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "Prioritize, Don't Decide: What We Learned Auditing a Deployed Human-in-the-Loop CV Sorter",
+      "url": "https://arxiv.org/abs/2611.23359",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "Chorus: Shared N-gram Embeddings with Layer-wise Adaptation",
+      "url": "https://arxiv.org/abs/2611.23386",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "Formal Adequacy Index (based on Polish-language material)",
+      "url": "https://arxiv.org/abs/2611.23482",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "From Arraignment to Resolution: Transformer Models of Court Cases",
+      "url": "https://arxiv.org/abs/2611.23518",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "Dreaming Up Authors: Factual Prevalence and LLM Hallucinations in Academic Authorship Attribution",
+      "url": "https://arxiv.org/abs/2611.23530",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "Can LLMs Understand What They Predict? Evaluating Latent Causal Structure Inference in Financial Markets",
+      "url": "https://arxiv.org/abs/2611.23533",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "Localizing Text Anonymization for Trustworthy AI: Extending RAT-Bench to Malaysian Microdata and PII",
+      "url": "https://arxiv.org/abs/2611.23704",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
+      "url": "https://arxiv.org/abs/2611.23835",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "Coverage Governs Accuracy: When to Expand the Lexicon and When to Fall Back in Low-Resource Manchu OCR",
+      "url": "https://arxiv.org/abs/2611.23900",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation",
+      "url": "https://arxiv.org/abs/2611.23969",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-19T00:00:00-05:00"
+    },
+    {
+      "title": "b12532",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12532",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-19T04:49:50+00:00"
+    },
+    {
+      "title": "b12531",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12531",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-19T02:23:51+00:00"
+    },
+    {
+      "title": "Release v0.69.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0",
+      "source": "Gemini CLI releases",
+      "published": "2026-11-19T01:45:47+00:00"
+    },
+    {
+      "title": "Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction",
+      "url": "https://arxiv.org/abs/2607.29378",
+      "source": "Hacker News (46 pts)",
+      "published": "2026-11-19T01:27:02+00:00"
+    },
+    {
+      "title": "v2.1.328",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+      "source": "Claude Code releases",
+      "published": "2026-11-19T01:14:04+00:00"
+    },
+    {
+      "title": "b12530",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12530",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-19T01:13:35+00:00"
+    },
+    {
+      "title": "Black high school students sue after AI mistakes Doritos bag for gun",
+      "url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
+      "source": "Hacker News (94 pts)",
+      "published": "2026-11-19T00:57:20+00:00"
+    },
+    {
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T00:42:56+00:00"
+    },
+    {
+      "title": "langchain-openai==1.8.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3",
+      "source": "GitHub: langchain",
+      "published": "2026-11-19T00:38:59+00:00"
+    },
+    {
+      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+      "source": "Hacker News (231 pts)",
+      "published": "2026-11-19T00:29:45+00:00"
+    },
+    {
+      "title": "Fable: Written, painted and directed by Claude Fable 5.2",
+      "url": "https://claudia.gallery/fable/",
+      "source": "Hacker News (60 pts)",
+      "published": "2026-11-19T00:18:18+00:00"
+    },
+    {
+      "title": "Full Fine-Tuning (FFT) on SageMaker AI Serverless Model Customization",
+      "url": "https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-19T00:15:58+00:00"
+    },
+    {
+      "title": "b12529",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12529",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-19T00:15:20+00:00"
+    },
+    {
+      "title": "Release v0.70.0-preview.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0-preview.0",
+      "source": "Gemini CLI releases",
+      "published": "2026-11-19T00:09:03+00:00"
+    },
+    {
+      "title": "llm-gemini 0.38",
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "source": "Simon Willison",
+      "published": "2026-11-18T23:59:20+00:00"
+    },
+    {
+      "title": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
+      "url": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-18T23:58:22+00:00"
+    },
+    {
+      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is \u2018unpatchable\u2019",
+      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T23:45:00+00:00"
+    },
+    {
+      "title": "b12528",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12528",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T23:42:30+00:00"
+    },
+    {
+      "title": "Anthropic prices initial public offering",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "source": "Hacker News (236 pts)",
+      "published": "2026-11-18T23:30:09+00:00"
+    },
+    {
+      "title": "Elon Musk says ousting Jensen Huang is like \u2018kicking Michael Jordan off your team\u2019",
+      "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T23:25:17+00:00"
+    },
+    {
+      "title": "The nation\u2019s largest school districts consider ditching Google Search",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "source": "The Verge AI",
+      "published": "2026-11-18T18:18:35-05:00"
+    },
+    {
+      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang\u2019s exit",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T23:17:28+00:00"
+    },
+    {
+      "title": "Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-18T23:03:29+00:00"
+    },
+    {
+      "title": "Anthropic reportedly prices its IPO at $83 per share, valuing at $1.5T",
+      "url": "https://apnews.com/article/anthropic-ipo-pricing-70b660ddf900d90bbf484ecdf1fb441c",
+      "source": "Hacker News (17 pts)",
+      "published": "2026-11-18T23:00:26+00:00"
+    },
+    {
+      "title": "b12527",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12527",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T22:59:51+00:00"
+    },
+    {
+      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T22:58:11+00:00"
+    },
+    {
+      "title": "Introducing the Amazon SageMaker JumpStart Model Leaderboard",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-18T22:31:04+00:00"
+    },
+    {
+      "title": "langchain==1.5.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.2",
+      "source": "GitHub: langchain",
+      "published": "2026-11-18T22:30:45+00:00"
+    },
+    {
+      "title": "LLM assisted reverse engineering",
+      "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+      "source": "Hacker News (215 pts)",
+      "published": "2026-11-18T22:29:13+00:00"
+    },
+    {
+      "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+      "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T21:57:40+00:00"
+    },
+    {
+      "title": "Design responsible AI controls for Amazon Aurora PostgreSQL",
+      "url": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-18T21:38:22+00:00"
+    },
+    {
+      "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: \u2018It\u2019s time to start running\u2019",
+      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T21:34:13+00:00"
+    },
+    {
+      "title": "Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "source": "Hacker News (837 pts)",
+      "published": "2026-11-18T21:34:07+00:00"
+    },
+    {
+      "title": "Palmer Luckey thinks China is \u2018thrilled to have Jensen out,\u2019 so he wants the ousted Nvidia CEO reinstated",
+      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T21:31:21+00:00"
+    },
+    {
+      "title": "Show HN: Robotics needs better CAD, so I wrote a B-rep kernel and 3,487 tests",
+      "url": "https://springcraft-ai.github.io/springrep/",
+      "source": "Hacker News (31 pts)",
+      "published": "2026-11-18T21:08:47+00:00"
+    },
+    {
+      "title": "Private certificate authority support in Amazon Bedrock AgentCore Identity",
+      "url": "https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-18T20:53:41+00:00"
+    },
+    {
+      "title": "Google Gemini's \"Tasks\" Personal Assistant Is Now Free",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "source": "Hacker News (53 pts)",
+      "published": "2026-11-18T20:20:17+00:00"
+    },
+    {
+      "title": "How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-18T20:13:18+00:00"
+    },
+    {
+      "title": "b12525: ggml, ci : use llvm 22.1.8 (#32548)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12525",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-18T20:10:23+00:00"
+    },
+    {
+      "title": "Sam Altman says his life is so weird that he\u2019s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "url": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T20:07:01+00:00"
+    },
+    {
+      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T19:56:39+00:00"
+    },
+    {
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "source": "Hugging Face",
+      "published": "2026-11-18T19:54:56+00:00"
+    },
+    {
+      "title": "Trump\u2019s latest land grab is an AI hub in the Philippines",
+      "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+      "source": "The Verge AI",
+      "published": "2026-11-18T14:40:36-05:00"
+    },
+    {
+      "title": "Nvidia\u2019s rise, visualized",
+      "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
+      "source": "The Verge AI",
+      "published": "2026-11-18T14:30:00-05:00"
+    },
+    {
+      "title": "How Social Department built culture-aware video discovery",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-18T19:27:56+00:00"
+    }
+  ]
+}
