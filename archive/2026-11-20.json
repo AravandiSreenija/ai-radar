@@ -1,0 +1,726 @@
+{
+  "date": "2026-11-20",
+  "label": "Friday, 20 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 33 candidates.",
+  "sources_ok": 33,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/LocalLLaMA",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Web: the-decoder.com",
+      "title": "Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago",
+      "url": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago",
+      "published": "2026-11-20T10:18:23.389345+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Google's new Gemini 4 Neon is reported as faster, cheaper and smarter than its flagship predecessor from weeks ago, so it may change your model choices.",
+      "score": 5
+    },
+    {
+      "source": "Hacker News (347 pts)",
+      "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+      "url": "https://git-aarvin.github.io/mei/",
+      "published": "2026-11-19T23:35:35+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Gemini 4 Neon reaching #1 on the Models Engineering Index (347 HN points) is a useful signal for model selection.",
+      "score": 4
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic starts trading on Wall Street",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "published": "2026-11-19T11:52:01-05:00",
+      "snippet": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, [\u2026]",
+      "category": "Industry",
+      "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a...",
+      "why_it_matters": "Anthropic has gone public on Nasdaq as ANT, a landmark moment for the AI industry and for a major model vendor.",
+      "score": 4
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "published": "2026-11-19T17:31:41-05:00",
+      "snippet": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. [\u2026]",
+      "category": "Industry",
+      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple...",
+      "why_it_matters": "Apple is building its own AI agent for browsing, cross-app work and coding, which makes it a new competitor in agents.",
+      "score": 4
+    },
+    {
+      "source": "Google AI",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "published": "2026-11-19T18:00:00+00:00",
+      "snippet": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "category": "Tools",
+      "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "why_it_matters": "Tool Retrieval in the Gemini API lets agents use hundreds of tools with fewer tokens, a practical agent-design improvement.",
+      "score": 5
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Gemini on Mac can now use your computer",
+      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "published": "2026-11-19T13:21:13-05:00",
+      "snippet": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will [\u2026]",
+      "category": "Tools",
+      "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like...",
+      "why_it_matters": "Gemini on Mac now has computer use for multi-step tasks across local files, desktop apps and the web.",
+      "score": 4
+    },
+    {
+      "source": "OpenAI Codex releases",
+      "title": "0.171.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+      "published": "2026-11-20T00:47:14+00:00",
+      "snippet": "New Features Added GPT-6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection. ( #62106 ) Enabled the TUI workspace by default, with searchable document previews, image previews, and subagent transcripts alongside the main conversation. ( #61352 , #61888 , #61889 , #61919 , #62157 ) Added configurable undo and redo shortcuts to the non-Vim prompt composer, including restora",
+      "category": "Models",
+      "summary": "New Features Added GPT-6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection. ( #62106 ) Enabled the TUI workspace by default, with searchable document previews, image previews, and subagent transcripts alongside...",
+      "why_it_matters": "Codex 0.171.0 adds GPT-6.2 Sol and Astra to its model catalogs, with Sol as the default, which matters if you use Codex.",
+      "score": 4
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments",
+      "url": "https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/",
+      "published": "2026-11-19T23:02:16+00:00",
+      "snippet": "Amazon Bedrock AgentCore payments now supports AWS Marketplace, so agents can discover and buy x402-enabled products, APIs, data, and content and pay in USD on the developer's AWS bill, with no stablecoin wallets or API keys. This post walks through a research agent that finds a tool, pays per request through AWS Billing, and answers with sources.",
+      "category": "Tools",
+      "summary": "Amazon Bedrock AgentCore payments now supports AWS Marketplace, so agents can discover and buy x402-enabled products, APIs, data, and content and pay in USD on the developer's AWS bill, with no stablecoin wallets or API keys. This post...",
+      "why_it_matters": "Bedrock AgentCore payments now lets agents buy x402-enabled products and APIs through AWS Marketplace, an early step toward agent commerce.",
+      "score": 3
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "How the BMW Group governs hundreds of agents across thousands of developers",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/",
+      "published": "2026-11-19T22:20:23+00:00",
+      "snippet": "When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.",
+      "category": "Techniques",
+      "summary": "When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing...",
+      "why_it_matters": "BMW's practices for governing hundreds of agents across thousands of developers are a concrete reference for enterprise agent governance.",
+      "score": 3
+    },
+    {
+      "source": "Web: euronews.com",
+      "title": "US President Trump rejects global AI regulation as China's Xi calls for cooperation on safety",
+      "url": "https://euronews.com/2026/11/19/us-president-trump-rejects-global-ai-regulation-as-chinas-xi-calls-for-cooperation-on-safe",
+      "published": "2026-11-20T10:18:23.391968+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "Trump rejecting global AI regulation while Xi calls for safety cooperation signals where AI policy is heading.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-20T10:18:23.391968+00:00"
+    },
+    {
+      "title": "What Trump Has Said About AI Kill Switch as Democrats Take Congress - Newsweek",
+      "url": "https://newsweek.com/what-trump-has-said-about-ai-kill-switch-as-democrats-take-congress-12743122",
+      "source": "Web: newsweek.com",
+      "published": "2026-11-20T10:18:23.391968+00:00"
+    },
+    {
+      "title": "Anthropic IPO takeaways: ANT debuts with $1.8 trillion market cap in landmark moment for AI",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+      "source": "Web: cnbc.com",
+      "published": "2026-11-20T10:18:23.391968+00:00"
+    },
+    {
+      "title": "News & Analysis as of",
+      "url": "https://www.jdsupra.com/topics/algorithms/technology-sector/regulatory-requirements",
+      "source": "Web: jdsupra.com",
+      "published": "2026-11-20T10:18:23.391968+00:00"
+    },
+    {
+      "title": "Center for AI Safety",
+      "url": "https://en.wikipedia.org/wiki/Center_for_AI_Safety",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-20T10:18:23.391968+00:00"
+    },
+    {
+      "title": "Lawmakers form bipartisan caucus to create meaningful AI safety legislation - SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/19/lawmakers-form-bipartisan-caucus-to-create-meaningful-ai-safety-legislation/",
+      "source": "Web: siliconangle.com",
+      "published": "2026-11-20T10:18:23.391968+00:00"
+    },
+    {
+      "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
+      "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+      "source": "Web: therecord.media",
+      "published": "2026-11-20T10:18:23.391968+00:00"
+    },
+    {
+      "title": "Trump says he and Xi Jinping will pursue AI safety rules",
+      "url": "https://www.koreajoongangdaily.com/world/trump-says-he-and-xi-want-moderate-ai-rules/12982296",
+      "source": "Web: koreajoongangdaily.com",
+      "published": "2026-11-20T10:18:23.391968+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-20T10:18:23.391599+00:00"
+    },
+    {
+      "title": "Llama news and updates: every Meta open-weights release, tracked \u2014 AI Chat Daily",
+      "url": "https://www.aichatdaily.com/llama",
+      "source": "Web: aichatdaily.com",
+      "published": "2026-11-20T10:18:23.391599+00:00"
+    },
+    {
+      "title": "New on Yahoo",
+      "url": "https://tech.yahoo.com/computing/articles/meta-unveils-llama-3-1-193232454.html",
+      "source": "Web: tech.yahoo.com",
+      "published": "2026-11-20T10:18:23.391599+00:00"
+    },
+    {
+      "title": "Qwen",
+      "url": "https://en.wikipedia.org/wiki/Qwen",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-20T10:18:23.391599+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-20T10:18:23.391097+00:00"
+    },
+    {
+      "title": "Apple Is Working on AI Agent for Device Control, Apps, Browsing and Coding - Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding",
+      "source": "Web: bloomberg.com",
+      "published": "2026-11-20T10:18:23.391097+00:00"
+    },
+    {
+      "title": "DEV Community",
+      "url": "https://dev.to/levi_ezra_115d2257a6f1f16/top-ai-agent-frameworks-for-developers-1el6",
+      "source": "Web: dev.to",
+      "published": "2026-11-20T10:18:23.391097+00:00"
+    },
+    {
+      "title": "Microsoft thinks it can make agentic AI work for the whole company, not just you - TechSpot",
+      "url": "https://techspot.com/news/114611-microsoft-thinks-can-make-agentic-ai-work-whole.html",
+      "source": "Web: techspot.com",
+      "published": "2026-11-20T10:18:23.390458+00:00"
+    },
+    {
+      "title": "OpenAI Drops a Hands-On AI Coder",
+      "url": "https://theaiedge.substack.com/p/openai-drops-a-hands-on-ai-coder",
+      "source": "Web: theaiedge.substack.com",
+      "published": "2026-11-20T10:18:23.390458+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-20T10:18:23.389345+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-20T10:18:23.389345+00:00"
+    },
+    {
+      "title": "Google Releases New Gemini 4 Neon: What to Know",
+      "url": "https://ground.news/article/the-new-google-ai-recreates-in-3d-alan-turings-1936-office-with-a-turing-machine-that-works-gemini-4-neon-begins-to-reach-the-app",
+      "source": "Web: ground.news",
+      "published": "2026-11-20T10:18:23.389345+00:00"
+    },
+    {
+      "title": "Google introduces new Gemini 4 AI model Neon",
+      "url": "https://deccanherald.com/technology/artificial-intelligence/google-introduces-new-gemini-4-ai-model-neon-4224344",
+      "source": "Web: deccanherald.com",
+      "published": "2026-11-20T10:18:23.389345+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-20T10:18:23.389345+00:00"
+    },
+    {
+      "title": "b12560",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12560",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-20T09:31:38+00:00"
+    },
+    {
+      "title": "b12561: vulkan: chunked GATED_DELTA_NET implementation (#30207)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12561",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-20T07:38:14+00:00"
+    },
+    {
+      "title": "b12559",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12559",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-20T07:00:06+00:00"
+    },
+    {
+      "title": "b12558",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12558",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-20T06:41:50+00:00"
+    },
+    {
+      "title": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
+      "url": "https://arxiv.org/abs/2611.25043",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance",
+      "url": "https://arxiv.org/abs/2611.25070",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "SailSearch: Agent-Assisted Discovery in Combinatorial Optimization",
+      "url": "https://arxiv.org/abs/2611.25087",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "BuggyMLE: Scaling Machine Learning Engineering Difficulty with Bug Injection",
+      "url": "https://arxiv.org/abs/2611.25088",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "CoMPASS: A Multi-Turn Benchmark for Measuring LLM Reinforcement of Parasocial Behavior",
+      "url": "https://arxiv.org/abs/2611.25109",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "DSFlow: A Neuro-Symbolic Data Workflow Agent with Statistical Diagnostic Guardrails",
+      "url": "https://arxiv.org/abs/2611.25111",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "Calibrated Decision Rewards: Training Language Models with a Judge That Knows How Sure It Is",
+      "url": "https://arxiv.org/abs/2611.25135",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "EverydayBench: Evaluating Satisfactory Completion of Live User-Facing Digital Work",
+      "url": "https://arxiv.org/abs/2611.25146",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "A Verifier from the Past: Test-Time Compute for Time Series Foundation Models",
+      "url": "https://arxiv.org/abs/2611.25171",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "An AI-Powered Multiverse Analysis of Empirical Finance Research: Evidence from Reused Natural Experiments",
+      "url": "https://arxiv.org/abs/2611.25184",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "ICARE: cross-domain text classification with incremental class-aware representation and distillation learning",
+      "url": "https://arxiv.org/abs/2611.24959",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "TETHER: Training-Free, Elastic, ToC-Anchored Hierarchy Extraction and Recovery in Design-Driven Long Documents",
+      "url": "https://arxiv.org/abs/2611.24960",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "Quantifying Cultural-Psychological Constructs in Four Centuries of Ottoman Court Registers",
+      "url": "https://arxiv.org/abs/2611.24981",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "Enhancing Understanding of Language Models with Varied Explanations",
+      "url": "https://arxiv.org/abs/2611.25314",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "ChronoDossier: Long-Form Personas as Temporal Memory Representations",
+      "url": "https://arxiv.org/abs/2611.25407",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "RoCoKV: Accelerating LLM Inference Serving through Uncertainty and Redundancy Aware KV Cache Compression",
+      "url": "https://arxiv.org/abs/2611.25433",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "PAIR-MED: Policy-reward Alternation for Iterative Refinement in Multilingual Medical Reasoning",
+      "url": "https://arxiv.org/abs/2611.25446",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "PILAPS: A Bilingual Benchmark for Evaluating Pragmatic Inference across Phenomena and Settings",
+      "url": "https://arxiv.org/abs/2611.25459",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "DRVEXO-4B-Unified: Design and Evaluation of a Modular Speech-Vision System",
+      "url": "https://arxiv.org/abs/2611.25521",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "Rubric Semantics or Numerical Priors? Auditing Scale-Direction Bias in LLM Judges",
+      "url": "https://arxiv.org/abs/2611.25588",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-20T00:00:00-05:00"
+    },
+    {
+      "title": "0.173.0-alpha.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.1",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-20T02:54:54+00:00"
+    },
+    {
+      "title": "Token fraud is here and it\u2019s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "source": "Simon Willison",
+      "published": "2026-11-20T02:49:57+00:00"
+    },
+    {
+      "title": "v3.57.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.57.0",
+      "source": "OpenAI Python SDK",
+      "published": "2026-11-20T01:27:57+00:00"
+    },
+    {
+      "title": "Release v0.71.0-nightly.20261120.gd4cb1713f",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261120.gd4cb1713f",
+      "source": "Gemini CLI releases",
+      "published": "2026-11-20T01:12:42+00:00"
+    },
+    {
+      "title": "langgraph==1.2.24",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.24",
+      "source": "GitHub: langgraph",
+      "published": "2026-11-20T01:10:26+00:00"
+    },
+    {
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-20T00:56:01+00:00"
+    },
+    {
+      "title": "Anthropic\u2019s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-20T00:43:50+00:00"
+    },
+    {
+      "title": "Amazon SageMaker Inference: 2026 launches in review, part 2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-20T00:34:07+00:00"
+    },
+    {
+      "title": "Use Kimi Code CLI with models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-20T00:33:30+00:00"
+    },
+    {
+      "title": "v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
+      "source": "GitHub: ollama",
+      "published": "2026-11-20T00:25:30+00:00"
+    },
+    {
+      "title": "b12556",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12556",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-19T23:17:27+00:00"
+    },
+    {
+      "title": "langchain-openai==1.8.5",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.5",
+      "source": "GitHub: langchain",
+      "published": "2026-11-19T23:16:22+00:00"
+    },
+    {
+      "title": "langchain-anthropic==1.7.12",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.12",
+      "source": "GitHub: langchain",
+      "published": "2026-11-19T23:00:21+00:00"
+    },
+    {
+      "title": "b12555",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12555",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-19T22:59:01+00:00"
+    },
+    {
+      "title": "An FBI agent called a Claude user about his chats",
+      "url": "https://austinpatrick.substack.com/p/when-should-ai-labs-alert-police",
+      "source": "Hacker News (29 pts)",
+      "published": "2026-11-19T22:36:51+00:00"
+    },
+    {
+      "title": "langchain-core==1.8.4",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.4",
+      "source": "GitHub: langchain",
+      "published": "2026-11-19T22:35:59+00:00"
+    },
+    {
+      "title": "b12554",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12554",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-19T22:23:11+00:00"
+    },
+    {
+      "title": "b12557: CUDA: implement support for duplicate expert IDs (#32505)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12557",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-19T22:21:24+00:00"
+    },
+    {
+      "title": "Run your whole selling business in AWS Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-your-whole-selling-business-in-aws-quick/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-19T22:16:22+00:00"
+    },
+    {
+      "title": "v2.1.329",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "source": "Claude Code releases",
+      "published": "2026-11-19T22:14:41+00:00"
+    },
+    {
+      "title": "b12553",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12553",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-19T22:10:10+00:00"
+    },
+    {
+      "title": "0.171.0-alpha.13.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13.1",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-19T22:07:59+00:00"
+    },
+    {
+      "title": "A brief history of Nvidia\u2019s recent stock fluctuations",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "source": "The Verge AI",
+      "published": "2026-11-19T16:59:35-05:00"
+    },
+    {
+      "title": "Meta\u2019s new Muse Charm device may cost $300",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T21:58:06+00:00"
+    },
+    {
+      "title": "b12552",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12552",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-19T21:55:57+00:00"
+    },
+    {
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T21:42:31+00:00"
+    },
+    {
+      "title": "langchain-openai==1.8.4",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.4",
+      "source": "GitHub: langchain",
+      "published": "2026-11-19T21:36:53+00:00"
+    },
+    {
+      "title": "Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-19T21:28:18+00:00"
+    },
+    {
+      "title": "Inside Amazon Connect Talent: The science of structured AI interviews",
+      "url": "https://aws.amazon.com/blogs/machine-learning/inside-amazon-connect-talent-the-science-of-structured-ai-interviews/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-19T21:23:20+00:00"
+    },
+    {
+      "title": "Release v0.70.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0",
+      "source": "Gemini CLI releases",
+      "published": "2026-11-19T21:08:05+00:00"
+    },
+    {
+      "title": "v3.56.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.56.0",
+      "source": "OpenAI Python SDK",
+      "published": "2026-11-19T20:56:27+00:00"
+    },
+    {
+      "title": "Release v0.71.0-preview.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-preview.0",
+      "source": "Gemini CLI releases",
+      "published": "2026-11-19T20:48:23+00:00"
+    },
+    {
+      "title": "PostgreSQL 19 Released",
+      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "source": "Simon Willison",
+      "published": "2026-11-19T20:43:57+00:00"
+    },
+    {
+      "title": "Meta\u2019s Muse Charm might cost $300",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "source": "The Verge AI",
+      "published": "2026-11-19T15:22:17-05:00"
+    },
+    {
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T20:18:49+00:00"
+    },
+    {
+      "title": "Google is putting AI chats right on the homepage",
+      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "source": "The Verge AI",
+      "published": "2026-11-19T15:05:06-05:00"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-19T20:01:06+00:00"
+    },
+    {
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "source": "NVIDIA",
+      "published": "2026-11-19T20:00:15+00:00"
+    },
+    {
+      "title": "Amazon Polly launches voice cloning: A unique voice for your brand",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-19T19:53:32+00:00"
+    },
+    {
+      "title": "v2.11.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.11.0",
+      "source": "Anthropic Python SDK",
+      "published": "2026-11-19T19:14:21+00:00"
+    },
+    {
+      "title": "Anthropic\u2019s IPO could deliver $156B to charity",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T19:10:45+00:00"
+    },
+    {
+      "title": "Optimize AI economics on Amazon Bedrock with Accenture\u2019s sequenced approach",
+      "url": "https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-19T18:48:55+00:00"
+    },
+    {
+      "title": "No Bailout for the AI Bubble, Anthropic IPO Protesters Say",
+      "url": "https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/",
+      "source": "Hacker News (47 pts)",
+      "published": "2026-11-19T18:42:13+00:00"
+    },
+    {
+      "title": "From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-in-agentic-ai-with-aws-ai-league/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-19T18:26:22+00:00"
+    },
+    {
+      "title": "Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-19T18:20:54+00:00"
+    },
+    {
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T18:09:11+00:00"
+    },
+    {
+      "title": "AI came for the coders. Understanding why tells us who's next",
+      "url": "https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html",
+      "source": "Hacker News (50 pts)",
+      "published": "2026-11-19T17:43:38+00:00"
+    },
+    {
+      "title": "Meta\u2019s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T17:38:40+00:00"
+    },
+    {
+      "title": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "source": "Hacker News (501 pts)",
+      "published": "2026-11-19T17:30:44+00:00"
+    },
+    {
+      "title": "Anthropic\u2019s Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "source": "Hacker News (1083 pts)",
+      "published": "2026-11-19T17:02:40+00:00"
+    },
+    {
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "source": "NVIDIA",
+      "published": "2026-11-19T17:00:35+00:00"
+    },
+    {
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "source": "Google AI",
+      "published": "2026-11-19T17:00:00+00:00"
+    },
+    {
+      "title": "Former Alibaba exec\u2019s Everful raises $48.5M to connect retailers with Chinese factories",
+      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T17:00:00+00:00"
+    },
+    {
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T16:59:23+00:00"
+    }
+  ]
+}
