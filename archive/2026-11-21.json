@@ -1,0 +1,540 @@
+{
+  "date": "2026-11-21",
+  "label": "Saturday, 21 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 30 candidates.",
+  "sources_ok": 33,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/LocalLLaMA",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Web: thehackernews.com",
+      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "published": "2026-11-21T10:02:36.479940+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "A compromised Microsoft Agent Framework PyPI package that steals cloud credentials is a direct supply-chain risk for anyone building agents.",
+      "score": 5
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "published": "2026-11-20T11:34:13-05:00",
+      "snippet": "Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [\u2026]",
+      "category": "Research",
+      "summary": "Anthropic mathematician Levent Alp\u00f6ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians...",
+      "why_it_matters": "An Anthropic mathematician claims a Claude-assisted proof of the Riemann hypothesis, a possible landmark for AI in research.",
+      "score": 5
+    },
+    {
+      "source": "Web: freepressjournal.in",
+      "title": "Google Launches Gemini 4 Neon Mid-Tier AI Model: What's New?",
+      "url": "https://freepressjournal.in/tech/google-launches-gemini-4-neon-mid-tier-ai-model-whats-new",
+      "published": "2026-11-20T10:02:36.478602+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Google launched Gemini 4 Neon, a mid-tier model that may shift cost/performance choices.",
+      "score": 4
+    },
+    {
+      "source": "Web: felloai.com",
+      "title": "Qwen 4 Release Date: Qwen4-Max Launched 16 Nov 2026",
+      "url": "https://felloai.com/qwen-4/",
+      "published": "2026-11-19T10:02:36.480268+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Qwen4-Max launched on 16 Nov, a new frontier-scale entry from a major open-weights lab.",
+      "score": 4
+    },
+    {
+      "source": "GitHub: ollama",
+      "title": "v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
+      "published": "2026-11-21T04:05:14+00:00",
+      "snippet": "Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench Verified). ollama run inkling-2-mini Note: inkling-2-mini is supported on Apple silicon only in this ",
+      "category": "Models",
+      "summary": "Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and...",
+      "why_it_matters": "Inkling 2 Mini is a 26B model (5.4B active) with looped layers, now runnable locally via Ollama and llama.cpp.",
+      "score": 4
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The most misunderstood graph in AI just got a major update",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "published": "2026-11-20T18:15:15+00:00",
+      "snippet": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory\u2014but it also indicates that models aren\u2019t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization\u2019s time horizon plot, which was widely\u2026",
+      "category": "Research",
+      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory\u2014but it also indicates that models aren\u2019t quite as good at tasks that require judgment as they are...",
+      "why_it_matters": "METR's updated report on exponential capability trends informs expectations for agent progress.",
+      "score": 4
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+      "published": "2026-11-21T00:14:26+00:00",
+      "snippet": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.",
+      "category": "Techniques",
+      "summary": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the...",
+      "why_it_matters": "Distributed KV caching with ElastiCache can cut self-hosted LLM inference cost and latency.",
+      "score": 4
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "published": "2026-11-20T07:30:47-05:00",
+      "snippet": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president [\u2026]",
+      "category": "Security",
+      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen...",
+      "why_it_matters": "Signal's block on screenshots to stop AI agents reading messages shows growing friction between agents and app privacy.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (34 pts)",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation/",
+      "published": "2026-11-20T20:11:14+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "Work on combating adversarial distillation matters for model providers and API users.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (56 pts)",
+      "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+      "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+      "published": "2026-11-20T21:18:46+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "Anthropic's IPO troubles amid a broad AI market selloff could affect vendor stability and pricing.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-21T10:02:36.480422+00:00"
+    },
+    {
+      "title": "AI Regulation News & Analysis",
+      "url": "https://regulations.ai/news",
+      "source": "Web: regulations.ai",
+      "published": "2026-11-21T10:02:36.480422+00:00"
+    },
+    {
+      "title": "AI industry braces for tougher oversight under incoming Democratic Congress",
+      "url": "https://thenationaldesk.com/news/connect-to-congress/ai-industry-braces-for-tougher-oversight-under-incoming-democratic-congress-artificial-intelligence-data-centers-cybersecurity-rogue-agents",
+      "source": "Web: thenationaldesk.com",
+      "published": "2026-11-21T10:02:36.480422+00:00"
+    },
+    {
+      "title": "News: U.S. and World News Headlines : NPR",
+      "url": "https://www.npr.org/sections/news/",
+      "source": "Web: npr.org",
+      "published": "2026-11-21T10:02:36.480422+00:00"
+    },
+    {
+      "title": "Policy can still work on short timelines",
+      "url": "https://transformernews.ai/p/policy-can-still-work-on-short-timelines-california-states-ai",
+      "source": "Web: transformernews.ai",
+      "published": "2026-11-21T10:02:36.480422+00:00"
+    },
+    {
+      "title": "AP Technology SummaryBrief at 12:29 a.m. EST",
+      "url": "https://baytobaynews.com/stories/ap-technology-summarybrief-at-1229-am-est,365216",
+      "source": "Web: baytobaynews.com",
+      "published": "2026-11-21T10:02:36.480422+00:00"
+    },
+    {
+      "title": "Llama news and updates: every Meta open-weights release, tracked \u2014 AI Chat Daily",
+      "url": "https://www.aichatdaily.com/llama",
+      "source": "Web: aichatdaily.com",
+      "published": "2026-11-21T10:02:36.480268+00:00"
+    },
+    {
+      "title": "Releases \u00b7 ggml-org/llama.cpp \u00b7 GitHub",
+      "url": "https://github.com/ggml-org/llama.cpp/releases",
+      "source": "Web: github.com",
+      "published": "2026-11-21T10:02:36.480268+00:00"
+    },
+    {
+      "title": "New on Yahoo",
+      "url": "https://tech.yahoo.com/computing/articles/meta-unveils-llama-3-1-193232454.html",
+      "source": "Web: tech.yahoo.com",
+      "published": "2026-11-21T10:02:36.480268+00:00"
+    },
+    {
+      "title": "Qwen",
+      "url": "https://en.wikipedia.org/wiki/Qwen",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-21T10:02:36.480268+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-21T10:02:36.479940+00:00"
+    },
+    {
+      "title": "Agent news: what is new for AI agents today",
+      "url": "https://forumforagents.com/news",
+      "source": "Web: forumforagents.com",
+      "published": "2026-11-21T10:02:36.479940+00:00"
+    },
+    {
+      "title": "agents-lib \u2014 AI Agent Frameworks, MCP Servers & Tools Directory",
+      "url": "https://agents-lib.com/news",
+      "source": "Web: agents-lib.com",
+      "published": "2026-11-21T10:02:36.479940+00:00"
+    },
+    {
+      "title": "Jump to ratings and reviews",
+      "url": "https://www.goodreads.com/book/show/237517318-agentic-rag-system-with-mcp-and-langchain",
+      "source": "Web: goodreads.com",
+      "published": "2026-11-21T10:02:36.479940+00:00"
+    },
+    {
+      "title": "Release notes",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Web: support.claude.com",
+      "published": "2026-11-21T10:02:36.479637+00:00"
+    },
+    {
+      "title": "OpenAI Drops a Hands-On AI Coder",
+      "url": "https://theaiedge.substack.com/p/openai-drops-a-hands-on-ai-coder",
+      "source": "Web: theaiedge.substack.com",
+      "published": "2026-11-21T10:02:36.479637+00:00"
+    },
+    {
+      "title": "OpenAI launches Codex, an AI coding agent, in ChatGPT",
+      "url": "https://finance.yahoo.com/news/openai-launches-codex-ai-coding-150000373.html",
+      "source": "Web: finance.yahoo.com",
+      "published": "2026-11-21T10:02:36.479637+00:00"
+    },
+    {
+      "title": "Firebase Studio",
+      "url": "https://en.wikipedia.org/wiki/Firebase_Studio",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-21T10:02:36.479637+00:00"
+    },
+    {
+      "title": "Google Antigravity",
+      "url": "https://en.wikipedia.org/wiki/Google_Antigravity",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-21T10:02:36.479637+00:00"
+    },
+    {
+      "title": "Eclipse Theia",
+      "url": "https://en.wikipedia.org/wiki/Eclipse_Theia",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-21T10:02:36.479637+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-21T10:02:36.478602+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-21T10:02:36.478602+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-21T10:02:36.478602+00:00"
+    },
+    {
+      "title": "Latest News",
+      "url": "https://newsroom.ibm.com/campaign?item=1987",
+      "source": "Web: newsroom.ibm.com",
+      "published": "2026-11-21T10:02:36.478602+00:00"
+    },
+    {
+      "title": "b12603",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12603",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-21T09:33:37+00:00"
+    },
+    {
+      "title": "b12604: llama-grammar: Fix integer overflow (#32551)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12604",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-21T06:00:30+00:00"
+    },
+    {
+      "title": "ClawDOS \u2013 An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
+      "source": "Hacker News (60 pts)",
+      "published": "2026-11-21T05:38:01+00:00"
+    },
+    {
+      "title": "b12602",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12602",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-21T04:32:28+00:00"
+    },
+    {
+      "title": "Release v0.71.0-nightly.20261121.geecccfcd5",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261121.geecccfcd5",
+      "source": "Gemini CLI releases",
+      "published": "2026-11-21T01:19:21+00:00"
+    },
+    {
+      "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+      "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-21T01:06:42+00:00"
+    },
+    {
+      "title": "0.173.0-alpha.4",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.4",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-21T00:40:17+00:00"
+    },
+    {
+      "title": "b12600",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12600",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-20T23:34:17+00:00"
+    },
+    {
+      "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+      "url": "https://news.ycombinator.com/item?id=50583761",
+      "source": "Hacker News (180 pts)",
+      "published": "2026-11-20T23:18:32+00:00"
+    },
+    {
+      "title": "b12599",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12599",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-20T23:16:58+00:00"
+    },
+    {
+      "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-20T23:07:03+00:00"
+    },
+    {
+      "title": "v0.40.17-rc4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4",
+      "source": "GitHub: ollama",
+      "published": "2026-11-20T23:04:26+00:00"
+    },
+    {
+      "title": "b12597",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12597",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-20T23:00:52+00:00"
+    },
+    {
+      "title": "b12596",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12596",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-20T22:48:28+00:00"
+    },
+    {
+      "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-20T22:35:24+00:00"
+    },
+    {
+      "title": "b12591",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12591",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-20T22:34:30+00:00"
+    },
+    {
+      "title": "v2.1.330",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "source": "Claude Code releases",
+      "published": "2026-11-20T22:32:56+00:00"
+    },
+    {
+      "title": "0.173.0-alpha.3",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.3",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-20T22:28:53+00:00"
+    },
+    {
+      "title": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
+      "url": "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
+      "source": "Hacker News (42 pts)",
+      "published": "2026-11-20T22:18:20+00:00"
+    },
+    {
+      "title": "0.173.0-alpha.2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.2",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-20T20:50:10+00:00"
+    },
+    {
+      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-20T20:37:31+00:00"
+    },
+    {
+      "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-20T20:22:00+00:00"
+    },
+    {
+      "title": "Daniel Ek backs AI researcher\u2019s fusion power startup. Here\u2019s what they\u2019re building.",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-20T19:53:41+00:00"
+    },
+    {
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis \u2014 and a human did, too",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-20T19:32:08+00:00"
+    },
+    {
+      "title": "Quoting Ravi Vakil",
+      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+      "source": "Simon Willison",
+      "published": "2026-11-20T19:21:49+00:00"
+    },
+    {
+      "title": "b12590",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12590",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-20T19:06:21+00:00"
+    },
+    {
+      "title": "Trump threatens \u2018tremendous tax\u2019 for moving AI data centers outside the US",
+      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "source": "The Verge AI",
+      "published": "2026-11-20T13:50:19-05:00"
+    },
+    {
+      "title": "v0.40.17-rc3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
+      "source": "GitHub: ollama",
+      "published": "2026-11-20T18:37:07+00:00"
+    },
+    {
+      "title": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/",
+      "source": "AWS Machine Learning",
+      "published": "2026-11-20T18:24:06+00:00"
+    },
+    {
+      "title": "b12589",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12589",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-20T17:45:54+00:00"
+    },
+    {
+      "title": "Markets plunge: Nasdaq erases 2026 gains, S&P, Dow in corrections",
+      "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+      "source": "Hacker News (191 pts)",
+      "published": "2026-11-20T17:44:01+00:00"
+    },
+    {
+      "title": "Chips can survive the space environment \u2014 can their financing?",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-20T17:40:01+00:00"
+    },
+    {
+      "title": "Google workers tell their employer not to punish schools that don't want AI",
+      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "source": "Hacker News (276 pts)",
+      "published": "2026-11-20T16:59:27+00:00"
+    },
+    {
+      "title": "Quoting Levent Alp\u00f6ge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "source": "Simon Willison",
+      "published": "2026-11-20T16:30:48+00:00"
+    },
+    {
+      "title": "v2.12.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.12.0",
+      "source": "Anthropic Python SDK",
+      "published": "2026-11-20T15:56:21+00:00"
+    },
+    {
+      "title": "The fallout from Nvidia\u2019s Jensen Huang scandal continues",
+      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-20T14:55:44+00:00"
+    },
+    {
+      "title": "The week everything fell apart",
+      "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+      "source": "The Verge AI",
+      "published": "2026-11-20T09:06:59-05:00"
+    },
+    {
+      "title": "Llms.txt and MCP didn't move the needle",
+      "url": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
+      "source": "Hacker News (31 pts)",
+      "published": "2026-11-20T14:00:23+00:00"
+    },
+    {
+      "title": "Six AI-powered gadgets that could make your home office smarter",
+      "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-20T14:00:00+00:00"
+    },
+    {
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic\u2019s second day",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "source": "Hacker News (314 pts)",
+      "published": "2026-11-20T13:29:59+00:00"
+    },
+    {
+      "title": "If you stop writing code, you also get worse at reviewing it",
+      "url": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
+      "source": "Hacker News (355 pts)",
+      "published": "2026-11-20T12:41:38+00:00"
+    },
+    {
+      "title": "Apple is building an AI agent",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "source": "Hacker News (19 pts)",
+      "published": "2026-11-20T11:22:27+00:00"
+    },
+    {
+      "title": "SOCi Launches MCP Server and Expands Integrations, Strengthening the Context Layer Behind Its Agentic Workforce",
+      "url": "https://prnewswire.com/news-releases/soci-launches-mcp-server-and-expands-integrations-strengthening-the-context-layer-behind-its-agentic-workforce-302946262.html",
+      "source": "Web: prnewswire.com",
+      "published": "2026-11-20T10:02:36.479940+00:00"
+    },
+    {
+      "title": "Agent Tools Today (20 Nov 2026): Launches, Skills, MCP Servers",
+      "url": "https://munderdiffl.in/blog/agent-tools-today-2026-11-20",
+      "source": "Web: munderdiffl.in",
+      "published": "2026-11-20T10:02:36.479637+00:00"
+    },
+    {
+      "title": "Governor Newsom\u2019s nation-leading AI safety framework is getting even stronger as California releases next steps on mandatory safety standards and oversight",
+      "url": "https://www.gov.ca.gov/2026/11/18/governor-newsoms-nation-leading-ai-safety-framework-is-getting-even-stronger-as-california-releases-next-steps-on-mandatory-safety-standards-and-oversight/",
+      "source": "Web: gov.ca.gov",
+      "published": "2026-11-19T10:02:36.480422+00:00"
+    }
+  ]
+}
