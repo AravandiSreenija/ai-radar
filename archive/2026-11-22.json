@@ -1,0 +1,318 @@
+{
+  "date": "2026-11-22",
+  "label": "Sunday, 22 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 18 candidates.",
+  "sources_ok": 33,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/LocalLLaMA",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Web: infoq.com",
+      "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution - InfoQ",
+      "url": "https://infoq.com/news/2026/11/google-agent-compute-engine",
+      "published": "2026-11-22T10:04:22.336286+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "Google's Agent Compute Engine targets secure execution of AI agents, a key production concern for teams building agents.",
+      "score": 5
+    },
+    {
+      "source": "GitHub: transformers",
+      "title": "Release v5.24.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
+      "published": "2026-11-21T12:43:39+00:00",
+      "snippet": "Release v5.24.0 New Model additions Inkling 2 Mini Inkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Small, added in v5.23.0. It has 24 decoder layers instead of 48, and compensates with a looping mechanism in which layers 6 to 17 run three times. A learned message-passing mechanism mi",
+      "category": "Models",
+      "summary": "Release v5.24.0 New Model additions Inkling 2 Mini Inkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Small, added in v5.23.0....",
+      "why_it_matters": "Transformers v5.24.0 adds Inkling 2 Mini, a multimodal text+image model from Thinking Machines Lab, which you can now try through the library.",
+      "score": 4
+    },
+    {
+      "source": "Hacker News (92 pts)",
+      "title": "Pandex \u2013 Official European Law for AI Agents, over MCP",
+      "url": "https://www.pandex.io",
+      "published": "2026-11-21T20:47:41+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "Pandex exposes European law to AI agents over MCP, a concrete example of MCP-based agent tooling.",
+      "score": 4
+    },
+    {
+      "source": "Web: dev.to",
+      "title": "Ransomware Runs Itself Now. Your Agent Defense Guide - DEV Community",
+      "url": "https://dev.to/max_quimby/ransomware-runs-itself-now-your-agent-defense-guide-2nml",
+      "published": "2026-11-22T10:04:22.336286+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "A guide to defending against agent-driven ransomware, relevant to anyone deploying autonomous agents.",
+      "score": 4
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Meta ads is now available in AWS Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
+      "published": "2026-11-22T01:59:13+00:00",
+      "snippet": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.",
+      "category": "Tools",
+      "summary": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and...",
+      "why_it_matters": "AWS Quick gains a Meta ads AI connector that lets you manage campaigns in natural language, an example of agent-style connectors for business data.",
+      "score": 3
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "published": "2026-11-21T10:00:00-05:00",
+      "snippet": "Today, I\u2019m talking with Hayden Field, The Verge\u2019s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to [\u2026]",
+      "category": "Industry",
+      "summary": "Today, I\u2019m talking with Hayden Field, The Verge\u2019s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The...",
+      "why_it_matters": "Looks at whether Anthropic can keep prioritizing safety as it heads toward an IPO, which could shape a major model provider's direction.",
+      "score": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Signal restricts mobile screenshots as it confronts \u2018existential threat\u2019 of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "published": "2026-11-21T21:37:10+00:00",
+      "snippet": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "category": "Security",
+      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "why_it_matters": "Signal restricting screenshots in response to AI surveillance threats signals growing privacy countermeasures against AI.",
+      "score": 3
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The UN fails to agree on rules regulating \u2018killer robots\u2019",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "published": "2026-11-21T15:03:37-05:00",
+      "snippet": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [\u2026]",
+      "category": "Industry",
+      "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start...",
+      "why_it_matters": "UN talks ended without binding rules on autonomous weapons, which keeps AI military regulation unsettled.",
+      "score": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "published": "2026-11-21T17:00:00+00:00",
+      "snippet": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "category": "Tools",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "why_it_matters": "A roundup of AI agents that work through text messages shows where consumer agent products are going.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (71 pts)",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "published": "2026-11-22T08:57:34+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "Projected gas and coal reliance for Anthropic's power in 2028 highlights the energy cost of scaling AI.",
+      "score": 2
+    }
+  ],
+  "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-22T10:04:22.337412+00:00"
+    },
+    {
+      "title": "UN talks on AI in warfare end with no commitment to binding rules",
+      "url": "https://cbc.ca/news/world/ai-warfare-regulations-un-talks-9.7431398",
+      "source": "Web: cbc.ca",
+      "published": "2026-11-22T10:04:22.337412+00:00"
+    },
+    {
+      "title": "AI Regulation News & Analysis",
+      "url": "https://regulations.ai/news",
+      "source": "Web: regulations.ai",
+      "published": "2026-11-22T10:04:22.337412+00:00"
+    },
+    {
+      "title": "News: U.S. and World News Headlines : NPR",
+      "url": "https://www.npr.org/sections/news/",
+      "source": "Web: npr.org",
+      "published": "2026-11-22T10:04:22.337412+00:00"
+    },
+    {
+      "title": "News & Analysis as of",
+      "url": "https://www.jdsupra.com/topics/algorithms/technology-sector/regulatory-requirements",
+      "source": "Web: jdsupra.com",
+      "published": "2026-11-22T10:04:22.337412+00:00"
+    },
+    {
+      "title": "Llama news and updates: every Meta open-weights release, tracked \u2014 AI Chat Daily",
+      "url": "https://www.aichatdaily.com/llama",
+      "source": "Web: aichatdaily.com",
+      "published": "2026-11-22T10:04:22.336991+00:00"
+    },
+    {
+      "title": "New on Yahoo",
+      "url": "https://tech.yahoo.com/computing/articles/meta-unveils-llama-3-1-193232454.html",
+      "source": "Web: tech.yahoo.com",
+      "published": "2026-11-22T10:04:22.336991+00:00"
+    },
+    {
+      "title": "AI News Today, November 21: Top Stories",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-22T10:04:22.336286+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-22T10:04:22.336286+00:00"
+    },
+    {
+      "title": "Latest AI Model Releases & Release Dates",
+      "url": "https://www.nocode.mba/ai-release-tracker",
+      "source": "Web: nocode.mba",
+      "published": "2026-11-22T10:04:22.334608+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-22T10:04:22.334608+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-22T10:04:22.334608+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-22T10:04:22.334608+00:00"
+    },
+    {
+      "title": "AI Model Release Tracker",
+      "url": "https://www.startrise.io/models/",
+      "source": "Web: startrise.io",
+      "published": "2026-11-22T10:04:22.334608+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-22T10:04:22.334608+00:00"
+    },
+    {
+      "title": "b12631",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12631",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-22T09:06:37+00:00"
+    },
+    {
+      "title": "b12629",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12629",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-22T08:47:04+00:00"
+    },
+    {
+      "title": "b12628",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12628",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-22T06:58:12+00:00"
+    },
+    {
+      "title": "b12627",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12627",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-22T03:55:22+00:00"
+    },
+    {
+      "title": "b12626",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12626",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-22T02:23:30+00:00"
+    },
+    {
+      "title": "b12625",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12625",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-22T02:04:45+00:00"
+    },
+    {
+      "title": "b12624",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12624",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-22T01:51:17+00:00"
+    },
+    {
+      "title": "Release v0.71.0-nightly.20261122.geecccfcd5",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261122.geecccfcd5",
+      "source": "Gemini CLI releases",
+      "published": "2026-11-22T01:20:22+00:00"
+    },
+    {
+      "title": "b12623",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12623",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-22T01:14:37+00:00"
+    },
+    {
+      "title": "b12622",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12622",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-22T00:54:30+00:00"
+    },
+    {
+      "title": "b12621",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12621",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-22T00:40:54+00:00"
+    },
+    {
+      "title": "Muru",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "source": "Simon Willison",
+      "published": "2026-11-21T23:56:28+00:00"
+    },
+    {
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-21T21:07:42+00:00"
+    },
+    {
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-21T16:00:00+00:00"
+    },
+    {
+      "title": "Chess.com\u2019s next move is a new hub for classic games, from mahjong to sudoku",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "source": "The Verge AI",
+      "published": "2026-11-21T09:00:00-05:00"
+    },
+    {
+      "title": "Anthropic's IPO bank closed position meant to stabilize stock",
+      "url": "https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20",
+      "source": "Hacker News (33 pts)",
+      "published": "2026-11-21T12:43:24+00:00"
+    },
+    {
+      "title": "Best production AI agent frameworks in 2026, and what they miss \u00b7 AgentField",
+      "url": "https://agentfield.ai/guides/production-ai-agents-2026",
+      "source": "Web: agentfield.ai",
+      "published": "2026-11-21T10:04:22.336286+00:00"
+    }
+  ]
+}
