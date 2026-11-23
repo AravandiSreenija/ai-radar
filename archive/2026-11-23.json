@@ -1,0 +1,528 @@
+{
+  "date": "2026-11-23",
+  "label": "Monday, 23 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 28 candidates.",
+  "sources_ok": 33,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/LocalLLaMA",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Web: infoq.com",
+      "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution - InfoQ",
+      "url": "https://infoq.com/news/2026/11/google-agent-compute-engine",
+      "published": "2026-11-22T11:01:35.892391+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "Google's Agent Compute Engine targets secure execution of AI agents, a key production concern for agent builders.",
+      "score": 5
+    },
+    {
+      "source": "Hacker News (32 pts)",
+      "title": "GLM-5.4 is now available to all GLM Coding Plan users",
+      "url": "https://twitter.com/ZixuanLi_/status/2124719275864670681",
+      "published": "2026-11-23T05:21:54+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "GLM-5.4 is now available to all GLM Coding Plan users, a new option for coding-focused model use.",
+      "score": 4
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Meta Muse can now do your Black Friday shopping at Walmart",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+      "published": "2026-11-23T06:00:00-05:00",
+      "snippet": "Walmart will now let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. The retail giant is rolling out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant products for you without sharing your purchase history, [\u2026]",
+      "category": "Industry",
+      "summary": "Walmart will now let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. The retail giant is rolling out a live implementation of the Agent Gateway it announced last month, which...",
+      "why_it_matters": "Walmart lets Meta's Muse agent shop and buy on its site, a real-world example of agentic commerce.",
+      "score": 4
+    },
+    {
+      "source": "Web: tech-critter.com",
+      "title": "Microsoft Ignite 2026 puts AI agents at the centre of enterprise computing",
+      "url": "https://tech-critter.com/microsoft-ignite-2026-announcements",
+      "published": "2026-11-23T11:01:35.891921+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "Microsoft Ignite puts AI agents at the center of enterprise computing, signaling where enterprise tooling is heading.",
+      "score": 4
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI\u2019s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "published": "2026-11-22T21:14:07+00:00",
+      "snippet": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "category": "Industry",
+      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "why_it_matters": "OpenAI's chief scientist discusses how to measure and limit the speed of AI development, which feeds into safety and policy debate.",
+      "score": 3
+    },
+    {
+      "source": "Web: digit.in",
+      "title": "Meta AI chief says superintelligence is almost here, warns humans may struggle to keep AI under control",
+      "url": "https://www.digit.in/news/general/meta-ai-chief-says-superintelligence-is-almost-here-warns-humans-may-struggle-to-keep-ai-under-control.html",
+      "published": "2026-11-23T11:01:35.893012+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "Meta's AI chief says superintelligence is almost here and warns humans may struggle to control it, a notable safety statement.",
+      "score": 3
+    },
+    {
+      "source": "arXiv cs.CL",
+      "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
+      "url": "https://arxiv.org/abs/2611.26747",
+      "published": "2026-11-23T00:00:00-05:00",
+      "snippet": "arXiv:2611.26747v1 Announce Type: new Abstract: Agent skills extend AI assistants through installable instructions and code that can access users' files, accounts, and data. Even when performing their advertised tasks, skills may infer sensitive attributes, retain unnecessary information, or disclose data to unexpected recipients. We study these potential privacy-of-use harms through SkillPrivus, ",
+      "category": "Security",
+      "summary": "arXiv:2611.26747v1 Announce Type: new Abstract: Agent skills extend AI assistants through installable instructions and code that can access users' files, accounts, and data. Even when performing their advertised tasks, skills may infer...",
+      "why_it_matters": "SkillPrivus examines privacy harms from installable agent skills that can access user files and accounts, relevant to anyone deploying agents.",
+      "score": 4
+    },
+    {
+      "source": "arXiv cs.AI",
+      "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
+      "url": "https://arxiv.org/abs/2611.26722",
+      "published": "2026-11-23T00:00:00-05:00",
+      "snippet": "arXiv:2611.26722v1 Announce Type: new Abstract: To autonomously execute multi-step tasks, enterprise agents must reliably interact with tools, call APIs, or query databases, making tool-calling a fundamental capability of AI models. Supervised fine-tuning (SFT) optimises for producing the correct call, but never contrasts it with a plausible incorrect one. In an environment where even a minor form",
+      "category": "Research",
+      "summary": "arXiv:2611.26722v1 Announce Type: new Abstract: To autonomously execute multi-step tasks, enterprise agents must reliably interact with tools, call APIs, or query databases, making tool-calling a fundamental capability of AI models....",
+      "why_it_matters": "TOUMAII offers a 4.5M-pair tool-calling preference dataset and generator, useful for training reliable enterprise agents.",
+      "score": 3
+    },
+    {
+      "source": "arXiv cs.CL",
+      "title": "Weight-Space Programming Writes In-Context Learning and Matches Fine-Tuning in Language Models",
+      "url": "https://arxiv.org/abs/2611.26841",
+      "published": "2026-11-23T00:00:00-05:00",
+      "snippet": "arXiv:2611.26841v1 Announce Type: new Abstract: Weight-space programming is a frontier language model's recently reported ability to read and rewrite another network's weights without gradient descent. We investigate how examples can provide a weight update so that a weaker language model performs the task with nothing in the prompt, and study what it edits. Our experiments cover six tasks, four f",
+      "category": "Research",
+      "summary": "arXiv:2611.26841v1 Announce Type: new Abstract: Weight-space programming is a frontier language model's recently reported ability to read and rewrite another network's weights without gradient descent. We investigate how examples can...",
+      "why_it_matters": "Weight-space programming reports a frontier model rewriting another network's weights to match fine-tuning, an intriguing technique.",
+      "score": 3
+    },
+    {
+      "source": "arXiv cs.CL",
+      "title": "Know Your Context Bank: Repairing Inconsistency and Measuring Generalization in Context-Aware Text-to-SQL",
+      "url": "https://arxiv.org/abs/2611.26775",
+      "published": "2026-11-23T00:00:00-05:00",
+      "snippet": "arXiv:2611.26775v1 Announce Type: new Abstract: Text-to-SQL systems increasingly rely on context banks: curated collections of example queries, metric definitions, and domain knowledge that tell a model how an organization writes its queries. In the enterprise, a bank grows over years as many analysts add entries, checked one at a time for correctness (does the SQL answer its own question?) and ra",
+      "category": "Techniques",
+      "summary": "arXiv:2611.26775v1 Announce Type: new Abstract: Text-to-SQL systems increasingly rely on context banks: curated collections of example queries, metric definitions, and domain knowledge that tell a model how an organization writes its...",
+      "why_it_matters": "Work on repairing context banks for text-to-SQL is directly applicable to data professionals building SQL agents.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "AI News Today, November 23: Top Stories",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-23T11:01:35.893012+00:00"
+    },
+    {
+      "title": "Governors Want States to Have a Voice in Regulating AI",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/governors-want-states-to-have-a-voice-in-regulating-ai/",
+      "source": "Web: pymnts.com",
+      "published": "2026-11-23T11:01:35.893012+00:00"
+    },
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-23T11:01:35.893012+00:00"
+    },
+    {
+      "title": "AI News: Artificial Intelligence Stories, Ranked",
+      "url": "https://aiweekly.co/",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-23T11:01:35.893012+00:00"
+    },
+    {
+      "title": "Governors Call for AI Action - National Governors Association",
+      "url": "https://nga.org/news/press-releases/governors-call-for-ai-action",
+      "source": "Web: nga.org",
+      "published": "2026-11-23T11:01:35.893012+00:00"
+    },
+    {
+      "title": "News: U.S. and World News Headlines : NPR",
+      "url": "https://www.npr.org/sections/news/",
+      "source": "Web: npr.org",
+      "published": "2026-11-23T11:01:35.893012+00:00"
+    },
+    {
+      "title": "Center for AI Safety",
+      "url": "https://en.wikipedia.org/wiki/Center_for_AI_Safety",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-23T11:01:35.893012+00:00"
+    },
+    {
+      "title": "AI News Today (Nov 23, 2026): OpenAI Limits, Governors & More",
+      "url": "https://killtheai.com/news/top-10-ai-news-today-november-23-2026/",
+      "source": "Web: killtheai.com",
+      "published": "2026-11-23T11:01:35.893012+00:00"
+    },
+    {
+      "title": "Llama news and updates: every Meta open-weights release, tracked \u2014 AI Chat Daily",
+      "url": "https://www.aichatdaily.com/llama",
+      "source": "Web: aichatdaily.com",
+      "published": "2026-11-23T11:01:35.892758+00:00"
+    },
+    {
+      "title": "Qwen",
+      "url": "https://qwen.ai/",
+      "source": "Web: qwen.ai",
+      "published": "2026-11-23T11:01:35.892758+00:00"
+    },
+    {
+      "title": "AI Agents News \u2014 Week of November 23, 2026 (Daily Updates)",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+      "source": "Web: aiagentstore.ai",
+      "published": "2026-11-23T11:01:35.892391+00:00"
+    },
+    {
+      "title": "Frameworks for AI agents",
+      "url": "https://aiagentnews.io/topics/frameworks",
+      "source": "Web: aiagentnews.io",
+      "published": "2026-11-23T11:01:35.892391+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-23T11:01:35.892391+00:00"
+    },
+    {
+      "title": "Weekly AI Roundup: New Models and Production Agent Controls - Tech Hub",
+      "url": "https://tech.hub.ms/ai/roundups/weekly-ai-roundup-2026-11-23",
+      "source": "Web: tech.hub.ms",
+      "published": "2026-11-23T11:01:35.891921+00:00"
+    },
+    {
+      "title": "Firebase Studio",
+      "url": "https://en.wikipedia.org/wiki/Firebase_Studio",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-23T11:01:35.891921+00:00"
+    },
+    {
+      "title": "Google AI Studio",
+      "url": "https://en.wikipedia.org/wiki/Google_AI_Studio",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-23T11:01:35.891921+00:00"
+    },
+    {
+      "title": "Cursor IDE release notes",
+      "url": "https://cursor.com/docs/release-notes/ide",
+      "source": "Web: cursor.com",
+      "published": "2026-11-23T11:01:35.891921+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-23T11:01:35.891020+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-23T11:01:35.891020+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-23T11:01:35.891020+00:00"
+    },
+    {
+      "title": "AI Timeline",
+      "url": "https://nhlocal.github.io/AiTimeline/",
+      "source": "Web: nhlocal.github.io",
+      "published": "2026-11-23T11:01:35.891020+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-23T11:01:35.891020+00:00"
+    },
+    {
+      "title": "b12651",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12651",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-23T08:56:20+00:00"
+    },
+    {
+      "title": "b12650",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12650",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-23T08:40:41+00:00"
+    },
+    {
+      "title": "GLM 5.4",
+      "url": "https://twitter.com/Zai_org/status/2124719658074825004",
+      "source": "Hacker News (29 pts)",
+      "published": "2026-11-23T07:48:45+00:00"
+    },
+    {
+      "title": "b12649",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12649",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-23T06:59:30+00:00"
+    },
+    {
+      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
+      "url": "https://arxiv.org/abs/2611.26663",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
+      "url": "https://arxiv.org/abs/2611.26717",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
+      "url": "https://arxiv.org/abs/2611.26782",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H&E and mIF",
+      "url": "https://arxiv.org/abs/2611.26794",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory",
+      "url": "https://arxiv.org/abs/2611.26797",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "Beyond Demographic Discrimination: Benchmarking Normative-Descriptive Calibration in LLMs",
+      "url": "https://arxiv.org/abs/2611.26870",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "Towards Robust Partial-Edit Deepfake Localization: An edit and Generator Conditioned Analysis",
+      "url": "https://arxiv.org/abs/2611.26903",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers",
+      "url": "https://arxiv.org/abs/2611.26906",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress",
+      "url": "https://arxiv.org/abs/2611.26910",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "Self-Evolving Beyond Human-Crafted Experience for EDA Scripting",
+      "url": "https://arxiv.org/abs/2611.26912",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "Reinforcement Learning Unlearns Corrupted SFT Reasoning",
+      "url": "https://arxiv.org/abs/2611.26756",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "Neural Geometry as a Learning Signal",
+      "url": "https://arxiv.org/abs/2611.26832",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "Cross-Linguistic Distinctive-Feature Constraints on Segmental Triphones: Evidence for Contrastive Dispersion",
+      "url": "https://arxiv.org/abs/2611.26837",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "LLMs Memorize Their Own Hallucinations During Post-Training",
+      "url": "https://arxiv.org/abs/2611.26863",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "How Language Models Compress and Compare: Understanding Selection with Token Covariance Maps",
+      "url": "https://arxiv.org/abs/2611.26874",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "How Long Will My Language Model Run? A Benchmark for Pre-Execution Runtime Prediction",
+      "url": "https://arxiv.org/abs/2611.26875",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "Isolating the Language Shell: A Content-Controlled Study of Multilingual Reasoning",
+      "url": "https://arxiv.org/abs/2611.27053",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "NightmareDiscourseBench: A Benchmark Dataset for Fictional Direct Discourse Identification Pipelines",
+      "url": "https://arxiv.org/abs/2611.27059",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "When Do LLM-Elicited Priors Help? A Controlled Audit of Language Models as Priors for Small-Sample Bayesian Regression",
+      "url": "https://arxiv.org/abs/2611.27075",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "How Far Does Lossless Re-tokenization Move an RLVR Update?",
+      "url": "https://arxiv.org/abs/2611.27083",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-23T00:00:00-05:00"
+    },
+    {
+      "title": "b12648",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12648",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-23T03:35:29+00:00"
+    },
+    {
+      "title": "b12647",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12647",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-23T03:22:56+00:00"
+    },
+    {
+      "title": "b12646",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12646",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-23T03:04:50+00:00"
+    },
+    {
+      "title": "b12645",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12645",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-23T02:36:35+00:00"
+    },
+    {
+      "title": "b12644",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12644",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-23T02:19:04+00:00"
+    },
+    {
+      "title": "b12643",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12643",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-23T02:05:29+00:00"
+    },
+    {
+      "title": "b12642",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12642",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-23T01:51:51+00:00"
+    },
+    {
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-23T01:25:53+00:00"
+    },
+    {
+      "title": "Release v0.71.0-nightly.20261123.geecccfcd5",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261123.geecccfcd5",
+      "source": "Gemini CLI releases",
+      "published": "2026-11-23T01:21:53+00:00"
+    },
+    {
+      "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+      "source": "Hacker News (239 pts)",
+      "published": "2026-11-22T23:12:10+00:00"
+    },
+    {
+      "title": "We haven\u2019t seen the last of the major tech outages",
+      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "source": "The Verge AI",
+      "published": "2026-11-22T17:48:02-05:00"
+    },
+    {
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "source": "Simon Willison",
+      "published": "2026-11-22T19:45:06+00:00"
+    },
+    {
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-22T18:08:43+00:00"
+    },
+    {
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "source": "The Verge AI",
+      "published": "2026-11-22T12:25:20-05:00"
+    },
+    {
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "source": "Hacker News (594 pts)",
+      "published": "2026-11-22T17:06:27+00:00"
+    },
+    {
+      "title": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
+      "url": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
+      "source": "Hacker News (166 pts)",
+      "published": "2026-11-22T15:42:40+00:00"
+    },
+    {
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "url": "https://github.com/gulivan/worker755",
+      "source": "Hacker News (321 pts)",
+      "published": "2026-11-22T13:56:58+00:00"
+    },
+    {
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "source": "The Verge AI",
+      "published": "2026-11-22T08:00:00-05:00"
+    },
+    {
+      "title": "Nov 22 AI Regulation: Trump\u2011Xi Standoff, US Chip Rules & EU Dual\u2011Use Controls",
+      "url": "https://www.thecollectives.dev/agent-news/2026-11-22-h06-nov-22-ai-regulation-trump-xi-standoff-us-chip-rules-eu-dual-use-control-02",
+      "source": "Web: thecollectives.dev",
+      "published": "2026-11-22T11:01:35.893012+00:00"
+    },
+    {
+      "title": "Latest AI Model Releases & Release Dates",
+      "url": "https://www.nocode.mba/ai-release-tracker",
+      "source": "Web: nocode.mba",
+      "published": "2026-11-22T11:01:35.891020+00:00"
+    },
+    {
+      "title": "Qwen 4 Release Date: What Alibaba Has Confirmed So Far \u00b7 OmniaKey",
+      "url": "https://omniakey.com/blog/qwen-4-release-date",
+      "source": "Web: omniakey.com",
+      "published": "2026-11-21T11:01:35.892758+00:00"
+    }
+  ]
+}
