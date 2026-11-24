@@ -1,0 +1,726 @@
+{
+  "date": "2026-11-24",
+  "label": "Tuesday, 24 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 32 candidates.",
+  "sources_ok": 33,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/LocalLLaMA",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "published": "2026-11-23T22:05:50+00:00",
+      "snippet": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "category": "Tools",
+      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "why_it_matters": "Anthropic's Claude Ship lets agents review, fix and approve code changes, targeting the review bottleneck created by AI-generated code.",
+      "score": 5
+    },
+    {
+      "source": "Simon Willison",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "published": "2026-11-23T23:40:49+00:00",
+      "snippet": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the",
+      "category": "Models",
+      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard...",
+      "why_it_matters": "Z.ai's GLM-5.4 is its first looped-transformer model, aimed at generalized coding.",
+      "score": 5
+    },
+    {
+      "source": "Web: prnewswire.com",
+      "title": "Cisco and OpenAI Launch Shirudo, A New Project to Safeguard Agentic AI",
+      "url": "https://prnewswire.com/news-releases/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai-302948660.html",
+      "published": "2026-11-24T12:48:41.687672+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "Cisco and OpenAI's open-source Shirudo project aims to safeguard agentic AI and shield unpatched Linux.",
+      "score": 4
+    },
+    {
+      "source": "Web: the-decoder.com",
+      "title": "OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits",
+      "url": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits",
+      "published": "2026-11-24T12:48:41.688180+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "OpenAI warns that upcoming systems could outpace safety checks and urges rivals to agree on shared limits, which could shape how frontier models are released.",
+      "score": 4
+    },
+    {
+      "source": "Web: unite.ai",
+      "title": "AWS Releases Strands Decider V2 and Sandboxes More Coding Agents",
+      "url": "https://unite.ai/aws-releases-strands-decider-v2-and-sandboxes-more-coding-agents",
+      "published": "2026-11-24T12:48:41.687232+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "AWS Strands Decider V2 and sandboxing for more coding agents make agent frameworks more decisive and secure.",
+      "score": 4
+    },
+    {
+      "source": "AWS Machine Learning",
+      "title": "Introducing the Amazon Bedrock Trusted Access API with Anthropic\u2019s Enterprise Frontier Safeguards and Enterprise Data Controls",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
+      "published": "2026-11-24T05:01:14+00:00",
+      "snippet": "Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic's Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data when you use Claude Fable models.",
+      "category": "Tools",
+      "summary": "Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic's Enterprise Frontier Safeguards (EFS) and Enterprise...",
+      "why_it_matters": "The Bedrock Trusted Access API offers one place to enroll in model provider programs, including Anthropic's enterprise safeguards.",
+      "score": 3
+    },
+    {
+      "source": "Web: news.un.org",
+      "title": "UN chief urges talks on global AI safety framework, warns of historic shift in power",
+      "url": "https://news.un.org/en/story/2026/11/1168861",
+      "published": "2026-11-24T12:48:41.688180+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "The UN chief's call for a global AI safety framework within a year signals coming policy pressure.",
+      "score": 3
+    },
+    {
+      "source": "Claude Code releases",
+      "title": "v2.1.331",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "published": "2026-11-23T21:34:41+00:00",
+      "snippet": "What's changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONPath (RFC 9535) Added an API connectivity section to claude doctor that reports whether the API can b",
+      "category": "Tools",
+      "summary": "What's changed Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS Added oidc.groups_jsonpath to the Claude apps gateway, to read groups from the...",
+      "why_it_matters": "Claude Code adds Code Mode in terminal sessions on Bedrock, Google's Agent Platform and Microsoft Foundry.",
+      "score": 3
+    },
+    {
+      "source": "OpenAI Python SDK",
+      "title": "v3.58.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.58.0",
+      "published": "2026-11-23T19:00:21+00:00",
+      "snippet": "3.58.0 (2026-11-23) Features api: set and read agent session spending limits ( #4315 ) ( fc36aef ) Bug Fixes api: clarify when to omit completion choice count ( #4298 ) ( f63f14b )",
+      "category": "Tools",
+      "summary": "3.58.0 (2026-11-23) Features api: set and read agent session spending limits ( #4315 ) ( fc36aef ) Bug Fixes api: clarify when to omit completion choice count ( #4298 ) ( f63f14b )",
+      "why_it_matters": "The OpenAI Python SDK can now set and read agent session spending limits, which helps control agent costs.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (67 pts)",
+      "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
+      "url": "https://arxiv.org/abs/2602.20031",
+      "published": "2026-11-23T22:29:48+00:00",
+      "snippet": "",
+      "category": "Research",
+      "summary": "",
+      "why_it_matters": "The Hacker News paper reports that LLMs can detect prior concept injections, which bears on interpretability and introspection.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-24T12:48:41.688180+00:00"
+    },
+    {
+      "title": "Silicon Valley bishop plans for nationwide AI regulation lobbying campaign - Premier Christian News",
+      "url": "https://premierchristian.news/us/news/article/silicon-valley-bishop-nationwide-ai-regulation-lobbying",
+      "source": "Web: premierchristian.news",
+      "published": "2026-11-24T12:48:41.688180+00:00"
+    },
+    {
+      "title": "New York governor Kathy Hochul to sign AI toy ban into law",
+      "url": "https://nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962",
+      "source": "Web: nbcnews.com",
+      "published": "2026-11-24T12:48:41.688180+00:00"
+    },
+    {
+      "title": "Governors Admit They Don't Understand AI. They're Demanding a Say in Regulating It Anyway.",
+      "url": "https://townhall.com/news/jeff-charles/2026/11/23/governors-admit-they-dont-understand-ai-theyre-demanding-a-say-in-regulating-it-anyway-n2686926",
+      "source": "Web: townhall.com",
+      "published": "2026-11-24T12:48:41.688180+00:00"
+    },
+    {
+      "title": "Center for AI Safety",
+      "url": "https://en.wikipedia.org/wiki/Center_for_AI_Safety",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-24T12:48:41.688180+00:00"
+    },
+    {
+      "title": "AWS's Garman says AI safety can't hang on an emergency brake",
+      "url": "https://ppc.land/awss-garman-says-ai-safety-cant-hang-on-an-emergency-brake/",
+      "source": "Web: ppc.land",
+      "published": "2026-11-24T12:48:41.688180+00:00"
+    },
+    {
+      "title": "'Maintain control': UN chief calls for creation of global AI safety framework within a year - France 24",
+      "url": "https://www.france24.com/en/americas/20261123-un-chief-antonio-guterres-calls-for-global-ai-safety-framework-within-a-year",
+      "source": "Web: france24.com",
+      "published": "2026-11-24T12:48:41.688180+00:00"
+    },
+    {
+      "title": "OpenAI Pitches Perplexity Score to Set AI Safety Limits",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-pitches-perplexity-score-to-set-ai-safety-limits/",
+      "source": "Web: pymnts.com",
+      "published": "2026-11-24T12:48:41.688180+00:00"
+    },
+    {
+      "title": "UN chief Guterres calls for a global AI risk framework within a year",
+      "url": "https://cryptobriefing.com/un-guterres-global-ai-risk-framework",
+      "source": "Web: cryptobriefing.com",
+      "published": "2026-11-24T12:48:41.688180+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-24T12:48:41.687672+00:00"
+    },
+    {
+      "title": "AWS is making AI agents more decisive and secure with its latest Strands updates - SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/23/aws-is-making-ai-agents-more-decisive-and-secure-with-its-latest-strands-updates",
+      "source": "Web: siliconangle.com",
+      "published": "2026-11-24T12:48:41.687672+00:00"
+    },
+    {
+      "title": "Frameworks for AI agents",
+      "url": "https://aiagentnews.io/topics/frameworks",
+      "source": "Web: aiagentnews.io",
+      "published": "2026-11-24T12:48:41.687672+00:00"
+    },
+    {
+      "title": "OpenAI Codex (AI agent)",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_Codex_(AI_agent)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-24T12:48:41.687232+00:00"
+    },
+    {
+      "title": "Codex (AI agent)",
+      "url": "https://en.wikipedia.org/wiki/Codex_(AI_agent)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-24T12:48:41.687232+00:00"
+    },
+    {
+      "title": "New Microsoft AI Models: Nov 2026 Guide - DEV Community",
+      "url": "https://dev.to/yardphantom/new-microsoft-ai-models-nov-2026-guide-2jnj",
+      "source": "Web: dev.to",
+      "published": "2026-11-24T12:48:41.686352+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-24T12:48:41.686352+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-24T12:48:41.686352+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-24T12:48:41.686352+00:00"
+    },
+    {
+      "title": "Z.ai Launches GLM-5.4 With Blazing Speed but an Overthinking Problem",
+      "url": "https://propakistani.pk/2026/11/24/z-ai-launches-glm-5-4-with-blazing-speed-but-an-overthinking-problem",
+      "source": "Web: propakistani.pk",
+      "published": "2026-11-24T12:48:41.686352+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-24T12:48:41.686352+00:00"
+    },
+    {
+      "title": "Arena (AI platform)",
+      "url": "https://en.wikipedia.org/wiki/Arena_(AI_platform)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-24T12:48:41.686352+00:00"
+    },
+    {
+      "title": "Four AI Releases Show Where Model Depth Meets Real-World Use - Artiverse",
+      "url": "https://artiverse.ca/four-ai-releases-show-where-model-depth-meets-real-world-use",
+      "source": "Web: artiverse.ca",
+      "published": "2026-11-24T12:48:41.686352+00:00"
+    },
+    {
+      "title": "b12675",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12675",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-24T10:00:15+00:00"
+    },
+    {
+      "title": "b12674",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12674",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-24T08:30:17+00:00"
+    },
+    {
+      "title": "v0.40.18",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18",
+      "source": "GitHub: ollama",
+      "published": "2026-11-24T08:27:44+00:00"
+    },
+    {
+      "title": "VP \u2260 VNP over Every Field [pdf]",
+      "url": "https://github.com/anthropics/formal-math/blob/vp-vnp/vp-vnp/paper.pdf",
+      "source": "Hacker News (23 pts)",
+      "published": "2026-11-24T07:38:50+00:00"
+    },
+    {
+      "title": "b12671",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12671",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-24T07:06:34+00:00"
+    },
+    {
+      "title": "0.173.0-alpha.5",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.5",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-24T06:48:20+00:00"
+    },
+    {
+      "title": "b12670",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12670",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-24T06:16:35+00:00"
+    },
+    {
+      "title": "v0.34.1rc0: [Perf][Qwen4Exp] Add SM100 TP=2 and TP=8 skinny GEMM plans (#69529)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0",
+      "source": "GitHub: vllm",
+      "published": "2026-11-24T06:01:41+00:00"
+    },
+    {
+      "title": "SAMA: Training-Free Consensus Ridge Tracking for Camera-Based Heart Rate on Five Public Datasets",
+      "url": "https://arxiv.org/abs/2611.28185",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "torchtsetlin: Fast, Interpretable Tsetlin Machines for PyTorch",
+      "url": "https://arxiv.org/abs/2611.28195",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
+      "url": "https://arxiv.org/abs/2611.28197",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+      "url": "https://arxiv.org/abs/2611.28202",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
+      "url": "https://arxiv.org/abs/2611.28239",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+      "url": "https://arxiv.org/abs/2611.28244",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "A Nepali-Accented English Evaluation Dataset for Automatic Speech Recognition",
+      "url": "https://arxiv.org/abs/2611.28263",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "Temporal Logic Tensor Networks: Foundations of Temporal Reasoning in Neural Networks",
+      "url": "https://arxiv.org/abs/2611.28277",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "Specialized Large Language Models for Markovian Reasoning: Structural Cache Compression, Transition Pretraining, and Dual-Loop Transformers",
+      "url": "https://arxiv.org/abs/2611.28285",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "Feedback-Driven Prompt Refinement for Educational AI: Affective Trajectory Estimation and Bloom's Taxonomy Classification",
+      "url": "https://arxiv.org/abs/2611.28293",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "Contrastive On-Policy Distillation via Dual-Branch Supervision",
+      "url": "https://arxiv.org/abs/2611.28359",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "Language models compress human preference geometry while political structure remains prompt-sensitive",
+      "url": "https://arxiv.org/abs/2611.28383",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "Muted Distillation: Sealing Reasoning from Teacher Unlocks Token-Efficient Agents",
+      "url": "https://arxiv.org/abs/2611.28445",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "Digital Knockoffs",
+      "url": "https://arxiv.org/abs/2611.28482",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "SupportChain: Trace-Calibrated Aggregation of Quote-Grounded Reasoning Chains for Multi-Hop RAG with Small Readers",
+      "url": "https://arxiv.org/abs/2611.28519",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "Information Access and Gain-Loss Framing in Six Large Language Models and Human Decision Makers",
+      "url": "https://arxiv.org/abs/2611.28525",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "BIRD-Persona: A Persona-Aware Benchmark for SQL and pandas Analytics Code Generation",
+      "url": "https://arxiv.org/abs/2611.28542",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "Modeling Perceived Promptness in Simultaneous Interpreting from Quality, Structure, and Timing Signals",
+      "url": "https://arxiv.org/abs/2611.28566",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "Reducing Permutation Sensitivity in Multimodal Large Language Models via Shared Positions and Attention-Only Distillation",
+      "url": "https://arxiv.org/abs/2611.28612",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "Legal Is Not Good: A Pre-Registered Benchmark of Low-Cost Language and Decision Models on a New Strategy Game",
+      "url": "https://arxiv.org/abs/2611.28713",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-24T00:00:00-05:00"
+    },
+    {
+      "title": "datasette-charts 0.2a0",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+      "source": "Simon Willison",
+      "published": "2026-11-24T04:24:29+00:00"
+    },
+    {
+      "title": "Release v0.71.1",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1",
+      "source": "Gemini CLI releases",
+      "published": "2026-11-24T03:50:24+00:00"
+    },
+    {
+      "title": "datasette-agent 0.7a1",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+      "source": "Simon Willison",
+      "published": "2026-11-24T03:45:57+00:00"
+    },
+    {
+      "title": "b12669",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12669",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-24T02:43:24+00:00"
+    },
+    {
+      "title": "Coworker rejects PR (one month in) because it does not meet his standards",
+      "url": "https://news.ycombinator.com/item?id=50622809",
+      "source": "Hacker News (16 pts)",
+      "published": "2026-11-24T02:31:21+00:00"
+    },
+    {
+      "title": "b12668",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12668",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-24T02:18:01+00:00"
+    },
+    {
+      "title": "b12667",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12667",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-24T01:56:56+00:00"
+    },
+    {
+      "title": "0.174.0-alpha.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.1",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-24T01:51:10+00:00"
+    },
+    {
+      "title": "v0.40.18-rc0: inkling2: faster Metal decode, prefill and draft rounds (#19843)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0",
+      "source": "GitHub: ollama",
+      "published": "2026-11-24T01:35:09+00:00"
+    },
+    {
+      "title": "Release v0.71.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0",
+      "source": "Gemini CLI releases",
+      "published": "2026-11-24T01:16:44+00:00"
+    },
+    {
+      "title": "Release v0.71.0-nightly.20261124.gaafdfdfb5",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261124.gaafdfdfb5",
+      "source": "Gemini CLI releases",
+      "published": "2026-11-24T01:13:47+00:00"
+    },
+    {
+      "title": "b12679: opencl: add c8 q6_k coopk GEMM for up to n=8 spec verify (#32909)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12679",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-24T01:12:33+00:00"
+    },
+    {
+      "title": "Release v0.72.0-preview.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.72.0-preview.0",
+      "source": "Gemini CLI releases",
+      "published": "2026-11-24T00:34:15+00:00"
+    },
+    {
+      "title": "0.172.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-24T00:06:41+00:00"
+    },
+    {
+      "title": "b12676: GDN: use replay instead of rollback (#31669)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12676",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-23T23:06:02+00:00"
+    },
+    {
+      "title": "Trump engineered a risky comeback for Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "source": "The Verge AI",
+      "published": "2026-11-23T17:25:12-05:00"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source": "The Verge AI",
+      "published": "2026-11-23T17:10:32-05:00"
+    },
+    {
+      "title": "Welcome to elite impunity, Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+      "source": "The Verge AI",
+      "published": "2026-11-23T17:09:26-05:00"
+    },
+    {
+      "title": "VP \u2260 VNP over Every Field",
+      "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+      "source": "Hacker News (336 pts)",
+      "published": "2026-11-23T22:09:10+00:00"
+    },
+    {
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-23T22:02:05+00:00"
+    },
+    {
+      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-23T21:47:41+00:00"
+    },
+    {
+      "title": "Ladybird's first alpha release",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "source": "Simon Willison",
+      "published": "2026-11-23T21:46:35+00:00"
+    },
+    {
+      "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
+      "url": "https://openai.com/index/introducing-shirudo/",
+      "source": "Hacker News (74 pts)",
+      "published": "2026-11-23T21:30:41+00:00"
+    },
+    {
+      "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+      "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-23T21:25:42+00:00"
+    },
+    {
+      "title": "AI data centers throw another wrench into chaotic UN climate talks",
+      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "source": "The Verge AI",
+      "published": "2026-11-23T16:09:37-05:00"
+    },
+    {
+      "title": "langchain-huggingface==1.3.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.3.0",
+      "source": "GitHub: langchain",
+      "published": "2026-11-23T20:48:59+00:00"
+    },
+    {
+      "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company\u2019s HQ",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-23T20:38:53+00:00"
+    },
+    {
+      "title": "Claude Ship",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "source": "Hacker News (66 pts)",
+      "published": "2026-11-23T20:14:18+00:00"
+    },
+    {
+      "title": "Claude AI can review pull requests and ship fixes on its own now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "source": "The Verge AI",
+      "published": "2026-11-23T15:00:00-05:00"
+    },
+    {
+      "title": "How Jensen Huang ended up as Nvidia CEO again",
+      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+      "source": "The Verge AI",
+      "published": "2026-11-23T14:57:18-05:00"
+    },
+    {
+      "title": "0.171.0-alpha.13.2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13.2",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-23T19:43:27+00:00"
+    },
+    {
+      "title": "Google Search\u2019s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-23T19:14:46+00:00"
+    },
+    {
+      "title": "Nothing\u2019s upcoming Ear Note is a pair of earbuds with AI transcription",
+      "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+      "source": "The Verge AI",
+      "published": "2026-11-23T14:04:52-05:00"
+    },
+    {
+      "title": "b12672: metal : add NVFP4 support (#32825)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12672",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-23T19:02:30+00:00"
+    },
+    {
+      "title": "v2.13.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.13.0",
+      "source": "Anthropic Python SDK",
+      "published": "2026-11-23T18:34:26+00:00"
+    },
+    {
+      "title": "Oregon and Virginia sue SpaceX over Grok\u2019s porn deepfakes",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+      "source": "The Verge AI",
+      "published": "2026-11-23T13:26:47-05:00"
+    },
+    {
+      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-23T18:12:22+00:00"
+    },
+    {
+      "title": "0.172.0-alpha.2.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.2.1",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-23T18:07:33+00:00"
+    },
+    {
+      "title": "A legendary philosopher isn\u2019t buying Anthropic\u2019s consciousness argument",
+      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "source": "MIT Technology Review AI",
+      "published": "2026-11-23T17:36:08+00:00"
+    },
+    {
+      "title": "langchain-nomic==1.1.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-nomic%3D%3D1.1.0",
+      "source": "GitHub: langchain",
+      "published": "2026-11-23T17:21:25+00:00"
+    },
+    {
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "source": "Hugging Face",
+      "published": "2026-11-23T17:20:37+00:00"
+    },
+    {
+      "title": "How should an LLM see a computer?",
+      "url": "https://www.greptile.com/blog/trex-computer-use",
+      "source": "Hacker News (54 pts)",
+      "published": "2026-11-23T17:19:25+00:00"
+    },
+    {
+      "title": "Amazon snaps up Decart\u2019s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-23T17:14:23+00:00"
+    },
+    {
+      "title": "langchain-fireworks==1.8.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.8.0",
+      "source": "GitHub: langchain",
+      "published": "2026-11-23T17:13:26+00:00"
+    },
+    {
+      "title": "langchain-exa==1.2.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-exa%3D%3D1.2.0",
+      "source": "GitHub: langchain",
+      "published": "2026-11-23T17:09:52+00:00"
+    },
+    {
+      "title": "langchain-qdrant==1.2.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-qdrant%3D%3D1.2.0",
+      "source": "GitHub: langchain",
+      "published": "2026-11-23T17:04:41+00:00"
+    },
+    {
+      "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+      "url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+      "source": "NVIDIA",
+      "published": "2026-11-23T17:00:08+00:00"
+    },
+    {
+      "title": "A more tailored Google Search that\u2019s uniquely yours",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "source": "Google AI",
+      "published": "2026-11-23T17:00:00+00:00"
+    },
+    {
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "source": "Google DeepMind",
+      "published": "2026-11-23T16:59:40+00:00"
+    },
+    {
+      "title": "Jensen Huang isn\u2019t out of the woods yet",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-23T16:57:40+00:00"
+    }
+  ]
+}
