@@ -1,0 +1,672 @@
+{
+  "date": "2026-11-25",
+  "label": "Wednesday, 25 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 29 candidates.",
+  "sources_ok": 33,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/LocalLLaMA",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Web: industrialcyber.co",
+      "title": "NCSC warns agentic AI frameworks boost cyberattacks by exploiting exposed credentials, API flaws, security gaps - Industrial Cyber",
+      "url": "https://industrialcyber.co/ai/ncsc-warns-agentic-ai-frameworks-boost-cyberattacks-by-exploiting-exposed-credentials-api-flaws-security-gaps/",
+      "published": "2026-11-25T11:34:10.326829+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "The NCSC warns that agentic frameworks can be exploited through exposed credentials and API flaws, which directly affects anyone building or deploying agents.",
+      "score": 5
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Even the best AI agents struggle with everyday life",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "published": "2026-11-24T21:33:29+00:00",
+      "snippet": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "category": "Research",
+      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "why_it_matters": "A new benchmark shows even the best AI agents fail at reliable, safe everyday task completion, a useful reality check on agent readiness.",
+      "score": 5
+    },
+    {
+      "source": "arXiv cs.CL",
+      "title": "Agentic Systems Need Multi-Run Evaluation: A Study of Retrieval and Response Variability in a Deployed Enterprise RAG System",
+      "url": "https://arxiv.org/abs/2611.31266",
+      "published": "2026-11-25T00:00:00-05:00",
+      "snippet": "arXiv:2611.31266v1 Announce Type: new Abstract: Previous RAG systems have mostly been evaluated in a single-run setting, and with the advent of agentic RAG, systems are still often evaluated the same way. However, agentic RAG systems introduce a source of run-to-run variability, since several of their components make decisions non-deterministically. Such systems typically comprise a retrieval stag",
+      "category": "Techniques",
+      "summary": "arXiv:2611.31266v1 Announce Type: new Abstract: Previous RAG systems have mostly been evaluated in a single-run setting, and with the advent of agentic RAG, systems are still often evaluated the same way. However, agentic RAG systems...",
+      "why_it_matters": "It argues agentic RAG needs multi-run evaluation, based on measured retrieval and response variability in a deployed enterprise system.",
+      "score": 5
+    },
+    {
+      "source": "Claude Code releases",
+      "title": "v2.1.332",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "published": "2026-11-25T01:32:14+00:00",
+      "snippet": "What's changed Added skills from MCP servers (beta). They show as server:skill in the / menu; other skills keep their names Added a PreSkillShellCommand hook event that can refuse a skill or command's inline shell commands as it loads; on 2.1.331 and older, a settings file naming it opens a dialog at start Added \"Always deliver\" to the prompt for held messages from other sessions Added a footer li",
+      "category": "Tools",
+      "summary": "What's changed Added skills from MCP servers (beta). They show as server:skill in the / menu; other skills keep their names Added a PreSkillShellCommand hook event that can refuse a skill or command's inline shell commands as it loads; on...",
+      "why_it_matters": "Claude Code can now load skills from MCP servers (beta) and has a new PreSkillShellCommand hook, both relevant to agent workflow customization.",
+      "score": 4
+    },
+    {
+      "source": "Web: i10x.ai",
+      "title": "Analysis: Google Workspace MCP Rules for AI Agents, Explained - i10X News",
+      "url": "https://i10x.ai/news/analysis-google-workspace-mcp-mandate-ai-agents-2027",
+      "published": "2026-11-25T11:34:10.326829+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "It explains Google Workspace's MCP rules for AI agents, which govern how agents can access Workspace data.",
+      "score": 4
+    },
+    {
+      "source": "Simon Willison",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "published": "2026-11-24T16:53:59+00:00",
+      "snippet": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale\u2019s Beinecke Library . It did so extremely quickly (in just 22 minutes), using publicly available primary ",
+      "category": "Models",
+      "summary": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify...",
+      "why_it_matters": "A historian's case study of GPT-6.2 Astra on a historical research problem shows what the model can do on real analytical work.",
+      "score": 4
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "published": "2026-11-24T23:02:07+00:00",
+      "snippet": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply. Coding agents in November 2025 Today, Novemb",
+      "category": "Industry",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the...",
+      "why_it_matters": "Simon Willison's keynote summary picks out three LLM inflection points in twelve months, a useful framing for tracking how fast the field is moving.",
+      "score": 4
+    },
+    {
+      "source": "GitHub: llama.cpp",
+      "title": "b12720",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12720",
+      "published": "2026-11-25T06:47:46+00:00",
+      "snippet": "feat: Inkling 2 DSpark support ( #32218 ) conversion init cpp side handle temp > 0 dspark : fix Inkling2 draft state width, reseeding and draw order spec: align Inkling2 DSpark with n_max draft tokens same as the other DSparks unify rnn condition with markov_head_type formatting issues and restructure some DSpark functions Co-authored-by: Xuan Son Nguyen son@huggingface.co Co-authored-by: ruixiang",
+      "category": "Tools",
+      "summary": "feat: Inkling 2 DSpark support ( #32218 ) conversion init cpp side handle temp > 0 dspark : fix Inkling2 draft state width, reseeding and draw order spec: align Inkling2 DSpark with n_max draft tokens same as the other DSparks unify rnn...",
+      "why_it_matters": "llama.cpp adds Inkling 2 DSpark support, which matters if you run local models with speculative decoding.",
+      "score": 3
+    },
+    {
+      "source": "OpenAI Python SDK",
+      "title": "v3.59.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.59.0",
+      "published": "2026-11-24T19:18:59+00:00",
+      "snippet": "3.59.0 (2026-11-24) Features api: add healthcare model IDs for Responses ( #4327 ) ( 804a9af ) Bug Fixes check the agent upload directory after path resolution ( #4323 ) ( bc02da4 ) redact credential headers on API error requests ( #4316 ) ( 9d7f58e ) reject empty webhook signing keys ( #4321 ) ( dd69803 ) reject non-finite numbers in agent tool arguments ( #4326 ) ( abbd379 ) use bearer authentic",
+      "category": "Tools",
+      "summary": "3.59.0 (2026-11-24) Features api: add healthcare model IDs for Responses ( #4327 ) ( 804a9af ) Bug Fixes check the agent upload directory after path resolution ( #4323 ) ( bc02da4 ) redact credential headers on API error requests ( #4316 )...",
+      "why_it_matters": "The OpenAI Python SDK adds healthcare model IDs for the Responses API, a sign of domain-specific models arriving.",
+      "score": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+      "published": "2026-11-24T21:19:52+00:00",
+      "snippet": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "category": "Industry",
+      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "why_it_matters": "Maple's encrypted AI architecture, designed so even the company can't access user data, is a privacy-focused approach to AI products.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-25T11:34:10.327341+00:00"
+    },
+    {
+      "title": "New York governor Kathy Hochul signs AI toy ban into law",
+      "url": "https://nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962",
+      "source": "Web: nbcnews.com",
+      "published": "2026-11-25T11:34:10.327341+00:00"
+    },
+    {
+      "title": "AI Governance News: Regulations, Incidents & Best Practices",
+      "url": "https://aigovernance.com/news",
+      "source": "Web: aigovernance.com",
+      "published": "2026-11-25T11:34:10.327341+00:00"
+    },
+    {
+      "title": "Llama news and updates: every Meta open-weights release, tracked \u2014 AI Chat Daily",
+      "url": "https://www.aichatdaily.com/llama",
+      "source": "Web: aichatdaily.com",
+      "published": "2026-11-25T11:34:10.327084+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-25T11:34:10.326829+00:00"
+    },
+    {
+      "title": "Talent500 Publishes Developer Guide to Agentic AI Frameworks",
+      "url": "https://manilatimes.net/2026/11/25/tmt-newswire/globenewswire/talent500-publishes-developer-guide-to-agentic-ai-frameworks/2477455",
+      "source": "Web: manilatimes.net",
+      "published": "2026-11-25T11:34:10.326829+00:00"
+    },
+    {
+      "title": "Release notes",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source": "Web: support.claude.com",
+      "published": "2026-11-25T11:34:10.326550+00:00"
+    },
+    {
+      "title": "OpenAI Drops a Hands-On AI Coder",
+      "url": "https://theaiedge.substack.com/p/openai-drops-a-hands-on-ai-coder",
+      "source": "Web: theaiedge.substack.com",
+      "published": "2026-11-25T11:34:10.326550+00:00"
+    },
+    {
+      "title": "OpenAI launches Codex, an AI coding agent, in ChatGPT",
+      "url": "https://finance.yahoo.com/news/openai-launches-codex-ai-coding-150000373.html",
+      "source": "Web: finance.yahoo.com",
+      "published": "2026-11-25T11:34:10.326550+00:00"
+    },
+    {
+      "title": "OpenAI\u2019s New Coding Agent: A Personalized Briefing You Can Run Right Now",
+      "url": "https://limitededitionjonathan.substack.com/p/openais-new-coding-agent-a-personalized",
+      "source": "Web: limitededitionjonathan.substack.com",
+      "published": "2026-11-25T11:34:10.326550+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-25T11:34:10.325889+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-25T11:34:10.325889+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-25T11:34:10.325889+00:00"
+    },
+    {
+      "title": "AI Model Release Tracker",
+      "url": "https://www.startrise.io/models/",
+      "source": "Web: startrise.io",
+      "published": "2026-11-25T11:34:10.325889+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-25T11:34:10.325889+00:00"
+    },
+    {
+      "title": "AI Model Release Tracker: New AI Models, November 2026",
+      "url": "https://opper.ai/model-releases",
+      "source": "Web: opper.ai",
+      "published": "2026-11-25T11:34:10.325889+00:00"
+    },
+    {
+      "title": "Keeping up with AI \u2013 December 2nd, 2024",
+      "url": "https://theaipmm.substack.com/p/keeping-up-with-ai-december-2nd-2024",
+      "source": "Web: theaipmm.substack.com",
+      "published": "2026-11-25T11:34:10.325889+00:00"
+    },
+    {
+      "title": "ai weekly update september 15",
+      "url": "https://handyai.substack.com/p/ai-weekly-update-september-15",
+      "source": "Web: handyai.substack.com",
+      "published": "2026-11-25T11:34:10.325889+00:00"
+    },
+    {
+      "title": "\u2615\ud83e\udd16 Alibaba Launches New AI Model to Rival Deepseek",
+      "url": "https://theaibreak.substack.com/p/alibaba-launches-new-ai-model-to",
+      "source": "Web: theaibreak.substack.com",
+      "published": "2026-11-25T11:34:10.325889+00:00"
+    },
+    {
+      "title": "b12722",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12722",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-25T10:40:56+00:00"
+    },
+    {
+      "title": "An Indic Voice Agent with CUGA",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "source": "Hugging Face",
+      "published": "2026-11-25T10:22:09+00:00"
+    },
+    {
+      "title": "AI is straining America\u2019s open records systems",
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "source": "MIT Technology Review AI",
+      "published": "2026-11-25T10:00:00+00:00"
+    },
+    {
+      "title": "b12721",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12721",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-25T07:52:00+00:00"
+    },
+    {
+      "title": "b12719",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12719",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-25T06:03:20+00:00"
+    },
+    {
+      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+      "url": "https://arxiv.org/abs/2611.31284",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+      "url": "https://arxiv.org/abs/2611.31301",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "Conservative Overlap Fuzzy Rough Sets for Incomplete Data",
+      "url": "https://arxiv.org/abs/2611.31329",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+      "url": "https://arxiv.org/abs/2611.31345",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+      "url": "https://arxiv.org/abs/2611.31346",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "Antares-Smaug: Adversarial Names, Tokens and Attack Rewrites: Sanitisers Miss Unseen Generalisations",
+      "url": "https://arxiv.org/abs/2611.31347",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "ContextLure: Exploiting Benign Conversation History for Indirect Prompt Injection",
+      "url": "https://arxiv.org/abs/2611.31424",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+      "url": "https://arxiv.org/abs/2611.31427",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "Taxi: Analyzing Agents at (Real) Scale",
+      "url": "https://arxiv.org/abs/2611.31457",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
+      "url": "https://arxiv.org/abs/2611.31475",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "ToneMamaba: Learning Contextualized Tonal Contours with Boundary-Reset State Space Models",
+      "url": "https://arxiv.org/abs/2611.31267",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "Lexical Tone and Word Order Matter in Translation: Prosodic Correspondence Across Languages",
+      "url": "https://arxiv.org/abs/2611.31276",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "ModernELECTRA: Replaced-Token Detection with Boundary-Window Reconstruction for Compact Encoders that Classify and Embed",
+      "url": "https://arxiv.org/abs/2611.31495",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "Can LLM-Simulated Respondents Pre-Test Survey Questions? Evidence From Preregistered Prospective Validation",
+      "url": "https://arxiv.org/abs/2611.31532",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "CLAIMGATE: Cautious On-Device Checking of Spoken Legal and Clinical Claims",
+      "url": "https://arxiv.org/abs/2611.31569",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "PazaBench: Large-Scale ASR Benchmark for Low-Resource Languages in Africa",
+      "url": "https://arxiv.org/abs/2611.31578",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "SecondChance: Benchmarking Reliable Error Recovery in AI Agents",
+      "url": "https://arxiv.org/abs/2611.31586",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "LUCID: Statistically Grounded Self-Correction for LLM Reasoning Evaluation",
+      "url": "https://arxiv.org/abs/2611.31595",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "Training decision models for simulating human respondents",
+      "url": "https://arxiv.org/abs/2611.31613",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "Tablassert: Declarative Extraction of Knowledge Graphs from Biomedical Tables",
+      "url": "https://arxiv.org/abs/2611.31614",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-25T00:00:00-05:00"
+    },
+    {
+      "title": "b12716",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12716",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-25T04:32:13+00:00"
+    },
+    {
+      "title": "b12711",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12711",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-25T04:07:58+00:00"
+    },
+    {
+      "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+      "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+      "source": "Hacker News (185 pts)",
+      "published": "2026-11-25T04:03:33+00:00"
+    },
+    {
+      "title": "b12709",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12709",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-25T03:55:23+00:00"
+    },
+    {
+      "title": "b12723: model : inkling2 graph with fewer ops in mix() and control() (#32948)",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12723",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-25T03:54:30+00:00"
+    },
+    {
+      "title": "b12708",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12708",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-25T03:40:38+00:00"
+    },
+    {
+      "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+      "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+      "source": "Hacker News (80 pts)",
+      "published": "2026-11-25T03:28:06+00:00"
+    },
+    {
+      "title": "Show HN: Carry \u2013 Save every AI conversations as Markdown, in a folder you Own",
+      "url": "https://carry.md/",
+      "source": "Hacker News (19 pts)",
+      "published": "2026-11-25T03:19:02+00:00"
+    },
+    {
+      "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "source": "Hacker News (229 pts)",
+      "published": "2026-11-25T03:04:37+00:00"
+    },
+    {
+      "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+      "url": "https://www.proofatlas.ai/open-problems/",
+      "source": "Hacker News (60 pts)",
+      "published": "2026-11-25T03:01:36+00:00"
+    },
+    {
+      "title": "0.174.0-alpha.5",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.5",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-25T01:23:23+00:00"
+    },
+    {
+      "title": "Matrix Multiplication is \u0398(n^2.25) [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "source": "Hacker News (688 pts)",
+      "published": "2026-11-25T01:19:26+00:00"
+    },
+    {
+      "title": "Yale\u2019s Sonnenfeld: Nvidia is a \u2018detriment\u2019 to US industrial might \u2014 not a champion",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-25T00:12:02+00:00"
+    },
+    {
+      "title": "0.174.0-alpha.4",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.4",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-24T23:06:32+00:00"
+    },
+    {
+      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-24T22:27:52+00:00"
+    },
+    {
+      "title": "Anthropic CEO Dario Amodei and Sister Daniela Sold $561M in Stock During IPO",
+      "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/anthropic-ceo-dario-amodei-sold-280-million-in-shares-as-part-of-record-ipo/",
+      "source": "Hacker News (46 pts)",
+      "published": "2026-11-24T22:27:19+00:00"
+    },
+    {
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he\u2019s in therapy",
+      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-24T21:48:27+00:00"
+    },
+    {
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-24T21:32:38+00:00"
+    },
+    {
+      "title": "Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026",
+      "source": "Hacker News (28 pts)",
+      "published": "2026-11-24T21:14:06+00:00"
+    },
+    {
+      "title": "Working with AI",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "source": "Hacker News (74 pts)",
+      "published": "2026-11-24T21:07:38+00:00"
+    },
+    {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "source": "Hacker News (278 pts)",
+      "published": "2026-11-24T21:02:22+00:00"
+    },
+    {
+      "title": "v2.14.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.14.0",
+      "source": "Anthropic Python SDK",
+      "published": "2026-11-24T21:00:57+00:00"
+    },
+    {
+      "title": "0.174.0-alpha.3",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.3",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-24T20:18:38+00:00"
+    },
+    {
+      "title": "Jensen Huang reportedly tells Nvidia staff it\u2019s \u2018not true\u2019 Trump got him rehired",
+      "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+      "source": "The Verge AI",
+      "published": "2026-11-24T15:02:03-05:00"
+    },
+    {
+      "title": "b12717",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12717",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-24T18:47:34+00:00"
+    },
+    {
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-24T18:30:42+00:00"
+    },
+    {
+      "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+      "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+      "source": "The Verge AI",
+      "published": "2026-11-24T13:15:00-05:00"
+    },
+    {
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-24T18:02:59+00:00"
+    },
+    {
+      "title": "Tidal will start banning AI-generated music next month",
+      "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "source": "The Verge AI",
+      "published": "2026-11-24T12:17:09-05:00"
+    },
+    {
+      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-24T17:00:00+00:00"
+    },
+    {
+      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-24T16:46:00+00:00"
+    },
+    {
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "source": "Hugging Face",
+      "published": "2026-11-24T16:34:13+00:00"
+    },
+    {
+      "title": "Jensen Huang deepfakes are the hot new AI slop",
+      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "source": "The Verge AI",
+      "published": "2026-11-24T11:30:00-05:00"
+    },
+    {
+      "title": "0.174.0-alpha.2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.2",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-24T16:21:51+00:00"
+    },
+    {
+      "title": "Patch release v5.24.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.1",
+      "source": "GitHub: transformers",
+      "published": "2026-11-24T16:13:08+00:00"
+    },
+    {
+      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-24T16:10:00+00:00"
+    },
+    {
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "source": "The Verge AI",
+      "published": "2026-11-24T11:09:23-05:00"
+    },
+    {
+      "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-24T16:02:37+00:00"
+    },
+    {
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "source": "Google AI",
+      "published": "2026-11-24T16:00:00+00:00"
+    },
+    {
+      "title": "Governors Admit They Don't Understand AI. They're Demanding a Say in Regulating It Anyway.",
+      "url": "https://townhall.com/news/jeff-charles/2026/11/23/governors-admit-they-dont-understand-ai-theyre-demanding-a-say-in-regulating-it-anyway-n2686926",
+      "source": "Web: townhall.com",
+      "published": "2026-11-24T11:34:10.327341+00:00"
+    },
+    {
+      "title": "AGI HUNT \u00b7 AI News Daily 2026-11-24 \u2014 Today's AI Highlights",
+      "url": "https://agihunt.info/en/daily/2026-11-24",
+      "source": "Web: agihunt.info",
+      "published": "2026-11-24T11:34:10.326550+00:00"
+    },
+    {
+      "title": "New AI Models \u2014 November 2026 LLM Releases",
+      "url": "https://llmgateway.io/timeline",
+      "source": "Web: llmgateway.io",
+      "published": "2026-11-24T11:34:10.325889+00:00"
+    },
+    {
+      "title": "Governors Want States to Have a Voice in Regulating AI",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/governors-want-states-to-have-a-voice-in-regulating-ai/",
+      "source": "Web: pymnts.com",
+      "published": "2026-11-23T11:34:10.327341+00:00"
+    },
+    {
+      "title": "AI Regulation & Policy Weekly Report \u00b7 News & Updates \u00b7 November 23, 2026",
+      "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-11-23/weekly",
+      "source": "Web: originbrief.app",
+      "published": "2026-11-23T11:34:10.327341+00:00"
+    },
+    {
+      "title": "AI Agents News \u2014 Week of November 24, 2026 (Daily Updates)",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+      "source": "Web: aiagentstore.ai",
+      "published": "2026-11-23T11:34:10.326829+00:00"
+    },
+    {
+      "title": "AI's Wildest Week of 2026 (NOV22 2026) - Ai.Alvin_daily",
+      "url": "https://aialvin.substack.com/p/ais-wildest-week-of-2026-nov22-2026",
+      "source": "Web: aialvin.substack.com",
+      "published": "2026-11-23T11:34:10.325889+00:00"
+    },
+    {
+      "title": "The AI week: cheaper models, AI-found bugs and governments closing in",
+      "url": "https://mlq.ai/news/the-ai-week-cheaper-models-ai-found-bugs-and-governments-closing-in",
+      "source": "Web: mlq.ai",
+      "published": "2026-11-23T11:34:10.325889+00:00"
+    }
+  ]
+}
