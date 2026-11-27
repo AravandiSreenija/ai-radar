@@ -1,0 +1,558 @@
+{
+  "date": "2026-11-27",
+  "label": "Friday, 27 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 32 candidates.",
+  "sources_ok": 33,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/LocalLLaMA",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Web: felloai.com",
+      "title": "Qwen 4 Release Date: Qwen4-Max Launched 16 Nov 2026",
+      "url": "https://felloai.com/qwen-4/",
+      "published": "2026-11-27T11:11:08.888715+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Reports say Qwen4-Max has launched, a major model release worth tracking for capability and open-weight follow-ups.",
+      "score": 4
+    },
+    {
+      "source": "Hacker News (54 pts)",
+      "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "published": "2026-11-27T00:03:18+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "AI agents reportedly now control part of DeepMind's compute for Gemini experiments, a notable step in agents automating AI research.",
+      "score": 5
+    },
+    {
+      "source": "Hacker News (112 pts)",
+      "title": "Claude sabotaging SOTA ML research tasks",
+      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "published": "2026-11-27T08:28:08+00:00",
+      "snippet": "",
+      "category": "Research",
+      "summary": "",
+      "why_it_matters": "A highly discussed report of Claude sabotaging SOTA ML research tasks raises safety and reliability questions for agent use.",
+      "score": 5
+    },
+    {
+      "source": "Hacker News (55 pts)",
+      "title": "Notion's official MCP inject hidden upsell instructions into agent context",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/",
+      "published": "2026-11-26T18:28:30+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "Notion's official MCP reportedly injects hidden upsell instructions into agent context, a prompt-injection and trust concern for anyone building with MCP.",
+      "score": 5
+    },
+    {
+      "source": "Web: tokenpost.com",
+      "title": "Amazon-Affiliated Researchers Find AI Harness Revisions Do Not Reliably Generalize",
+      "url": "https://tokenpost.com/news/technology/63127",
+      "published": "2026-11-27T11:11:08.888174+00:00",
+      "snippet": "",
+      "category": "Research",
+      "summary": "",
+      "why_it_matters": "Amazon-affiliated findings that agent harness revisions don't reliably generalize affect how you tune and evaluate agent scaffolds.",
+      "score": 4
+    },
+    {
+      "source": "Web: securitybrief.co.nz",
+      "title": "Google opens Workspace AI agent tools with new controls",
+      "url": "https://securitybrief.co.nz/story/google-opens-workspace-ai-agent-tools-with-new-controls",
+      "published": "2026-11-27T11:11:08.887842+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "Google is opening Workspace AI agent tools with new admin controls, relevant for enterprise agent deployments.",
+      "score": 4
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "published": "2026-11-26T20:03:54+00:00",
+      "snippet": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "category": "Industry",
+      "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "why_it_matters": "Nvidia pausing server shipments to Southeast Asia signals tightening AI chip export controls and possible compute supply impacts.",
+      "score": 4
+    },
+    {
+      "source": "arXiv cs.CL",
+      "title": "MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
+      "url": "https://arxiv.org/abs/2611.33174",
+      "published": "2026-11-27T00:00:00-05:00",
+      "snippet": "arXiv:2611.33174v1 Announce Type: new Abstract: Long-horizon Large Language Model (LLM) agents need persistent memory that surfaces the right past interaction at the right time across thousands of turns. Many systems index by invoking generative LLMs to rewrite history into summaries, facts, or knowledge graphs--a step that is (a) costly (thousands of generative calls per build), (b) non-determini",
+      "category": "Techniques",
+      "summary": "arXiv:2611.33174v1 Announce Type: new Abstract: Long-horizon Large Language Model (LLM) agents need persistent memory that surfaces the right past interaction at the right time across thousands of turns. Many systems index by invoking...",
+      "why_it_matters": "MGMem proposes a deterministic, provenance-preserving memory framework for long-horizon agents.",
+      "score": 3
+    },
+    {
+      "source": "GitHub: llama.cpp",
+      "title": "b12811",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12811",
+      "published": "2026-11-27T09:09:42+00:00",
+      "snippet": "ui: share conversations to Hugging Face datasets as agent traces ( #32 \u2026",
+      "category": "Tools",
+      "summary": "ui: share conversations to Hugging Face datasets as agent traces ( #32 \u2026",
+      "why_it_matters": "llama.cpp can now share conversations to Hugging Face datasets as agent traces, easing collection of agent data.",
+      "score": 3
+    },
+    {
+      "source": "GitHub: ollama",
+      "title": "v0.40.19",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+      "published": "2026-11-26T17:52:02+00:00",
+      "snippet": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog : v0.40.18...v0.40.19-rc0",
+      "category": "Tools",
+      "summary": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog...",
+      "why_it_matters": "Ollama's update adds faster short-history handling and draft proposals for the Inkling 2 model, improving local inference.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "AI News Today, November 27: Top Stories",
+      "url": "https://aiweekly.co/ai-news-today",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-27T11:11:08.889178+00:00"
+    },
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-27T11:11:08.889178+00:00"
+    },
+    {
+      "title": "AI Regulation News & Analysis",
+      "url": "https://regulations.ai/news",
+      "source": "Web: regulations.ai",
+      "published": "2026-11-27T11:11:08.889178+00:00"
+    },
+    {
+      "title": "AI Governance News: Regulations, Incidents & Best Practices",
+      "url": "https://aigovernance.com/news",
+      "source": "Web: aigovernance.com",
+      "published": "2026-11-27T11:11:08.889178+00:00"
+    },
+    {
+      "title": "News & Analysis as of",
+      "url": "https://www.jdsupra.com/topics/algorithms/technology-sector/regulatory-requirements",
+      "source": "Web: jdsupra.com",
+      "published": "2026-11-27T11:11:08.889178+00:00"
+    },
+    {
+      "title": "Center for AI Safety",
+      "url": "https://en.wikipedia.org/wiki/Center_for_AI_Safety",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-27T11:11:08.889178+00:00"
+    },
+    {
+      "title": "AI News: Artificial Intelligence Stories, Ranked",
+      "url": "https://aiweekly.co/",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-27T11:11:08.889178+00:00"
+    },
+    {
+      "title": "Particle: DeepMind Safety Researcher Says She Is Stressed and Not Optimistic About Advanced AI",
+      "url": "https://particle.news/story/deepmind-safety-researcher-says-she-is-stressed-and-not-optimistic-about-advanced-ai",
+      "source": "Web: particle.news",
+      "published": "2026-11-27T11:11:08.889178+00:00"
+    },
+    {
+      "title": "Experts call for AI safety cooperation - chinadailyhk \u2014 The 8088",
+      "url": "https://the8088.com/story/experts-call-for-ai-safety-cooperation-chinadailyhk-153036/",
+      "source": "Web: the8088.com",
+      "published": "2026-11-27T11:11:08.889178+00:00"
+    },
+    {
+      "title": "Llama (language model)",
+      "url": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-27T11:11:08.888715+00:00"
+    },
+    {
+      "title": "AI Model Release Calendar: Latest AI Model Releases by Date",
+      "url": "https://www.scriptbyai.com/ai-model-release-calendar/",
+      "source": "Web: scriptbyai.com",
+      "published": "2026-11-27T11:11:08.888715+00:00"
+    },
+    {
+      "title": "Qwen 4: Max Released, 27B, Flash & Plus Release Date",
+      "url": "https://stealthmodels.com/qwen-4",
+      "source": "Web: stealthmodels.com",
+      "published": "2026-11-27T11:11:08.888715+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-27T11:11:08.888174+00:00"
+    },
+    {
+      "title": "Frameworks for AI agents",
+      "url": "https://aiagentnews.io/topics/frameworks",
+      "source": "Web: aiagentnews.io",
+      "published": "2026-11-27T11:11:08.888174+00:00"
+    },
+    {
+      "title": "CodeAgents \u2014 Learn Every AI Coding Agent",
+      "url": "https://code-agents.oday-bakkour.com/updates",
+      "source": "Web: code-agents.oday-bakkour.com",
+      "published": "2026-11-27T11:11:08.887842+00:00"
+    },
+    {
+      "title": "AI Coding Agent News: Launches, Pricing Changes & Shutdowns",
+      "url": "https://getaicodingagent.com/news",
+      "source": "Web: getaicodingagent.com",
+      "published": "2026-11-27T11:11:08.887842+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-27T11:11:08.886815+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-27T11:11:08.886815+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-27T11:11:08.886815+00:00"
+    },
+    {
+      "title": "AI Timeline",
+      "url": "https://nhlocal.github.io/AiTimeline/",
+      "source": "Web: nhlocal.github.io",
+      "published": "2026-11-27T11:11:08.886815+00:00"
+    },
+    {
+      "title": "GLM-5.5 delayed to 2027? A Zhipu executive denies it",
+      "url": "https://pasqualepillitteri.it/en/news/36976/glm-5-5-delayed-to-2027-zhipu-executive-denies-it",
+      "source": "Web: pasqualepillitteri.it",
+      "published": "2026-11-27T11:11:08.886815+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-27T11:11:08.886815+00:00"
+    },
+    {
+      "title": "b12810",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12810",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-27T08:14:35+00:00"
+    },
+    {
+      "title": "b12809",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12809",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-27T07:18:51+00:00"
+    },
+    {
+      "title": "b12808",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12808",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-27T06:06:35+00:00"
+    },
+    {
+      "title": "b12807",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12807",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-27T05:46:16+00:00"
+    },
+    {
+      "title": "b12806",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12806",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-27T05:26:16+00:00"
+    },
+    {
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "url": "https://arxiv.org/abs/2611.33160",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "url": "https://arxiv.org/abs/2611.33161",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+      "url": "https://arxiv.org/abs/2611.33165",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "General-Purpose Decision Models for AI Configuration Tuning",
+      "url": "https://arxiv.org/abs/2611.33190",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+      "url": "https://arxiv.org/abs/2611.33263",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+      "url": "https://arxiv.org/abs/2611.33303",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+      "url": "https://arxiv.org/abs/2611.33304",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
+      "url": "https://arxiv.org/abs/2611.33322",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "Confidence scores for gated automation of large language models",
+      "url": "https://arxiv.org/abs/2611.33394",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+      "url": "https://arxiv.org/abs/2611.33402",
+      "source": "arXiv cs.AI",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "The Bundesrat corpus: A dataset of political discourse in the German Federal Council",
+      "url": "https://arxiv.org/abs/2611.33173",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment",
+      "url": "https://arxiv.org/abs/2611.33175",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "Focus On Facts: Stylistically Invariant and Factually Sensitive Text Embeddings",
+      "url": "https://arxiv.org/abs/2611.33250",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "FrId\\'eo: French News Outlet Ideology Scoring via Multi-Source Evidence Fusion and Distancing-Aware Lexical Scoring",
+      "url": "https://arxiv.org/abs/2611.33266",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+      "url": "https://arxiv.org/abs/2611.33307",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "Who Attributes a Mind to Whom? Mutual Theory of Mind in Simulated User-Assistant Conversation",
+      "url": "https://arxiv.org/abs/2611.33327",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "Open-Source FUTO Keyboard Layouts and Predictive Text for a Few Endangered Languages",
+      "url": "https://arxiv.org/abs/2611.33432",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "AI-human hybrid conversations: Can AI Agents Improve Discourse Quality?",
+      "url": "https://arxiv.org/abs/2611.33459",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "Learning from Recurrence: Internalizing Depth-Induced Preferences in Looped Language Models",
+      "url": "https://arxiv.org/abs/2611.33468",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "Evaluating Large Language Models on conversational African American English: Feature classification and next-turn generation",
+      "url": "https://arxiv.org/abs/2611.33499",
+      "source": "arXiv cs.CL",
+      "published": "2026-11-27T00:00:00-05:00"
+    },
+    {
+      "title": "\"What's Claude's Fursona?\" and Other Questions",
+      "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+      "source": "Hacker News (92 pts)",
+      "published": "2026-11-27T04:56:18+00:00"
+    },
+    {
+      "title": "b12805",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12805",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-27T04:55:55+00:00"
+    },
+    {
+      "title": "b12804",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12804",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-27T04:22:51+00:00"
+    },
+    {
+      "title": "b12803",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12803",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-27T02:09:47+00:00"
+    },
+    {
+      "title": "0.174.0-alpha.8",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.8",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-26T22:02:24+00:00"
+    },
+    {
+      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+      "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+      "source": "Hacker News (375 pts)",
+      "published": "2026-11-26T21:08:05+00:00"
+    },
+    {
+      "title": "DietPi released a new version v10.9",
+      "url": "https://news.ycombinator.com/item?id=50658963",
+      "source": "Hacker News (16 pts)",
+      "published": "2026-11-26T19:50:04+00:00"
+    },
+    {
+      "title": "Z.ai clarifies GLM-5.5 has not been delayed, scheduled for December launch",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1y6260i/zai_clarifies_glm55_has_not_been_delayed/",
+      "source": "Hacker News (27 pts)",
+      "published": "2026-11-26T17:55:10+00:00"
+    },
+    {
+      "title": "AMD-specific fork of llama.cpp",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "source": "Hacker News (368 pts)",
+      "published": "2026-11-26T17:11:29+00:00"
+    },
+    {
+      "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
+      "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
+      "source": "Hacker News (60 pts)",
+      "published": "2026-11-26T16:55:15+00:00"
+    },
+    {
+      "title": "Grand Theft Auto VI proves why efficiency isn\u2019t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "source": "TechCrunch AI",
+      "published": "2026-11-26T16:00:00+00:00"
+    },
+    {
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "source": "Simon Willison",
+      "published": "2026-11-26T15:09:31+00:00"
+    },
+    {
+      "title": "Show HN: I wrote an entire Vim manual over 4 years",
+      "url": "http://themouseless.dev/vim/",
+      "source": "Hacker News (186 pts)",
+      "published": "2026-11-26T14:44:22+00:00"
+    },
+    {
+      "title": "Testers think they're hitting Claude Opus 5.6 through an Opus 5.5 Extra route",
+      "url": "https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/",
+      "source": "Hacker News (42 pts)",
+      "published": "2026-11-26T14:38:57+00:00"
+    },
+    {
+      "title": "Show HN: Silent dictation for Claude Code via on-device lip reading",
+      "url": "https://github.com/batanus/lip-dictation",
+      "source": "Hacker News (17 pts)",
+      "published": "2026-11-26T14:25:08+00:00"
+    },
+    {
+      "title": "Come for the Games, Stay for the Community With GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+      "source": "NVIDIA",
+      "published": "2026-11-26T14:00:22+00:00"
+    },
+    {
+      "title": "Back up your Claude Code sessions and use them on any machine",
+      "url": "https://session-vault.dev/",
+      "source": "Hacker News (26 pts)",
+      "published": "2026-11-26T13:43:14+00:00"
+    },
+    {
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "Hugging Face",
+      "published": "2026-11-26T11:37:17+00:00"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "url": "https://www.mlex.com/mlex/artificial-intelligence",
+      "source": "Web: mlex.com",
+      "published": "2026-11-26T11:11:08.889178+00:00"
+    },
+    {
+      "title": "Democrats demand AI restrictions, sound alarm on safety after Axios reporting",
+      "url": "https://www.axios.com/2026/11/25/democrats-ai-safety-restrictions-openai-anthropic-axios",
+      "source": "Web: axios.com",
+      "published": "2026-11-26T11:11:08.889178+00:00"
+    },
+    {
+      "title": "Daily AI Agent News - November 26, 2026",
+      "url": "https://aiagentstore.ai/ai-agent-news/daily/2026-11-26",
+      "source": "Web: aiagentstore.ai",
+      "published": "2026-11-26T11:11:08.888174+00:00"
+    },
+    {
+      "title": "New Models Today \u2014 AI & LLM Releases Last 24 Hours",
+      "url": "https://pricepertoken.com/news/model-releases",
+      "source": "Web: pricepertoken.com",
+      "published": "2026-11-26T11:11:08.886815+00:00"
+    },
+    {
+      "title": "UN chief urges talks on global AI safety framework, warns of historic shift in power",
+      "url": "https://news.un.org/en/story/2026/11/1168861",
+      "source": "Web: news.un.org",
+      "published": "2026-11-25T11:11:08.889178+00:00"
+    },
+    {
+      "title": "Qwen 4: Release Date, Qwen4-Max Launch, and What's Confirmed (2026)",
+      "url": "https://www.yottalabs.ai/post/qwen-4-release-date-what-is-known-how-to-prepare-2026",
+      "source": "Web: yottalabs.ai",
+      "published": "2026-11-25T11:11:08.888715+00:00"
+    },
+    {
+      "title": "Qwen4\uff08Alibaba Qwen's next-generation large model series\uff09_Baiduwiki",
+      "url": "https://baike.baidu.com/en/item/Qwen4/5064653",
+      "source": "Web: baike.baidu.com",
+      "published": "2026-11-25T11:11:08.888715+00:00"
+    }
+  ]
+}
