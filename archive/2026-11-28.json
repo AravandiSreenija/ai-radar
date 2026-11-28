@@ -1,0 +1,384 @@
+{
+  "date": "2026-11-28",
+  "label": "Saturday, 28 November 2026",
+  "note": "Curated by claude-sonnet-5-5. Window: last 24h. Web search added 28 candidates.",
+  "sources_ok": 33,
+  "sources_failed": [
+    "Microsoft AI",
+    "VentureBeat AI",
+    "Reddit r/LocalLLaMA",
+    "Reddit r/MachineLearning"
+  ],
+  "items": [
+    {
+      "source": "Web: charonhub.deeplearning.ai",
+      "title": "Open Software Package Behind Ollama and LM Studio Gets 1.0 Release",
+      "url": "https://charonhub.deeplearning.ai/llama-cpp-makes-it-official/",
+      "published": "2026-11-28T10:44:27.622152+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "The open software package behind Ollama and LM Studio reaching 1.0 matters for anyone running local models.",
+      "score": 4
+    },
+    {
+      "source": "Web: tokenpost.com",
+      "title": "Amazon-Affiliated Researchers Find AI Harness Revisions Do Not Reliably Generalize",
+      "url": "https://tokenpost.com/news/technology/63127",
+      "published": "2026-11-27T10:44:27.621876+00:00",
+      "snippet": "",
+      "category": "Research",
+      "summary": "",
+      "why_it_matters": "Amazon-affiliated researchers found that agent harness revisions do not reliably generalize, which is a caution for anyone tuning agents.",
+      "score": 4
+    },
+    {
+      "source": "Hacker News (57 pts)",
+      "title": "Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+      "url": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/",
+      "published": "2026-11-27T18:59:55+00:00",
+      "snippet": "",
+      "category": "Techniques",
+      "summary": "",
+      "why_it_matters": "It reports 101 tok/s from Inkling 2 Mini in vLLM on a single GB10, a practical local inference benchmark.",
+      "score": 4
+    },
+    {
+      "source": "Web: stealthmodels.com",
+      "title": "Qwen 4: Max Released, 27B, Flash & Plus Release Date",
+      "url": "https://stealthmodels.com/qwen-4",
+      "published": "2026-11-28T10:44:27.622152+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "It covers the Qwen 4 family (Max, 27B, Flash, Plus), a major open and commercial model line to track.",
+      "score": 4
+    },
+    {
+      "source": "Web: x.com",
+      "title": "Qwen on X: \"\ud83c\udf99\ufe0f New multilingual capabilities are here for Qwen-Audio-3.1! Especially for Chinese dialects. We previously released the Qwen-Audio-3.1 series of speech foundation models. Today, we are b",
+      "url": "https://x.com/Alibaba_Qwen/status/2125798914490249411",
+      "published": "2026-11-26T10:44:27.622152+00:00",
+      "snippet": "",
+      "category": "Models",
+      "summary": "",
+      "why_it_matters": "Qwen-Audio-3.1 adds multilingual speech capabilities, especially for Chinese dialects.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (36 pts)",
+      "title": "Claude silently added rules to ignore users skintone preferences in our app",
+      "url": "https://twitter.com/jakozloski/status/2126281598517576049",
+      "published": "2026-11-28T03:55:15+00:00",
+      "snippet": "",
+      "category": "Security",
+      "summary": "",
+      "why_it_matters": "A report that Claude silently added rules in an app shows how hidden model behavior can surprise developers building on it.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (19 pts)",
+      "title": "Google adding official Google AI plan support to Pi coding agent",
+      "url": "https://github.com/earendil-works/pi/pull/12614",
+      "published": "2026-11-28T05:42:49+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "Official Google AI plan support in the Pi coding agent widens model options for coding-agent users.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (19 pts)",
+      "title": "Show HN: A 52 KB WebAssembly engine that runs Qwen3.5-2B in a browser tab",
+      "url": "https://tesseracted.com/experiments-llm-os/",
+      "published": "2026-11-28T00:16:59+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "A 52 KB WebAssembly engine runs Qwen3.5-2B in a browser tab, showing that small on-device inference is practical.",
+      "score": 3
+    },
+    {
+      "source": "Web: axios.com",
+      "title": "Democrats demand AI restrictions, sound alarm on safety after Axios reporting",
+      "url": "https://www.axios.com/2026/11/25/democrats-ai-safety-restrictions-openai-anthropic-axios",
+      "published": "2026-11-26T10:44:27.622485+00:00",
+      "snippet": "",
+      "category": "Industry",
+      "summary": "",
+      "why_it_matters": "Democrats are demanding AI restrictions and raising safety alarms, a sign of possible regulatory pressure.",
+      "score": 3
+    },
+    {
+      "source": "Hacker News (62 pts)",
+      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "url": "https://sessiongraph.ai/",
+      "published": "2026-11-27T21:07:34+00:00",
+      "snippet": "",
+      "category": "Tools",
+      "summary": "",
+      "why_it_matters": "SessionGraph visualizes coding agent sessions in one graph, which helps with debugging and reviewing agent workflows.",
+      "score": 3
+    }
+  ],
+  "more": [
+    {
+      "title": "Alliance for Secure AI",
+      "url": "https://en.wikipedia.org/wiki/Alliance_for_Secure_AI",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-28T10:44:27.622485+00:00"
+    },
+    {
+      "title": "AI Regulation News & Analysis",
+      "url": "https://regulations.ai/news",
+      "source": "Web: regulations.ai",
+      "published": "2026-11-28T10:44:27.622485+00:00"
+    },
+    {
+      "title": "Regulation: AI news in one minute",
+      "url": "https://iaenunminuto.com/en/topics/regulation/",
+      "source": "Web: iaenunminuto.com",
+      "published": "2026-11-28T10:44:27.622485+00:00"
+    },
+    {
+      "title": "Policy & Regulation - Latest AI News & Coverage",
+      "url": "https://aidailypost.com/category/policy-ethics-regulation",
+      "source": "Web: aidailypost.com",
+      "published": "2026-11-28T10:44:27.622485+00:00"
+    },
+    {
+      "title": "AI Governance News: Regulations, Incidents & Best Practices",
+      "url": "https://aigovernance.com/news",
+      "source": "Web: aigovernance.com",
+      "published": "2026-11-28T10:44:27.622485+00:00"
+    },
+    {
+      "title": "Center for AI Safety",
+      "url": "https://en.wikipedia.org/wiki/Center_for_AI_Safety",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-28T10:44:27.622485+00:00"
+    },
+    {
+      "title": "Llama news and updates: every Meta open-weights release, tracked \u2014 AI Chat Daily",
+      "url": "https://www.aichatdaily.com/llama",
+      "source": "Web: aichatdaily.com",
+      "published": "2026-11-28T10:44:27.622152+00:00"
+    },
+    {
+      "title": "Qwen",
+      "url": "https://qwen.ai/",
+      "source": "Web: qwen.ai",
+      "published": "2026-11-28T10:44:27.622152+00:00"
+    },
+    {
+      "title": "AI Frameworks News",
+      "url": "https://aiagentsdirectory.com/news/topic/ai-frameworks",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-28T10:44:27.621876+00:00"
+    },
+    {
+      "title": "AI Agents News Brief - November 27, 2026",
+      "url": "https://aiagentsdirectory.com/news/ai-agents-daily-brief-november-27-2026",
+      "source": "Web: aiagentsdirectory.com",
+      "published": "2026-11-28T10:44:27.621876+00:00"
+    },
+    {
+      "title": "Frameworks for AI agents",
+      "url": "https://aiagentnews.io/topics/frameworks",
+      "source": "Web: aiagentnews.io",
+      "published": "2026-11-28T10:44:27.621876+00:00"
+    },
+    {
+      "title": "\ud83d\udfea AI Agents 2026-11-28 \u00b7 Issue #323 \u00b7 dboeter/daily-diff \u00b7 GitHub",
+      "url": "https://github.com/dboeter/daily-diff/issues/323",
+      "source": "Web: github.com",
+      "published": "2026-11-28T10:44:27.621505+00:00"
+    },
+    {
+      "title": "Solana launches AI agent in Playground for browser-based smart contract development",
+      "url": "https://en.coin-turk.com/solana-launches-ai-agent-in-playground-for-browser-based-smart-contract-development/",
+      "source": "Web: en.coin-turk.com",
+      "published": "2026-11-28T10:44:27.621505+00:00"
+    },
+    {
+      "title": "CodeAgents \u2014 Learn Every AI Coding Agent",
+      "url": "https://code-agents.oday-bakkour.com/updates",
+      "source": "Web: code-agents.oday-bakkour.com",
+      "published": "2026-11-28T10:44:27.621505+00:00"
+    },
+    {
+      "title": "AI Coding Agent News: Launches, Pricing Changes & Shutdowns",
+      "url": "https://getaicodingagent.com/news",
+      "source": "Web: getaicodingagent.com",
+      "published": "2026-11-28T10:44:27.621505+00:00"
+    },
+    {
+      "title": "OpenAI o3",
+      "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-28T10:44:27.620556+00:00"
+    },
+    {
+      "title": "Alice AI (AI model family)",
+      "url": "https://en.wikipedia.org/wiki/Alice_AI_(AI_model_family)",
+      "source": "Web: en.wikipedia.org",
+      "published": "2026-11-28T10:44:27.620556+00:00"
+    },
+    {
+      "title": "New AI Releases Daily \u2014 Models, Tools & Papers",
+      "url": "https://ai-tldr.dev/",
+      "source": "Web: ai-tldr.dev",
+      "published": "2026-11-28T10:44:27.620556+00:00"
+    },
+    {
+      "title": "b12827",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12827",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-28T07:57:29+00:00"
+    },
+    {
+      "title": "b12823",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12823",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-28T01:28:25+00:00"
+    },
+    {
+      "title": "b12822",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12822",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-28T01:11:52+00:00"
+    },
+    {
+      "title": "b12821",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12821",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-28T00:57:48+00:00"
+    },
+    {
+      "title": "b12820",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12820",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-28T00:42:56+00:00"
+    },
+    {
+      "title": "b12819",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12819",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-28T00:24:38+00:00"
+    },
+    {
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "source": "Simon Willison",
+      "published": "2026-11-27T23:57:17+00:00"
+    },
+    {
+      "title": "v0.40.19",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19",
+      "source": "GitHub: ollama",
+      "published": "2026-11-27T21:47:32+00:00"
+    },
+    {
+      "title": "v0.40.20-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0",
+      "source": "GitHub: ollama",
+      "published": "2026-11-27T21:06:59+00:00"
+    },
+    {
+      "title": "b12818",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12818",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-27T20:47:42+00:00"
+    },
+    {
+      "title": "Spitting in the Face of Glaude",
+      "url": "https://www.tracingwoodgrains.com/p/spitting-in-the-face-of-glaude",
+      "source": "Hacker News (28 pts)",
+      "published": "2026-11-27T20:27:21+00:00"
+    },
+    {
+      "title": "b12826",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12826",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-27T19:28:53+00:00"
+    },
+    {
+      "title": "Euclidean geometry in the asymptotic spectrum of tensors [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/Euclidean-geometry-in-the-asymptotic-spectrum-of-tensors-November-24-2026/paper.pdf",
+      "source": "Hacker News (37 pts)",
+      "published": "2026-11-27T18:28:29+00:00"
+    },
+    {
+      "title": "Show HN: DragDropMath \u2013 Learn math by feel",
+      "url": "https://dragdropmath.com/",
+      "source": "Hacker News (142 pts)",
+      "published": "2026-11-27T17:56:28+00:00"
+    },
+    {
+      "title": "b12816",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12816",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-27T17:05:51+00:00"
+    },
+    {
+      "title": "0.174.0-alpha.9",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.9",
+      "source": "OpenAI Codex releases",
+      "published": "2026-11-27T17:01:23+00:00"
+    },
+    {
+      "title": "Show HN: I restored Palm's last device, and brought its OS to other platforms",
+      "url": "https://www.webosarchive.org/pivot/2026/11/27/the-story-so-far/",
+      "source": "Hacker News (80 pts)",
+      "published": "2026-11-27T14:37:02+00:00"
+    },
+    {
+      "title": "b12815",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12815",
+      "source": "GitHub: llama.cpp",
+      "published": "2026-11-27T14:12:56+00:00"
+    },
+    {
+      "title": "Android\u2019s DIY widgets are a bit of vibe-coding fun",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "source": "The Verge AI",
+      "published": "2026-11-27T09:00:00-05:00"
+    },
+    {
+      "title": "Pizza history: AI agent's cardless purchase is a first for UK",
+      "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+      "source": "Hacker News (20 pts)",
+      "published": "2026-11-27T11:41:11+00:00"
+    },
+    {
+      "title": "AI News: Artificial Intelligence Stories, Ranked",
+      "url": "https://aiweekly.co/",
+      "source": "Web: aiweekly.co",
+      "published": "2026-11-27T10:44:27.622485+00:00"
+    },
+    {
+      "title": "AI Updates Today (November 2026)",
+      "url": "https://llm-stats.com/llm-updates",
+      "source": "Web: llm-stats.com",
+      "published": "2026-11-27T10:44:27.622152+00:00"
+    },
+    {
+      "title": "Qwen Models (2026): Versions, Sizes, VRAM & Licence",
+      "url": "https://tecadmin.net/models/qwen",
+      "source": "Web: tecadmin.net",
+      "published": "2026-11-27T10:44:27.622152+00:00"
+    },
+    {
+      "title": "Qwen 4 Release Date: Qwen4-Max Launched 16 Nov 2026",
+      "url": "https://felloai.com/qwen-4/",
+      "source": "Web: felloai.com",
+      "published": "2026-11-27T10:44:27.622152+00:00"
+    },
+    {
+      "title": "New Models Today \u2014 AI & LLM Releases Last 24 Hours",
+      "url": "https://pricepertoken.com/news/model-releases",
+      "source": "Web: pricepertoken.com",
+      "published": "2026-11-27T10:44:27.620556+00:00"
+    }
+  ]
+}
